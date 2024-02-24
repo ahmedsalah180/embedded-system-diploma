@@ -1,0 +1,616 @@
+Info: Nothing to build for solution
+Info: Nothing to build for solution
+Info: Nothing to build for five
+Info: Nothing to build for four
+00:36:32 **** Rebuild of configuration Debug for project six ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\six.o" "..\\src\\six.c" 
+gcc -o six.exe "src\\six.o" 
+Info: Nothing to build for three
+00:36:33 **** Rebuild of configuration Debug for project two ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\solution.o" "..\\src\\solution.c" 
+gcc -o two.exe "src\\solution.o" 
+Info: Nothing to build for six
+Info: Nothing to build for five
+Info: Nothing to build for four
+00:37:09 **** Incremental Build of configuration Debug for project six ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\six.o" "..\\src\\six.c" 
+gcc -o six.exe "src\\six.o" 
+Info: Nothing to build for three
+Info: Nothing to build for two
+Info: Nothing to build for six
+Info: Nothing to build for five
+Info: Nothing to build for four
+00:38:04 **** Incremental Build of configuration Debug for project six ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\six.o" "..\\src\\six.c" 
+gcc -o six.exe "src\\six.o" 
+Info: Nothing to build for three
+Info: Nothing to build for two
+Info: Nothing to build for six
+Info: Nothing to build for six
+Info: Nothing to build for five
+Info: Nothing to build for four
+00:38:48 **** Incremental Build of configuration Debug for project six ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\six.o" "..\\src\\six.c" 
+gcc -o six.exe "src\\six.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file six.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for three
+Info: Nothing to build for two
+00:38:51 **** Incremental Build of configuration Debug for project six ****
+Info: Internal Builder is used for build
+gcc -o six.exe "src\\six.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file six.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for five
+Info: Nothing to build for four
+00:39:41 **** Incremental Build of configuration Debug for project six ****
+Info: Internal Builder is used for build
+gcc -o six.exe "src\\six.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file six.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for three
+Info: Nothing to build for two
+00:39:46 **** Incremental Build of configuration Debug for project six ****
+Info: Internal Builder is used for build
+gcc -o six.exe "src\\six.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file six.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for five
+Info: Nothing to build for four
+00:40:19 **** Incremental Build of configuration Debug for project six ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\six.o" "..\\src\\six.c" 
+gcc -o six.exe "src\\six.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file six.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for three
+Info: Nothing to build for two
+00:40:25 **** Incremental Build of configuration Debug for project six ****
+Info: Internal Builder is used for build
+gcc -o six.exe "src\\six.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file six.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for five
+Info: Nothing to build for four
+00:40:56 **** Incremental Build of configuration Debug for project six ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\six.o" "..\\src\\six.c" 
+gcc -o six.exe "src\\six.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file six.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for three
+Info: Nothing to build for two
+00:40:59 **** Incremental Build of configuration Debug for project six ****
+Info: Internal Builder is used for build
+gcc -o six.exe "src\\six.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file six.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+00:42:33 **** Incremental Build of configuration Debug for project six ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\six.o" "..\\src\\six.c" 
+gcc -o six.exe "src\\six.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file six.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+01:24:07 **** Rebuild of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex1.o" "..\\src\\ex1.c" 
+..\src\ex1.c: In function 'main':
+..\src\ex1.c:19:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Wformat=]
+  scanf("%d",&x);
+          ^
+..\src\ex1.c:20:7: error: invalid operands to binary % (have 'float' and 'int')
+  if (x%2 == 0)
+       ^
+Info: Nothing to build for five
+Info: Nothing to build for four
+01:24:09 **** Incremental Build of configuration Debug for project six ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\six.o" "..\\src\\six.c" 
+gcc -o six.exe "src\\six.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file six.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for three
+Info: Nothing to build for two
+01:24:29 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex1.o" "..\\src\\ex1.c" 
+gcc -o ex1.exe "src\\ex1.o" 
+Info: Nothing to build for five
+Info: Nothing to build for four
+01:24:30 **** Incremental Build of configuration Debug for project six ****
+Info: Internal Builder is used for build
+gcc -o six.exe "src\\six.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file six.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for three
+Info: Nothing to build for two
+Info: Nothing to build for ex1
+Info: Nothing to build for ex1
+01:28:12 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex1.o" "..\\src\\ex1.c" 
+gcc -o ex1.exe "src\\ex1.o" 
+Info: Nothing to build for ex1
+Info: Nothing to build for five
+Info: Nothing to build for four
+01:28:20 **** Incremental Build of configuration Debug for project six ****
+Info: Internal Builder is used for build
+gcc -o six.exe "src\\six.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file six.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for three
+Info: Nothing to build for two
+Info: Nothing to build for ex1
+Info: Nothing to build for ex1
+01:45:30 **** Rebuild of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex2.o" "..\\src\\ex2.c" 
+..\src\ex2.c: In function 'main':
+..\src\ex2.c:20:11: warning: suggest parentheses around comparison in operand of '|' [-Wparentheses]
+  if (alpha=='a'|alpha=='e'|alpha=='i'|alpha=='o'|alpha=='u')
+      ~~~~~^~~~~
+..\src\ex2.c:20:33: warning: suggest parentheses around comparison in operand of '|' [-Wparentheses]
+  if (alpha=='a'|alpha=='e'|alpha=='i'|alpha=='o'|alpha=='u')
+                            ~~~~~^~~~~
+..\src\ex2.c:20:44: warning: suggest parentheses around comparison in operand of '|' [-Wparentheses]
+  if (alpha=='a'|alpha=='e'|alpha=='i'|alpha=='o'|alpha=='u')
+                                       ~~~~~^~~~~
+..\src\ex2.c:20:55: warning: suggest parentheses around comparison in operand of '|' [-Wparentheses]
+  if (alpha=='a'|alpha=='e'|alpha=='i'|alpha=='o'|alpha=='u')
+                                                  ~~~~~^~~~~
+..\src\ex2.c:25:12: warning: format '%c' expects a matching 'int' argument [-Wformat=]
+   printf("%c is a consonant");
+            ^
+gcc -o ex2.exe "src\\ex2.o" 
+Info: Nothing to build for five
+Info: Nothing to build for four
+01:45:32 **** Incremental Build of configuration Debug for project six ****
+Info: Internal Builder is used for build
+gcc -o six.exe "src\\six.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file six.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for three
+Info: Nothing to build for two
+Info: Nothing to build for ex2
+Info: Nothing to build for ex2
+Info: Nothing to build for ex2
+Info: Nothing to build for ex2
+01:47:11 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex2.o" "..\\src\\ex2.c" 
+..\src\ex2.c: In function 'main':
+..\src\ex2.c:20:11: warning: suggest parentheses around comparison in operand of '|' [-Wparentheses]
+  if (alpha=='a'|alpha=='e'|alpha=='i'|alpha=='o'|alpha=='u')
+      ~~~~~^~~~~
+..\src\ex2.c:20:33: warning: suggest parentheses around comparison in operand of '|' [-Wparentheses]
+  if (alpha=='a'|alpha=='e'|alpha=='i'|alpha=='o'|alpha=='u')
+                            ~~~~~^~~~~
+..\src\ex2.c:20:44: warning: suggest parentheses around comparison in operand of '|' [-Wparentheses]
+  if (alpha=='a'|alpha=='e'|alpha=='i'|alpha=='o'|alpha=='u')
+                                       ~~~~~^~~~~
+..\src\ex2.c:20:55: warning: suggest parentheses around comparison in operand of '|' [-Wparentheses]
+  if (alpha=='a'|alpha=='e'|alpha=='i'|alpha=='o'|alpha=='u')
+                                                  ~~~~~^~~~~
+gcc -o ex2.exe "src\\ex2.o" 
+Info: Nothing to build for ex2
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+02:04:16 **** Rebuild of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex3.o" "..\\src\\ex3.c" 
+..\src\ex3.c: In function 'main':
+..\src\ex3.c:19:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Wformat=]
+  scanf("%d %d %d", &a, &b, &c);
+          ^
+..\src\ex3.c:19:13: warning: format '%d' expects argument of type 'int *', but argument 3 has type 'float *' [-Wformat=]
+  scanf("%d %d %d", &a, &b, &c);
+             ^
+..\src\ex3.c:19:16: warning: format '%d' expects argument of type 'int *', but argument 4 has type 'float *' [-Wformat=]
+  scanf("%d %d %d", &a, &b, &c);
+                ^
+..\src\ex3.c:20:7: error: invalid operands to binary >> (have 'float' and 'float')
+  if (a>>b&&a>>c)
+       ^~
+..\src\ex3.c:20:13: error: invalid operands to binary >> (have 'float' and 'float')
+  if (a>>b&&a>>c)
+             ^~
+..\src\ex3.c:21:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   printf("%d is the largest number",a);
+            ^
+..\src\ex3.c:22:12: error: invalid operands to binary >> (have 'float' and 'float')
+  else if (b>>a && b>>c)
+            ^~
+..\src\ex3.c:22:20: error: invalid operands to binary >> (have 'float' and 'float')
+  else if (b>>a && b>>c)
+                    ^~
+..\src\ex3.c:23:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   printf("%d is the largest number",b);
+            ^
+..\src\ex3.c:25:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   printf("%d is the largest number",c);
+            ^
+Info: Nothing to build for five
+Info: Nothing to build for four
+02:04:17 **** Incremental Build of configuration Debug for project six ****
+Info: Internal Builder is used for build
+gcc -o six.exe "src\\six.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file six.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for three
+Info: Nothing to build for two
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+02:05:02 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex3.o" "..\\src\\ex3.c" 
+gcc -o ex3.exe "src\\ex3.o" 
+Info: Nothing to build for five
+Info: Nothing to build for four
+02:05:03 **** Incremental Build of configuration Debug for project six ****
+Info: Internal Builder is used for build
+gcc -o six.exe "src\\six.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file six.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for three
+Info: Nothing to build for two
+Info: Nothing to build for ex3
+Info: Nothing to build for ex3
+Info: Nothing to build for ex3
+Info: Nothing to build for ex3
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+02:15:05 **** Rebuild of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex4.o" "..\\src\\ex4.c" 
+gcc -o ex4.exe "src\\ex4.o" 
+Info: Nothing to build for five
+Info: Nothing to build for four
+02:15:07 **** Incremental Build of configuration Debug for project six ****
+Info: Internal Builder is used for build
+gcc -o six.exe "src\\six.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file six.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for three
+Info: Nothing to build for two
+Info: Nothing to build for ex4
+Info: Nothing to build for ex4
+Info: Nothing to build for ex4
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+02:34:26 **** Rebuild of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex5.o" "..\\src\\ex5.c" 
+gcc -o ex5.exe "src\\ex5.o" 
+02:34:30 **** Rebuild of configuration Debug for project ex6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex6.o" "..\\src\\ex6.c" 
+..\src\ex6.c: In function 'main':
+..\src\ex6.c:21:17: error: expected '=', ',', ';', 'asm' or '__attribute__' before '<' token
+  for (int x=0, x<a, x++)
+                 ^
+..\src\ex6.c:25:1: error: expected expression before '}' token
+ }
+ ^
+..\src\ex6.c:25:1: error: expected expression before '}' token
+..\src\ex6.c:25:1: error: expected expression before '}' token
+..\src\ex6.c:21:11: warning: unused variable 'x' [-Wunused-variable]
+  for (int x=0, x<a, x++)
+           ^
+..\src\ex6.c:17:6: warning: unused variable 'sum' [-Wunused-variable]
+  int sum;
+      ^~~
+Info: Nothing to build for five
+Info: Nothing to build for four
+02:34:30 **** Incremental Build of configuration Debug for project six ****
+Info: Internal Builder is used for build
+gcc -o six.exe "src\\six.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file six.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for three
+Info: Nothing to build for two
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+02:36:48 **** Incremental Build of configuration Debug for project ex6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex6.o" "..\\src\\ex6.c" 
+..\src\ex6.c: In function 'main':
+..\src\ex6.c:20:11: warning: variable 'sum' set but not used [-Wunused-but-set-variable]
+  for (int sum, x=0; x<a; x++)
+           ^~~
+gcc -o ex6.exe "src\\ex6.o" 
+Info: Nothing to build for five
+Info: Nothing to build for four
+02:36:50 **** Incremental Build of configuration Debug for project six ****
+Info: Internal Builder is used for build
+gcc -o six.exe "src\\six.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file six.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for three
+Info: Nothing to build for two
+02:39:19 **** Incremental Build of configuration Debug for project ex6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex6.o" "..\\src\\ex6.c" 
+gcc -o ex6.exe "src\\ex6.o" 
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+02:39:35 **** Incremental Build of configuration Debug for project ex6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex6.o" "..\\src\\ex6.c" 
+gcc -o ex6.exe "src\\ex6.o" 
+Info: Nothing to build for five
+Info: Nothing to build for four
+02:39:37 **** Incremental Build of configuration Debug for project six ****
+Info: Internal Builder is used for build
+gcc -o six.exe "src\\six.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file six.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for three
+Info: Nothing to build for two
+Info: Nothing to build for ex6
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+02:41:43 **** Incremental Build of configuration Debug for project ex6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex6.o" "..\\src\\ex6.c" 
+gcc -o ex6.exe "src\\ex6.o" 
+Info: Nothing to build for five
+Info: Nothing to build for four
+02:41:45 **** Incremental Build of configuration Debug for project six ****
+Info: Internal Builder is used for build
+gcc -o six.exe "src\\six.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file six.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for three
+Info: Nothing to build for two
+Info: Nothing to build for ex6
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+02:42:11 **** Incremental Build of configuration Debug for project ex6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex6.o" "..\\src\\ex6.c" 
+gcc -o ex6.exe "src\\ex6.o" 
+Info: Nothing to build for five
+Info: Nothing to build for four
+02:42:13 **** Incremental Build of configuration Debug for project six ****
+Info: Internal Builder is used for build
+gcc -o six.exe "src\\six.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file six.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for three
+Info: Nothing to build for two
+Info: Nothing to build for ex6
+Info: Nothing to build for ex6
+Info: Nothing to build for ex6
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+02:43:53 **** Incremental Build of configuration Debug for project ex6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex6.o" "..\\src\\ex6.c" 
+gcc -o ex6.exe "src\\ex6.o" 
+Info: Nothing to build for five
+Info: Nothing to build for four
+02:43:55 **** Incremental Build of configuration Debug for project six ****
+Info: Internal Builder is used for build
+gcc -o six.exe "src\\six.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file six.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for three
+Info: Nothing to build for two
+Info: Nothing to build for ex6
+02:44:55 **** Incremental Build of configuration Debug for project ex6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex6.o" "..\\src\\ex6.c" 
+gcc -o ex6.exe "src\\ex6.o" 
+Info: Nothing to build for ex6
+Info: Nothing to build for ex6
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+02:45:35 **** Incremental Build of configuration Debug for project ex6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex6.o" "..\\src\\ex6.c" 
+gcc -o ex6.exe "src\\ex6.o" 
+Info: Nothing to build for five
+Info: Nothing to build for four
+02:45:37 **** Incremental Build of configuration Debug for project six ****
+Info: Internal Builder is used for build
+gcc -o six.exe "src\\six.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file six.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for three
+Info: Nothing to build for two
+Info: Nothing to build for ex6
+Info: Nothing to build for ex6
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+02:49:47 **** Rebuild of configuration Debug for project ex7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex7.o" "..\\src\\ex7.c" 
+gcc -o ex7.exe "src\\ex7.o" 
+Info: Nothing to build for five
+Info: Nothing to build for four
+02:49:50 **** Incremental Build of configuration Debug for project six ****
+Info: Internal Builder is used for build
+gcc -o six.exe "src\\six.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file six.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for three
+Info: Nothing to build for two
+Info: Nothing to build for ex7
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+02:50:41 **** Incremental Build of configuration Debug for project ex7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex7.o" "..\\src\\ex7.c" 
+gcc -o ex7.exe "src\\ex7.o" 
+Info: Nothing to build for five
+Info: Nothing to build for four
+02:50:43 **** Incremental Build of configuration Debug for project six ****
+Info: Internal Builder is used for build
+gcc -o six.exe "src\\six.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file six.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for three
+Info: Nothing to build for two
+Info: Nothing to build for ex7
+Info: Nothing to build for ex7
+02:56:48 **** Incremental Build of configuration Debug for project ex7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex7.o" "..\\src\\ex7.c" 
+gcc -o ex7.exe "src\\ex7.o" 
+Info: Nothing to build for ex7
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+Info: Nothing to build for ex7
+03:12:14 **** Rebuild of configuration Debug for project ex8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex8.o" "..\\src\\ex8.c" 
+gcc -o ex8.exe "src\\ex8.o" 
+Info: Nothing to build for five
+Info: Nothing to build for four
+03:12:17 **** Incremental Build of configuration Debug for project six ****
+Info: Internal Builder is used for build
+gcc -o six.exe "src\\six.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file six.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for three
+Info: Nothing to build for two
+03:12:23 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex5.o" "..\\src\\ex5.c" 
+..\src\ex5.c: In function 'main':
+..\src\ex5.c:19:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'char *' [-Wformat=]
+  scanf("%d",&a);
+          ^
+gcc -o ex5.exe "src\\ex5.o" 
+03:13:32 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex5.o" "..\\src\\ex5.c" 
+gcc -o ex5.exe "src\\ex5.o" 
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+03:13:51 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex5.o" "..\\src\\ex5.c" 
+gcc -o ex5.exe "src\\ex5.o" 
+Info: Nothing to build for ex6
+Info: Nothing to build for ex7
+Info: Nothing to build for ex8
+Info: Nothing to build for five
+Info: Nothing to build for four
+03:13:52 **** Incremental Build of configuration Debug for project six ****
+Info: Internal Builder is used for build
+gcc -o six.exe "src\\six.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file six.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for three
+Info: Nothing to build for two
+Info: Nothing to build for ex5
+Info: Nothing to build for ex5
+Info: Nothing to build for ex5
+Info: Nothing to build for ex5
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+03:14:47 **** Incremental Build of configuration Debug for project ex7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex7.o" "..\\src\\ex7.c" 
+gcc -o ex7.exe "src\\ex7.o" 
+Info: Nothing to build for ex8
+Info: Nothing to build for five
+Info: Nothing to build for four
+03:14:48 **** Incremental Build of configuration Debug for project six ****
+Info: Internal Builder is used for build
+gcc -o six.exe "src\\six.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file six.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for three
+Info: Nothing to build for two
+Info: Nothing to build for ex7
+Info: Nothing to build for ex7
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+03:16:14 **** Incremental Build of configuration Debug for project ex7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex7.o" "..\\src\\ex7.c" 
+gcc -o ex7.exe "src\\ex7.o" 
+Info: Nothing to build for ex8
+Info: Nothing to build for five
+Info: Nothing to build for four
+03:16:15 **** Incremental Build of configuration Debug for project six ****
+Info: Internal Builder is used for build
+gcc -o six.exe "src\\six.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file six.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for three
+Info: Nothing to build for two
+03:16:19 **** Incremental Build of configuration Debug for project six ****
+Info: Internal Builder is used for build
+gcc -o six.exe "src\\six.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file six.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+Info: Nothing to build for ex7
+Info: Nothing to build for ex8
+Info: Nothing to build for five
+Info: Nothing to build for four
+03:17:21 **** Incremental Build of configuration Debug for project six ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\six.o" "..\\src\\six.c" 
+gcc -o six.exe "src\\six.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file six.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for three
+Info: Nothing to build for two
