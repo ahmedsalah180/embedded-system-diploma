@@ -1,0 +1,29 @@
+/*
+ ============================================================================
+ Name        : hw3ex4.c
+ Author      : ahmed salah
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+	int n, arr[100];
+	printf("enter the number of elements:");
+	fflush(stdout);
+	scanf("%d",&n);
+	for(int i=0;i<n;i++)
+	{
+		arr[i]=i;
+	}
+	for(int i=0;i<n;i++)
+	{
+		printf("%d\t",arr[i+1]);
+	}
+
+}

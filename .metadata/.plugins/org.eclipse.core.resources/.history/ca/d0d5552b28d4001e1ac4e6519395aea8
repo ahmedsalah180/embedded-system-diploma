@@ -1,0 +1,22 @@
+/*
+ ============================================================================
+ Name        : hw3ex6.c
+ Author      : ahmed salah
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int main()
+{
+	char string[20];
+	printf("enter a string: ");
+	fflush(stdout);
+	gets(string);
+	printf("%s",string);
+}

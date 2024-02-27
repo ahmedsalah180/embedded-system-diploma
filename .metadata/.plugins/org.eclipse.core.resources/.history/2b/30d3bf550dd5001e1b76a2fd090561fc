@@ -1,0 +1,23 @@
+/*
+ ============================================================================
+ Name        : testing.c
+ Author      : ahmed salah
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+	int c=5,no=10;
+	do
+	{
+		no/=c;
+	}
+	while(c--);
+	printf("%d",no);
+}

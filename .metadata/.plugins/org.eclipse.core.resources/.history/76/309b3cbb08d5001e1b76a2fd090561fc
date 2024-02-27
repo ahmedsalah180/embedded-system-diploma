@@ -1,0 +1,24 @@
+/*
+ ============================================================================
+ Name        : testing.c
+ Author      : ahmed salah
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+	int x=2;
+	int arr[]={1,2,3};
+	switch(x)
+	{
+	case arr[0]:printf("choice 1\n");
+	case arr[1]:printf("choice 2\n");
+	case arr[2]:printf("choice 3\n");
+	}
+}

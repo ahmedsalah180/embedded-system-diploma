@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{
+	int x=1;
+	switch(x)
+	{
+	case 2: printf("1");
+	break;
+	case 1+1 : printf("2");
+	break;
+	}
+}

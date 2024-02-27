@@ -1,0 +1,21 @@
+/*
+ ============================================================================
+ Name        : testing.c
+ Author      : ahmed salah
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+	int m=5,n=10,q=20;
+	if(q/n*m)
+		printf("wg");
+	else
+		printf("wb");
+}

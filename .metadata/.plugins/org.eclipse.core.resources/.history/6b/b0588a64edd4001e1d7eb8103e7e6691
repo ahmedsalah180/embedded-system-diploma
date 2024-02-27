@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main() {
+    unsigned short i = 0xFFFF;
+    while (i++ != 0) {
+        printf("%u", (unsigned int)++i);  // Use %u for unsigned short
+    }
+    return 0;
+}

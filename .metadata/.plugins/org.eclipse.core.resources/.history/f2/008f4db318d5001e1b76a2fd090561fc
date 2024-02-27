@@ -1,0 +1,23 @@
+/*
+ ============================================================================
+ Name        : testing.c
+ Author      : ahmed salah
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+	int x=-1,y=-1;
+	if( ++x = ++y )
+		printf("y");
+	else
+		printf("n");
+
+
+}
