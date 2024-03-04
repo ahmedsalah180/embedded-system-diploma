@@ -184,9 +184,6 @@
 					<entry kind="macro" name="__DEC_EVAL_METHOD__" value="2">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="macro" name="__FINITE_MATH_ONLY__" value="0">
-						<flag value="BUILTIN|READONLY"/>
-					</entry>
 					<entry kind="macro" name="__FLOAT_WORD_ORDER__" value="__ORDER_LITTLE_ENDIAN__">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
@@ -514,9 +511,6 @@
 					<entry kind="macro" name="__SIG_ATOMIC_TYPE__" value="int">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="macro" name="__SIZEOF_DOUBLE__" value="8">
-						<flag value="BUILTIN|READONLY"/>
-					</entry>
 					<entry kind="macro" name="__SIZEOF_FLOAT128__" value="16">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
@@ -721,6 +715,9 @@
 					<entry kind="macro" name="__declspec(x)" value="__attribute__((x))">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
+					<entry kind="macro" name="__fastcall" value="0">
+						<flag value="BUILTIN|READONLY"/>
+					</entry>
 					<entry kind="macro" name="__fastcall" value="__attribute__((__fastcall__))">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
@@ -755,6 +752,9 @@
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
 					<entry kind="macro" name="_cdecl" value="__attribute__((__cdecl__))">
+						<flag value="BUILTIN|READONLY"/>
+					</entry>
+					<entry kind="macro" name="_fastcall" value="8">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
 					<entry kind="macro" name="_fastcall" value="__attribute__((__fastcall__))">

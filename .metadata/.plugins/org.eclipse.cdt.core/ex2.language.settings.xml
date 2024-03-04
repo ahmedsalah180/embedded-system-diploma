@@ -2464,9 +2464,6 @@
 					<entry kind="macro" name="WINNT" value="1">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="macro" name="_INTEGRAL_MAX_BITS" value="64">
-						<flag value="BUILTIN|READONLY"/>
-					</entry>
 					<entry kind="macro" name="_WIN32" value="1">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
@@ -3170,6 +3167,9 @@
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
 					<entry kind="macro" name="__WINT_TYPE__" value="short unsigned int">
+						<flag value="BUILTIN|READONLY"/>
+					</entry>
+					<entry kind="macro" name="__WINT_TYPE__" value="64">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
 					<entry kind="macro" name="__cdecl" value="__attribute__((__cdecl__))">
