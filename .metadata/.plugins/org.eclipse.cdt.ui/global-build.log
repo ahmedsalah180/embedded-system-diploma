@@ -1,17 +1,9 @@
-18:40:17 **** Incremental Build of configuration Debug for project testing ****
+02:20:41 **** Incremental Build of configuration Debug for project test ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-..\src\testing.c: In function 'num':
-..\src\testing.c:20:3: error: 'bin' undeclared (first use in this function)
-   bin[i]=2(i+1);
-   ^~~
-..\src\testing.c:20:3: note: each undeclared identifier is reported only once for each function it appears in
-..\src\testing.c:20:10: error: called object is not a function or function pointer
-   bin[i]=2(i+1);
-          ^
-..\src\testing.c:24:1: warning: control reaches end of non-void function [-Wreturn-type]
- }
- ^
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+..\src\test.c:18:5: error: expected specifier-qualifier-list before 'static'
+     static int y;
+     ^~~~~~
 Info: Nothing to build for ex1
 Info: Nothing to build for ex2
 Info: Nothing to build for ex3
@@ -20,6 +12,8 @@ Info: Nothing to build for ex5
 Info: Nothing to build for ex6
 Info: Nothing to build for ex7
 Info: Nothing to build for ex8
+Info: Nothing to build for five
+Info: Nothing to build for four
 Info: Nothing to build for hw3ex1
 Info: Nothing to build for hw3ex2
 Info: Nothing to build for hw3ex3
@@ -32,20 +26,77 @@ Info: Nothing to build for hw4ex1
 Info: Nothing to build for hw4ex2
 Info: Nothing to build for hw4ex3
 Info: Nothing to build for hw4ex4
-18:41:35 **** Incremental Build of configuration Debug for project testing ****
+Info: Nothing to build for hw5ex1
+Info: Nothing to build for hw5ex2
+Info: Nothing to build for hw5ex3
+Info: Nothing to build for hw5ex4
+Info: Nothing to build for mtq1
+Info: Nothing to build for mtq10
+Info: Nothing to build for mtq2
+Info: Nothing to build for mtq3
+Info: Nothing to build for mtq4
+Info: Nothing to build for mtq5
+Info: Nothing to build for mtq6
+Info: Nothing to build for mtq7
+Info: Nothing to build for mtq8
+Info: Nothing to build for mtq9
+Info: Nothing to build for six
+02:21:00 **** Incremental Build of configuration Debug for project test ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-..\src\testing.c: In function 'num':
-..\src\testing.c:20:3: error: 'bin' undeclared (first use in this function)
-   bin[i]=2(i+1);
-   ^~~
-..\src\testing.c:20:3: note: each undeclared identifier is reported only once for each function it appears in
-..\src\testing.c:20:10: error: called object is not a function or function pointer
-   bin[i]=2(i+1);
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+gcc -o test.exe "src\\test.o" 
+Info: Nothing to build for three
+Info: Nothing to build for two
+Info: Nothing to build for test
+02:21:19 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+gcc -o test.exe "src\\test.o" 
+02:21:38 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+gcc -o test.exe "src\\test.o" 
+02:21:58 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+..\src\test.c:17:9: error: width of 'i' exceeds its type
+     int i:40;
+         ^
+02:23:11 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+gcc -o test.exe "src\\test.o" 
+02:23:23 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+gcc -o test.exe "src\\test.o" 
+02:23:29 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+gcc -o test.exe "src\\test.o" 
+02:23:41 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+gcc -o test.exe "src\\test.o" 
+02:23:49 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+..\src\test.c:17:9: error: width of 'i' exceeds its type
+     int i:33;
+         ^
+02:31:08 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+..\src\test.c: In function 'main':
+..\src\test.c:25:10: error: assignment to expression with array type
+  bit.name="abosalah";
           ^
-..\src\testing.c:24:1: warning: control reaches end of non-void function [-Wreturn-type]
- }
- ^
+..\src\test.c:28:5: error: expected ';' before 'printf'
+     printf("%s %d",bit.name,bit.age);  // Used %zu for the size, which is the correct format specifier for the result of sizeof
+     ^~~~~~
+..\src\test.c:24:12: warning: variable 'bit' set but not used [-Wunused-but-set-variable]
+  struct st bit;
+            ^~~
 Info: Nothing to build for ex1
 Info: Nothing to build for ex2
 Info: Nothing to build for ex3
@@ -54,96 +105,8 @@ Info: Nothing to build for ex5
 Info: Nothing to build for ex6
 Info: Nothing to build for ex7
 Info: Nothing to build for ex8
-Info: Nothing to build for hw3ex1
-Info: Nothing to build for hw3ex2
-Info: Nothing to build for hw3ex3
-18:42:06 **** Incremental Build of configuration Debug for project hw3ex4 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw3ex4.o" "..\\src\\hw3ex4.c" 
-gcc -o hw3ex4.exe "src\\hw3ex4.o" 
-Info: Nothing to build for hw3ex5
-Info: Nothing to build for hw3ex6
-Info: Nothing to build for hw3ex7
-Info: Nothing to build for hw3ex8
-Info: Nothing to build for hw4ex1
-Info: Nothing to build for hw4ex2
-Info: Nothing to build for hw4ex3
-Info: Nothing to build for hw4ex4
-18:42:07 **** Incremental Build of configuration Debug for project testing ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-..\src\testing.c: In function 'num':
-..\src\testing.c:21:10: error: called object is not a function or function pointer
-   bin[i]=2(i+1);
-          ^
-..\src\testing.c:25:1: warning: control reaches end of non-void function [-Wreturn-type]
- }
- ^
-18:42:31 **** Incremental Build of configuration Debug for project testing ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-..\src\testing.c: In function 'num':
-..\src\testing.c:21:10: error: called object is not a function or function pointer
-   bin[i]=2(i+1);
-          ^
-..\src\testing.c:25:1: warning: control reaches end of non-void function [-Wreturn-type]
- }
- ^
-Info: Nothing to build for ex1
-Info: Nothing to build for ex2
-Info: Nothing to build for ex3
-Info: Nothing to build for ex4
-Info: Nothing to build for ex5
-Info: Nothing to build for ex6
-Info: Nothing to build for ex7
-Info: Nothing to build for ex8
-Info: Nothing to build for hw3ex1
-Info: Nothing to build for hw3ex2
-Info: Nothing to build for hw3ex3
-Info: Nothing to build for hw3ex4
-Info: Nothing to build for hw3ex5
-Info: Nothing to build for hw3ex6
-Info: Nothing to build for hw3ex7
-Info: Nothing to build for hw3ex8
-Info: Nothing to build for hw4ex1
-Info: Nothing to build for hw4ex2
-Info: Nothing to build for hw4ex3
-Info: Nothing to build for hw4ex4
-18:43:42 **** Incremental Build of configuration Debug for project testing ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-..\src\testing.c: In function 'num':
-..\src\testing.c:21:10: error: called object is not a function or function pointer
-   bin[i]=2(i+1);
-          ^
-..\src\testing.c:25:1: warning: control reaches end of non-void function [-Wreturn-type]
- }
- ^
-18:44:12 **** Incremental Build of configuration Debug for project testing ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-..\src\testing.c: In function 'num':
-..\src\testing.c:21:10: error: called object is not a function or function pointer
-   bin[i]=2(i+1);
-          ^
-..\src\testing.c:25:1: warning: control reaches end of non-void function [-Wreturn-type]
- }
- ^
-18:46:02 **** Incremental Build of configuration Debug for project testing ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-..\src\testing.c: In function 'num':
-..\src\testing.c:21:10: error: called object is not a function or function pointer
-   bin[i]=2(i+1);
-          ^
-Info: Nothing to build for ex1
-Info: Nothing to build for ex2
-Info: Nothing to build for ex3
-Info: Nothing to build for ex4
-Info: Nothing to build for ex5
-Info: Nothing to build for ex6
-Info: Nothing to build for ex7
-Info: Nothing to build for ex8
+Info: Nothing to build for five
+Info: Nothing to build for four
 Info: Nothing to build for hw3ex1
 Info: Nothing to build for hw3ex2
 Info: Nothing to build for hw3ex3
@@ -156,48 +119,133 @@ Info: Nothing to build for hw4ex1
 Info: Nothing to build for hw4ex2
 Info: Nothing to build for hw4ex3
 Info: Nothing to build for hw4ex4
-18:47:43 **** Incremental Build of configuration Debug for project testing ****
+Info: Nothing to build for hw5ex1
+Info: Nothing to build for hw5ex2
+Info: Nothing to build for hw5ex3
+Info: Nothing to build for hw5ex4
+Info: Nothing to build for mtq1
+Info: Nothing to build for mtq10
+Info: Nothing to build for mtq2
+Info: Nothing to build for mtq3
+Info: Nothing to build for mtq4
+Info: Nothing to build for mtq5
+Info: Nothing to build for mtq6
+Info: Nothing to build for mtq7
+Info: Nothing to build for mtq8
+Info: Nothing to build for mtq9
+Info: Nothing to build for six
+02:32:20 **** Incremental Build of configuration Debug for project test ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-gcc -o testing.exe "src\\testing.o" 
-Info: Nothing to build for testing
-18:48:20 **** Incremental Build of configuration Debug for project testing ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+..\src\test.c: In function 'main':
+..\src\test.c:25:11: error: expected expression before ']' token
+  bit.name[]="abosalah";
+           ^
+Info: Nothing to build for three
+Info: Nothing to build for two
+02:47:46 **** Incremental Build of configuration Debug for project test ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-gcc -o testing.exe "src\\testing.o" 
-19:29:48 **** Incremental Build of configuration Debug for project testing ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+..\src\test.c: In function 'main':
+..\src\test.c:25:9: error: variable 'name' has initializer but incomplete type
+  struct bit name = {"hello"};
+         ^~~
+..\src\test.c:25:21: warning: excess elements in struct initializer
+  struct bit name = {"hello"};
+                     ^~~~~~~
+..\src\test.c:25:21: note: (near initialization for 'name')
+..\src\test.c:25:13: error: storage size of 'name' isn't known
+  struct bit name = {"hello"};
+             ^~~~
+..\src\test.c:25:13: warning: unused variable 'name' [-Wunused-variable]
+02:58:18 **** Incremental Build of configuration Debug for project test ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-..\src\testing.c: In function 'num':
-..\src\testing.c:20:6: warning: variable 'bin' set but not used [-Wunused-but-set-variable]
-  int bin[32]={0};
-      ^~~
-..\src\testing.c: In function 'main':
-..\src\testing.c:34:2: error: too few arguments to function 'num'
-  num();
-  ^~~
-..\src\testing.c:18:5: note: declared here
- int num (int n)
-     ^~~
-19:29:59 **** Incremental Build of configuration Debug for project testing ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-..\src\testing.c: In function 'num':
-..\src\testing.c:20:6: warning: variable 'bin' set but not used [-Wunused-but-set-variable]
-  int bin[32]={0};
-      ^~~
-gcc -o testing.exe "src\\testing.o" 
-19:32:47 **** Incremental Build of configuration Debug for project testing ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-..\src\testing.c: In function 'num':
-..\src\testing.c:28:16: error: 'i' undeclared (first use in this function)
-  num (n-pow(2,(i-1)));
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+..\src\test.c: In function 'main':
+..\src\test.c:21:16: error: field 'm' has incomplete type
+      struct st m;
                 ^
-..\src\testing.c:28:16: note: each undeclared identifier is reported only once for each function it appears in
-..\src\testing.c:20:6: warning: variable 'bin' set but not used [-Wunused-but-set-variable]
-  int bin[32]={0};
-      ^~~
+03:01:17 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+gcc -o test.exe "src\\test.o" 
+03:06:40 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+gcc -o test.exe "src\\test.o" 
+03:27:50 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+gcc -o test.exe "src\\test.o" 
+03:34:24 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+..\src\test.c: In function 'main':
+..\src\test.c:23:9: error: bit-field 'aho' has invalid type
+   float aho:8;
+         ^~~
+03:35:34 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+..\src\test.c: In function 'main':
+..\src\test.c:17:15: error: bit-field 'aho' has invalid type
+         float aho:8;
+               ^~~
+..\src\test.c:21:14: warning: unknown conversion type character 'z' in format [-Wformat=]
+     printf("%zu", sizeof(x)); // Use %zu for size_t
+              ^
+..\src\test.c:21:12: warning: too many arguments for format [-Wformat-extra-args]
+     printf("%zu", sizeof(x)); // Use %zu for size_t
+            ^~~~~
+03:44:42 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+..\src\test.c: In function 'main':
+..\src\test.c:23:5: error: expected ';' before 'return'
+     return 0;
+     ^~~~~~
+03:44:56 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+gcc -o test.exe "src\\test.o" 
+04:12:00 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+..\src\test.c: In function 'main':
+..\src\test.c:21:21: warning: excess elements in union initializer
+     union a u2 = {0,2};
+                     ^
+..\src\test.c:21:21: note: (near initialization for 'u2')
+..\src\test.c:21:13: warning: unused variable 'u2' [-Wunused-variable]
+     union a u2 = {0,2};
+             ^~
+..\src\test.c:20:13: warning: unused variable 'u1' [-Wunused-variable]
+     union a u1 = {512};
+             ^~
+gcc -o test.exe "src\\test.o" 
+04:53:23 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+..\src\test.c:14:14: error: redeclaration of enumerator 'faild'
+ enum result {faild,passed};
+              ^~~~~
+..\src\test.c:13:21: note: previous definition of 'faild' was here
+ enum state {working,faild};
+                     ^~~~~
+05:02:13 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+gcc -o test.exe "src\\test.o" 
+05:07:28 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+..\src\test.c: In function 'main':
+..\src\test.c:19:33: error: lvalue required as increment operand
+     printf("Current day: %d\n", ++MONDAY);
+                                 ^~
+..\src\test.c:14:15: warning: unused variable 'day' [-Wunused-variable]
+     enum Days day;
+               ^~~
 Info: Nothing to build for ex1
 Info: Nothing to build for ex2
 Info: Nothing to build for ex3
@@ -206,6 +254,8 @@ Info: Nothing to build for ex5
 Info: Nothing to build for ex6
 Info: Nothing to build for ex7
 Info: Nothing to build for ex8
+Info: Nothing to build for five
+Info: Nothing to build for four
 Info: Nothing to build for hw3ex1
 Info: Nothing to build for hw3ex2
 Info: Nothing to build for hw3ex3
@@ -218,1091 +268,289 @@ Info: Nothing to build for hw4ex1
 Info: Nothing to build for hw4ex2
 Info: Nothing to build for hw4ex3
 Info: Nothing to build for hw4ex4
-19:35:02 **** Incremental Build of configuration Debug for project testing ****
+Info: Nothing to build for hw5ex1
+Info: Nothing to build for hw5ex2
+Info: Nothing to build for hw5ex3
+Info: Nothing to build for hw5ex4
+20:12:28 **** Rebuild of configuration Debug for project hw5ex5 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-..\src\testing.c: In function 'num':
-..\src\testing.c:29:3: error: expected ';' before '}' token
-   }
-   ^
-..\src\testing.c:20:8: warning: variable 'bin' set but not used [-Wunused-but-set-variable]
-  int j,bin[32]={0};
-        ^~~
-Info: Nothing to build for ex1
-Info: Nothing to build for ex2
-Info: Nothing to build for ex3
-Info: Nothing to build for ex4
-Info: Nothing to build for ex5
-Info: Nothing to build for ex6
-Info: Nothing to build for ex7
-Info: Nothing to build for ex8
-Info: Nothing to build for hw3ex1
-Info: Nothing to build for hw3ex2
-Info: Nothing to build for hw3ex3
-Info: Nothing to build for hw3ex4
-Info: Nothing to build for hw3ex5
-Info: Nothing to build for hw3ex6
-Info: Nothing to build for hw3ex7
-Info: Nothing to build for hw3ex8
-Info: Nothing to build for hw4ex1
-Info: Nothing to build for hw4ex2
-Info: Nothing to build for hw4ex3
-Info: Nothing to build for hw4ex4
-19:35:13 **** Incremental Build of configuration Debug for project testing ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw5ex5.o" "..\\src\\hw5ex5.c" 
+gcc -o hw5ex5.exe "src\\hw5ex5.o" 
+Info: Nothing to build for mtq1
+Info: Nothing to build for mtq10
+Info: Nothing to build for mtq2
+Info: Nothing to build for mtq3
+Info: Nothing to build for mtq4
+Info: Nothing to build for mtq5
+Info: Nothing to build for mtq6
+Info: Nothing to build for mtq7
+Info: Nothing to build for mtq8
+Info: Nothing to build for mtq9
+Info: Nothing to build for six
+20:12:34 **** Incremental Build of configuration Debug for project test ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-..\src\testing.c: In function 'num':
-..\src\testing.c:20:8: warning: variable 'bin' set but not used [-Wunused-but-set-variable]
-  int j,bin[32]={0};
-        ^~~
-gcc -o testing.exe "src\\testing.o" 
-Info: Nothing to build for testing
-Info: Nothing to build for ex1
-Info: Nothing to build for ex2
-Info: Nothing to build for ex3
-Info: Nothing to build for ex4
-Info: Nothing to build for ex5
-Info: Nothing to build for ex6
-Info: Nothing to build for ex7
-Info: Nothing to build for ex8
-Info: Nothing to build for hw3ex1
-Info: Nothing to build for hw3ex2
-Info: Nothing to build for hw3ex3
-Info: Nothing to build for hw3ex4
-Info: Nothing to build for hw3ex5
-Info: Nothing to build for hw3ex6
-Info: Nothing to build for hw3ex7
-Info: Nothing to build for hw3ex8
-Info: Nothing to build for hw4ex1
-Info: Nothing to build for hw4ex2
-Info: Nothing to build for hw4ex3
-Info: Nothing to build for hw4ex4
-21:49:42 **** Incremental Build of configuration Debug for project testing ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+..\src\test.c: In function 'main':
+..\src\test.c:19:33: error: lvalue required as increment operand
+     printf("Current day: %d\n", ++MONDAY);
+                                 ^~
+..\src\test.c:14:15: warning: unused variable 'day' [-Wunused-variable]
+     enum Days day;
+               ^~~
+Info: Nothing to build for three
+Info: Nothing to build for two
+Info: Nothing to build for hw5ex5
+20:13:39 **** Incremental Build of configuration Debug for project hw5ex5 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-gcc -o testing.exe "src\\testing.o" 
-Info: Nothing to build for testing
-21:52:01 **** Incremental Build of configuration Debug for project testing ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw5ex5.o" "..\\src\\hw5ex5.c" 
+gcc -o hw5ex5.exe "src\\hw5ex5.o" 
+20:14:10 **** Incremental Build of configuration Debug for project hw5ex5 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-gcc -o testing.exe "src\\testing.o" 
-22:00:29 **** Incremental Build of configuration Debug for project testing ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw5ex5.o" "..\\src\\hw5ex5.c" 
+gcc -o hw5ex5.exe "src\\hw5ex5.o" 
+20:50:52 **** Incremental Build of configuration Debug for project test ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-gcc -o testing.exe "src\\testing.o" 
-22:03:57 **** Incremental Build of configuration Debug for project testing ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+..\src\test.c:1:30: fatal error: nonexistent_file.h: No such file or directory
+ #include "nonexistent_file.h"
+                              ^
+compilation terminated.
+20:52:38 **** Incremental Build of configuration Debug for project test ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-gcc -o testing.exe "src\\testing.o" 
-22:04:22 **** Incremental Build of configuration Debug for project testing ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+gcc -o test.exe "src\\test.o" 
+21:06:10 **** Incremental Build of configuration Debug for project test ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-gcc -o testing.exe "src\\testing.o" 
-22:05:33 **** Incremental Build of configuration Debug for project testing ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+gcc -o test.exe "src\\test.o" 
+21:06:56 **** Incremental Build of configuration Debug for project test ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-gcc -o testing.exe "src\\testing.o" 
-22:06:59 **** Incremental Build of configuration Debug for project testing ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-gcc -o testing.exe "src\\testing.o" 
-22:09:15 **** Incremental Build of configuration Debug for project testing ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-gcc -o testing.exe "src\\testing.o" 
-22:29:35 **** Incremental Build of configuration Debug for project testing ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-..\src\testing.c: In function 'main':
-..\src\testing.c:40:2: error: expected ';' before '}' token
-  }
-  ^
-22:29:45 **** Incremental Build of configuration Debug for project testing ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-gcc -o testing.exe "src\\testing.o" 
-22:30:18 **** Incremental Build of configuration Debug for project testing ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-gcc -o testing.exe "src\\testing.o" 
-22:30:39 **** Incremental Build of configuration Debug for project testing ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-gcc -o testing.exe "src\\testing.o" 
-22:30:54 **** Incremental Build of configuration Debug for project testing ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-gcc -o testing.exe "src\\testing.o" 
-22:31:10 **** Incremental Build of configuration Debug for project testing ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-gcc -o testing.exe "src\\testing.o" 
-Info: Nothing to build for ex1
-Info: Nothing to build for ex2
-Info: Nothing to build for ex3
-Info: Nothing to build for ex4
-Info: Nothing to build for ex5
-Info: Nothing to build for ex6
-Info: Nothing to build for ex7
-Info: Nothing to build for ex8
-Info: Nothing to build for hw3ex1
-Info: Nothing to build for hw3ex2
-Info: Nothing to build for hw3ex3
-Info: Nothing to build for hw3ex4
-Info: Nothing to build for hw3ex5
-Info: Nothing to build for hw3ex6
-Info: Nothing to build for hw3ex7
-Info: Nothing to build for hw3ex8
-Info: Nothing to build for hw4ex1
-Info: Nothing to build for hw4ex2
-Info: Nothing to build for hw4ex3
-Info: Nothing to build for hw4ex4
-22:50:38 **** Incremental Build of configuration Debug for project testing ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-..\src\testing.c: In function 'usercheck':
-..\src\testing.c:19:10: warning: return makes integer from pointer without a cast [-Wint-conversion]
-   return "t";
-          ^~~
-..\src\testing.c:21:10: warning: return makes integer from pointer without a cast [-Wint-conversion]
-   return "f";
-          ^~~
-..\src\testing.c: At top level:
-..\src\testing.c:24:6: warning: return type of 'main' is not 'int' [-Wmain]
- void main()
-      ^~~~
-gcc -o testing.exe "src\\testing.o" 
-Info: Nothing to build for testing
-Info: Nothing to build for testing
-Info: Nothing to build for ex1
-Info: Nothing to build for ex2
-Info: Nothing to build for ex3
-Info: Nothing to build for ex4
-Info: Nothing to build for ex5
-Info: Nothing to build for ex6
-Info: Nothing to build for ex7
-Info: Nothing to build for ex8
-Info: Nothing to build for hw3ex1
-Info: Nothing to build for hw3ex2
-Info: Nothing to build for hw3ex3
-Info: Nothing to build for hw3ex4
-Info: Nothing to build for hw3ex5
-Info: Nothing to build for hw3ex6
-Info: Nothing to build for hw3ex7
-Info: Nothing to build for hw3ex8
-Info: Nothing to build for hw4ex1
-Info: Nothing to build for hw4ex2
-Info: Nothing to build for hw4ex3
-Info: Nothing to build for hw4ex4
-22:51:59 **** Incremental Build of configuration Debug for project testing ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-..\src\testing.c: In function 'usercheck':
-..\src\testing.c:19:10: error: 't' undeclared (first use in this function)
-   return t;
-          ^
-..\src\testing.c:19:10: note: each undeclared identifier is reported only once for each function it appears in
-..\src\testing.c:21:10: error: 'f' undeclared (first use in this function)
-   return f;
-          ^
-..\src\testing.c: At top level:
-..\src\testing.c:24:6: warning: return type of 'main' is not 'int' [-Wmain]
- void main()
-      ^~~~
-..\src\testing.c: In function 'usercheck':
-..\src\testing.c:22:1: warning: control reaches end of non-void function [-Wreturn-type]
- }
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+..\src\test.c:9:1: error: unterminated comment
+ /*int main() {
  ^
-22:52:33 **** Incremental Build of configuration Debug for project testing ****
+00:16:44 **** Incremental Build of configuration Debug for project test ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-..\src\testing.c:24:6: warning: return type of 'main' is not 'int' [-Wmain]
- void main()
-      ^~~~
-gcc -o testing.exe "src\\testing.o" 
-Info: Nothing to build for testing
-Info: Nothing to build for testing
-Info: Nothing to build for testing
-Info: Nothing to build for testing
-Info: Nothing to build for testing
-Info: Nothing to build for testing
-Info: Nothing to build for testing
-22:54:30 **** Incremental Build of configuration Debug for project testing ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+..\src\test.c: In function 'main':
+..\src\test.c:2:24: error: expected ')' before 't'
+ #define swap(a,b,c) (c t:t=a,a=b,b=t)
+                        ^
+..\src\test.c:5:5: note: in expansion of macro 'swap'
+     swap(x,y,int);
+     ^~~~
+..\src\test.c:5:18: error: expected expression before ';' token
+     swap(x,y,int);
+                  ^
+..\src\test.c:6:20: error: 'x' undeclared (first use in this function)
+     printf("%d %d",x,y);
+                    ^
+..\src\test.c:6:20: note: each undeclared identifier is reported only once for each function it appears in
+..\src\test.c:6:22: error: 'y' undeclared (first use in this function)
+     printf("%d %d",x,y);
+                      ^
+00:17:35 **** Incremental Build of configuration Debug for project test ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-..\src\testing.c:24:6: warning: return type of 'main' is not 'int' [-Wmain]
- void main()
-      ^~~~
-gcc -o testing.exe "src\\testing.o" 
-c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file testing.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-Info: Nothing to build for ex1
-Info: Nothing to build for ex2
-Info: Nothing to build for ex3
-Info: Nothing to build for ex4
-Info: Nothing to build for ex5
-Info: Nothing to build for ex6
-Info: Nothing to build for ex7
-Info: Nothing to build for ex8
-Info: Nothing to build for hw3ex1
-Info: Nothing to build for hw3ex2
-Info: Nothing to build for hw3ex3
-Info: Nothing to build for hw3ex4
-Info: Nothing to build for hw3ex5
-Info: Nothing to build for hw3ex6
-Info: Nothing to build for hw3ex7
-Info: Nothing to build for hw3ex8
-Info: Nothing to build for hw4ex1
-Info: Nothing to build for hw4ex2
-Info: Nothing to build for hw4ex3
-Info: Nothing to build for hw4ex4
-22:55:19 **** Incremental Build of configuration Debug for project testing ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+..\src\test.c: In function 'main':
+..\src\test.c:2:24: error: expected ')' before 't'
+ #define swap(a,b,c) (c t:t=a,a=b,b=t)
+                        ^
+..\src\test.c:6:5: note: in expansion of macro 'swap'
+     swap(x,y,int);
+     ^~~~
+..\src\test.c:6:18: error: expected expression before ';' token
+     swap(x,y,int);
+                  ^
+00:23:25 **** Incremental Build of configuration Debug for project test ****
 Info: Internal Builder is used for build
-gcc -o testing.exe "src\\testing.o" 
-Info: Nothing to build for testing
-Info: Nothing to build for testing
-22:56:10 **** Incremental Build of configuration Debug for project testing ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+gcc -o test.exe "src\\test.o" 
+00:23:54 **** Incremental Build of configuration Debug for project test ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-..\src\testing.c:21:6: warning: return type of 'main' is not 'int' [-Wmain]
- void main()
-      ^~~~
-gcc -o testing.exe "src\\testing.o" 
-c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file testing.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-22:56:44 **** Incremental Build of configuration Debug for project testing ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+gcc -o test.exe "src\\test.o" 
+00:26:18 **** Incremental Build of configuration Debug for project test ****
 Info: Internal Builder is used for build
-gcc -o testing.exe "src\\testing.o" 
-Info: Nothing to build for testing
-Info: Nothing to build for testing
-Info: Nothing to build for testing
-Info: Nothing to build for testing
-23:00:15 **** Incremental Build of configuration Debug for project testing ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+..\src\test.c: In function 'main':
+..\src\test.c:7:25: warning: operation on 'a' may be undefined [-Wsequence-point]
+..\src\test.c:3:26:
+ #define SQUARE(x) ((x) * (x))
+                          ~~~
+..\src\test.c:7:25:
+     int result = SQUARE(++a);
+                          
+..\src\test.c:3:27: note: in definition of macro 'SQUARE'
+ #define SQUARE(x) ((x) * (x))
+                           ^
+gcc -o test.exe "src\\test.o" 
+00:27:25 **** Incremental Build of configuration Debug for project test ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-..\src\testing.c:21:6: warning: return type of 'main' is not 'int' [-Wmain]
- void main()
-      ^~~~
-gcc -o testing.exe "src\\testing.o" 
-c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file testing.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-23:00:53 **** Incremental Build of configuration Debug for project testing ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+..\src\test.c: In function 'main':
+..\src\test.c:7:26: warning: operation on 'a' may be undefined [-Wsequence-point]
+..\src\test.c:3:26:
+ #define SQUARE(x) ((x) * (x))
+                          ~~~
+..\src\test.c:7:26:
+     int result = SQUARE(a++);
+                           
+..\src\test.c:3:27: note: in definition of macro 'SQUARE'
+ #define SQUARE(x) ((x) * (x))
+                           ^
+gcc -o test.exe "src\\test.o" 
+00:28:22 **** Incremental Build of configuration Debug for project test ****
 Info: Internal Builder is used for build
-gcc -o testing.exe "src\\testing.o" 
-03:26:30 **** Incremental Build of configuration Debug for project testing ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+gcc -o test.exe "src\\test.o" 
+00:28:34 **** Incremental Build of configuration Debug for project test ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-..\src\testing.c:21:6: warning: return type of 'main' is not 'int' [-Wmain]
- void main()
-      ^~~~
-gcc -o testing.exe "src\\testing.o" 
-Info: Nothing to build for testing
-Info: Nothing to build for testing
-03:30:02 **** Incremental Build of configuration Debug for project testing ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+..\src\test.c: In function 'main':
+..\src\test.c:7:25: warning: operation on 'a' may be undefined [-Wsequence-point]
+..\src\test.c:3:26:
+ #define SQUARE(x) ((x) * (x))
+                          ~~~
+..\src\test.c:7:25:
+     int result = SQUARE(++a);
+                          
+..\src\test.c:3:27: note: in definition of macro 'SQUARE'
+ #define SQUARE(x) ((x) * (x))
+                           ^
+gcc -o test.exe "src\\test.o" 
+00:28:47 **** Incremental Build of configuration Debug for project test ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-..\src\testing.c:21:6: warning: return type of 'main' is not 'int' [-Wmain]
- void main()
-      ^~~~
-gcc -o testing.exe "src\\testing.o" 
-c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file testing.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-03:30:49 **** Incremental Build of configuration Debug for project testing ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+..\src\test.c: In function 'main':
+..\src\test.c:7:26: warning: operation on 'a' may be undefined [-Wsequence-point]
+..\src\test.c:3:26:
+ #define SQUARE(x) ((x) * (x))
+                          ~~~
+..\src\test.c:7:26:
+     int result = SQUARE(a++);
+                           
+..\src\test.c:3:27: note: in definition of macro 'SQUARE'
+ #define SQUARE(x) ((x) * (x))
+                           ^
+gcc -o test.exe "src\\test.o" 
+00:40:45 **** Incremental Build of configuration Debug for project test ****
 Info: Internal Builder is used for build
-gcc -o testing.exe "src\\testing.o" 
-03:31:26 **** Incremental Build of configuration Debug for project testing ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+..\src\test.c: In function 'main':
+..\src\test.c:7:25: warning: operation on 'a' may be undefined [-Wsequence-point]
+..\src\test.c:3:26:
+ #define SQUARE(x) ((x) * (x))
+                          ~~~
+..\src\test.c:7:25:
+     int result = SQUARE(++a);
+                          
+..\src\test.c:3:27: note: in definition of macro 'SQUARE'
+ #define SQUARE(x) ((x) * (x))
+                           ^
+gcc -o test.exe "src\\test.o" 
+00:56:41 **** Incremental Build of configuration Debug for project test ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-..\src\testing.c:21:6: warning: return type of 'main' is not 'int' [-Wmain]
- void main()
-      ^~~~
-gcc -o testing.exe "src\\testing.o" 
-c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file testing.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-Info: Nothing to build for ex1
-Info: Nothing to build for ex2
-Info: Nothing to build for ex3
-Info: Nothing to build for ex4
-Info: Nothing to build for ex5
-Info: Nothing to build for ex6
-Info: Nothing to build for ex7
-Info: Nothing to build for ex8
-Info: Nothing to build for hw3ex1
-Info: Nothing to build for hw3ex2
-Info: Nothing to build for hw3ex3
-Info: Nothing to build for hw3ex4
-Info: Nothing to build for hw3ex5
-Info: Nothing to build for hw3ex6
-Info: Nothing to build for hw3ex7
-Info: Nothing to build for hw3ex8
-Info: Nothing to build for hw4ex1
-Info: Nothing to build for hw4ex2
-Info: Nothing to build for hw4ex3
-Info: Nothing to build for hw4ex4
-03:44:22 **** Incremental Build of configuration Debug for project testing ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+gcc -o test.exe "src\\test.o" 
+01:09:45 **** Incremental Build of configuration Debug for project test ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-..\src\testing.c:23:6: warning: return type of 'main' is not 'int' [-Wmain]
- void main()
-      ^~~~
-..\src\testing.c: In function 'main':
-..\src\testing.c:26:18: warning: passing argument 1 of 'strlen' from incompatible pointer type [-Wincompatible-pointer-types]
-  int len =strlen(arr);
-                  ^~~
-In file included from ..\src\testing.c:13:0:
-c:\mingw\include\string.h:83:41: note: expected 'const char *' but argument is of type 'int *'
- _CRTIMP __cdecl __MINGW_NOTHROW  size_t strlen (const char *) __MINGW_ATTRIB_PURE;
-                                         ^~~~~~
-..\src\testing.c: In function 'reversearray':
-..\src\testing.c:21:1: warning: control reaches end of non-void function [-Wreturn-type]
- }
- ^
-gcc -o testing.exe "src\\testing.o" 
-c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file testing.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-03:44:31 **** Incremental Build of configuration Debug for project testing ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+..\src\test.c: In function 'main':
+..\src\test.c:4:15: warning: too many arguments for format [-Wformat-extra-args]
+ #define scanf "goodnews"
+               ^
+..\src\test.c:7:12: note: in expansion of macro 'scanf'
+     printf(scanf,scanf);
+            ^~~~~
+gcc -o test.exe "src\\test.o" 
+01:10:13 **** Incremental Build of configuration Debug for project test ****
 Info: Internal Builder is used for build
-gcc -o testing.exe "src\\testing.o" 
-c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file testing.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-03:45:01 **** Incremental Build of configuration Debug for project testing ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+gcc -o test.exe "src\\test.o" 
+01:16:10 **** Incremental Build of configuration Debug for project test ****
 Info: Internal Builder is used for build
-gcc -o testing.exe "src\\testing.o" 
-03:48:03 **** Incremental Build of configuration Debug for project testing ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+..\src\test.c: In function 'main':
+..\src\test.c:5:18: error: expected expression before '{' token
+ #define manga(x) {x*x*x}
+                  ^
+..\src\test.c:9:17: note: in expansion of macro 'manga'
+     printf("%d",manga(3));
+                 ^~~~~
+01:16:38 **** Incremental Build of configuration Debug for project test ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-..\src\testing.c:26:6: warning: return type of 'main' is not 'int' [-Wmain]
- void main()
-      ^~~~
-..\src\testing.c: In function 'main':
-..\src\testing.c:29:18: warning: passing argument 1 of 'strlen' from incompatible pointer type [-Wincompatible-pointer-types]
-  int len =strlen(arr);
-                  ^~~
-In file included from ..\src\testing.c:13:0:
-c:\mingw\include\string.h:83:41: note: expected 'const char *' but argument is of type 'int *'
- _CRTIMP __cdecl __MINGW_NOTHROW  size_t strlen (const char *) __MINGW_ATTRIB_PURE;
-                                         ^~~~~~
-gcc -o testing.exe "src\\testing.o" 
-Info: Nothing to build for ex1
-Info: Nothing to build for ex2
-Info: Nothing to build for ex3
-Info: Nothing to build for ex4
-Info: Nothing to build for ex5
-Info: Nothing to build for ex6
-Info: Nothing to build for ex7
-Info: Nothing to build for ex8
-Info: Nothing to build for hw3ex1
-Info: Nothing to build for hw3ex2
-Info: Nothing to build for hw3ex3
-Info: Nothing to build for hw3ex4
-Info: Nothing to build for hw3ex5
-Info: Nothing to build for hw3ex6
-Info: Nothing to build for hw3ex7
-Info: Nothing to build for hw3ex8
-Info: Nothing to build for hw4ex1
-Info: Nothing to build for hw4ex2
-Info: Nothing to build for hw4ex3
-Info: Nothing to build for hw4ex4
-Info: Nothing to build for testing
-Info: Nothing to build for ex1
-Info: Nothing to build for ex2
-Info: Nothing to build for ex3
-Info: Nothing to build for ex4
-Info: Nothing to build for ex5
-Info: Nothing to build for ex6
-Info: Nothing to build for ex7
-Info: Nothing to build for ex8
-Info: Nothing to build for hw3ex1
-Info: Nothing to build for hw3ex2
-Info: Nothing to build for hw3ex3
-Info: Nothing to build for hw3ex4
-Info: Nothing to build for hw3ex5
-Info: Nothing to build for hw3ex6
-Info: Nothing to build for hw3ex7
-Info: Nothing to build for hw3ex8
-Info: Nothing to build for hw4ex1
-Info: Nothing to build for hw4ex2
-Info: Nothing to build for hw4ex3
-Info: Nothing to build for hw4ex4
-Info: Nothing to build for testing
-03:55:04 **** Incremental Build of configuration Debug for project testing ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-..\src\testing.c:26:6: warning: return type of 'main' is not 'int' [-Wmain]
- void main()
-      ^~~~
-gcc -o testing.exe "src\\testing.o" 
-Info: Nothing to build for testing
-03:56:18 **** Incremental Build of configuration Debug for project testing ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-..\src\testing.c:26:6: warning: return type of 'main' is not 'int' [-Wmain]
- void main()
-      ^~~~
-gcc -o testing.exe "src\\testing.o" 
-03:56:53 **** Incremental Build of configuration Debug for project testing ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-..\src\testing.c:26:6: warning: return type of 'main' is not 'int' [-Wmain]
- void main()
-      ^~~~
-gcc -o testing.exe "src\\testing.o" 
-03:57:14 **** Incremental Build of configuration Debug for project testing ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-..\src\testing.c:26:6: warning: return type of 'main' is not 'int' [-Wmain]
- void main()
-      ^~~~
-gcc -o testing.exe "src\\testing.o" 
-03:57:39 **** Incremental Build of configuration Debug for project testing ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-..\src\testing.c:26:6: warning: return type of 'main' is not 'int' [-Wmain]
- void main()
-      ^~~~
-gcc -o testing.exe "src\\testing.o" 
-03:57:58 **** Incremental Build of configuration Debug for project testing ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-..\src\testing.c:26:6: warning: return type of 'main' is not 'int' [-Wmain]
- void main()
-      ^~~~
-gcc -o testing.exe "src\\testing.o" 
-04:00:16 **** Incremental Build of configuration Debug for project testing ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-..\src\testing.c:26:6: warning: return type of 'main' is not 'int' [-Wmain]
- void main()
-      ^~~~
-gcc -o testing.exe "src\\testing.o" 
-04:01:02 **** Incremental Build of configuration Debug for project testing ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-..\src\testing.c:26:6: warning: return type of 'main' is not 'int' [-Wmain]
- void main()
-      ^~~~
-gcc -o testing.exe "src\\testing.o" 
-Info: Nothing to build for ex1
-Info: Nothing to build for ex2
-Info: Nothing to build for ex3
-Info: Nothing to build for ex4
-Info: Nothing to build for ex5
-Info: Nothing to build for ex6
-Info: Nothing to build for ex7
-Info: Nothing to build for ex8
-Info: Nothing to build for hw3ex1
-Info: Nothing to build for hw3ex2
-Info: Nothing to build for hw3ex3
-Info: Nothing to build for hw3ex4
-Info: Nothing to build for hw3ex5
-Info: Nothing to build for hw3ex6
-Info: Nothing to build for hw3ex7
-Info: Nothing to build for hw3ex8
-Info: Nothing to build for hw4ex1
-Info: Nothing to build for hw4ex2
-Info: Nothing to build for hw4ex3
-Info: Nothing to build for hw4ex4
-04:05:55 **** Incremental Build of configuration Debug for project testing ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-..\src\testing.c:26:6: warning: return type of 'main' is not 'int' [-Wmain]
- void main()
-      ^~~~
-gcc -o testing.exe "src\\testing.o" 
-Info: Nothing to build for testing
-Info: Nothing to build for ex1
-Info: Nothing to build for ex2
-Info: Nothing to build for ex3
-Info: Nothing to build for ex4
-Info: Nothing to build for ex5
-Info: Nothing to build for ex6
-Info: Nothing to build for ex7
-Info: Nothing to build for ex8
-Info: Nothing to build for hw3ex1
-Info: Nothing to build for hw3ex2
-Info: Nothing to build for hw3ex3
-Info: Nothing to build for hw3ex4
-Info: Nothing to build for hw3ex5
-Info: Nothing to build for hw3ex6
-Info: Nothing to build for hw3ex7
-Info: Nothing to build for hw3ex8
-Info: Nothing to build for hw4ex1
-Info: Nothing to build for hw4ex2
-Info: Nothing to build for hw4ex3
-Info: Nothing to build for hw4ex4
-Info: Nothing to build for testing
-Info: Nothing to build for ex1
-Info: Nothing to build for ex2
-Info: Nothing to build for ex3
-Info: Nothing to build for ex4
-Info: Nothing to build for ex5
-Info: Nothing to build for ex6
-Info: Nothing to build for ex7
-Info: Nothing to build for ex8
-Info: Nothing to build for hw3ex1
-Info: Nothing to build for hw3ex2
-Info: Nothing to build for hw3ex3
-Info: Nothing to build for hw3ex4
-Info: Nothing to build for hw3ex5
-Info: Nothing to build for hw3ex6
-Info: Nothing to build for hw3ex7
-Info: Nothing to build for hw3ex8
-Info: Nothing to build for hw4ex1
-Info: Nothing to build for hw4ex2
-Info: Nothing to build for hw4ex3
-Info: Nothing to build for hw4ex4
-04:30:51 **** Incremental Build of configuration Debug for project testing ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-..\src\testing.c: In function 'turnint':
-..\src\testing.c:18:9: warning: passing argument 1 of 'atoi' makes pointer from integer without a cast [-Wint-conversion]
-  x=atoi(string);
-         ^~~~~~
-In file included from ..\src\testing.c:12:0:
-c:\mingw\include\stdlib.h:335:38: note: expected 'const char *' but argument is of type 'char'
- _CRTIMP __cdecl __MINGW_NOTHROW  int atoi (const char *);
-                                      ^~~~
-..\src\testing.c: At top level:
-..\src\testing.c:23:6: warning: return type of 'main' is not 'int' [-Wmain]
- void main()
-      ^~~~
-..\src\testing.c: In function 'main':
-..\src\testing.c:29:10: warning: passing argument 1 of 'turnint' makes integer from pointer without a cast [-Wint-conversion]
-  turnint(string,strlen(string));
-          ^~~~~~
-..\src\testing.c:15:5: note: expected 'char' but argument is of type 'char *'
- int turnint (char string,int len)
-     ^~~~~~~
-gcc -o testing.exe "src\\testing.o" 
-Info: Nothing to build for testing
-Info: Nothing to build for testing
-Info: Nothing to build for ex1
-Info: Nothing to build for ex2
-Info: Nothing to build for ex3
-Info: Nothing to build for ex4
-Info: Nothing to build for ex5
-Info: Nothing to build for ex6
-Info: Nothing to build for ex7
-Info: Nothing to build for ex8
-Info: Nothing to build for hw3ex1
-Info: Nothing to build for hw3ex2
-Info: Nothing to build for hw3ex3
-Info: Nothing to build for hw3ex4
-Info: Nothing to build for hw3ex5
-Info: Nothing to build for hw3ex6
-Info: Nothing to build for hw3ex7
-Info: Nothing to build for hw3ex8
-Info: Nothing to build for hw4ex1
-Info: Nothing to build for hw4ex2
-Info: Nothing to build for hw4ex3
-Info: Nothing to build for hw4ex4
-04:32:40 **** Incremental Build of configuration Debug for project testing ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-..\src\testing.c: In function 'turnint':
-..\src\testing.c:19:9: warning: passing argument 1 of 'atoi' makes pointer from integer without a cast [-Wint-conversion]
-  x=atoi(string);
-         ^~~~~~
-In file included from ..\src\testing.c:12:0:
-c:\mingw\include\stdlib.h:335:38: note: expected 'const char *' but argument is of type 'char'
- _CRTIMP __cdecl __MINGW_NOTHROW  int atoi (const char *);
-                                      ^~~~
-..\src\testing.c: At top level:
-..\src\testing.c:24:6: warning: return type of 'main' is not 'int' [-Wmain]
- void main()
-      ^~~~
-..\src\testing.c: In function 'main':
-..\src\testing.c:30:10: warning: passing argument 1 of 'turnint' makes integer from pointer without a cast [-Wint-conversion]
-  turnint(string,strlen(string));
-          ^~~~~~
-..\src\testing.c:17:5: note: expected 'char' but argument is of type 'char *'
- int turnint (char string,int len)
-     ^~~~~~~
-gcc -o testing.exe "src\\testing.o" 
-Info: Nothing to build for testing
-Info: Nothing to build for testing
-Info: Nothing to build for ex1
-Info: Nothing to build for ex2
-Info: Nothing to build for ex3
-Info: Nothing to build for ex4
-Info: Nothing to build for ex5
-Info: Nothing to build for ex6
-Info: Nothing to build for ex7
-Info: Nothing to build for ex8
-Info: Nothing to build for hw3ex1
-Info: Nothing to build for hw3ex2
-Info: Nothing to build for hw3ex3
-Info: Nothing to build for hw3ex4
-Info: Nothing to build for hw3ex5
-Info: Nothing to build for hw3ex6
-Info: Nothing to build for hw3ex7
-Info: Nothing to build for hw3ex8
-Info: Nothing to build for hw4ex1
-Info: Nothing to build for hw4ex2
-Info: Nothing to build for hw4ex3
-Info: Nothing to build for hw4ex4
-Info: Nothing to build for testing
-Info: Nothing to build for testing
-04:38:51 **** Incremental Build of configuration Debug for project testing ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-..\src\testing.c: In function 'turnint':
-..\src\testing.c:19:9: warning: passing argument 1 of 'atoi' makes pointer from integer without a cast [-Wint-conversion]
-  x=atoi(string);
-         ^~~~~~
-In file included from ..\src\testing.c:12:0:
-c:\mingw\include\stdlib.h:335:38: note: expected 'const char *' but argument is of type 'char'
- _CRTIMP __cdecl __MINGW_NOTHROW  int atoi (const char *);
-                                      ^~~~
-..\src\testing.c: At top level:
-..\src\testing.c:24:6: warning: return type of 'main' is not 'int' [-Wmain]
- void main()
-      ^~~~
-..\src\testing.c: In function 'main':
-..\src\testing.c:30:10: warning: passing argument 1 of 'turnint' makes integer from pointer without a cast [-Wint-conversion]
-  turnint(string,strlen(string));
-          ^~~~~~
-..\src\testing.c:17:5: note: expected 'char' but argument is of type 'char *'
- int turnint (char string,int len)
-     ^~~~~~~
-gcc -o testing.exe "src\\testing.o" 
-Info: Nothing to build for testing
-Info: Nothing to build for ex1
-Info: Nothing to build for ex2
-Info: Nothing to build for ex3
-Info: Nothing to build for ex4
-Info: Nothing to build for ex5
-Info: Nothing to build for ex6
-Info: Nothing to build for ex7
-Info: Nothing to build for ex8
-Info: Nothing to build for hw3ex1
-Info: Nothing to build for hw3ex2
-Info: Nothing to build for hw3ex3
-Info: Nothing to build for hw3ex4
-Info: Nothing to build for hw3ex5
-Info: Nothing to build for hw3ex6
-Info: Nothing to build for hw3ex7
-Info: Nothing to build for hw3ex8
-Info: Nothing to build for hw4ex1
-Info: Nothing to build for hw4ex2
-Info: Nothing to build for hw4ex3
-Info: Nothing to build for hw4ex4
-Info: Nothing to build for testing
-05:06:13 **** Incremental Build of configuration Debug for project testing ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-..\src\testing.c: In function 'turnint':
-..\src\testing.c:24:17: error: subscripted value is neither array nor pointer nor vector
-   decimal=string[len-i]*wight;
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+..\src\test.c: In function 'main':
+..\src\test.c:5:17: error: expected expression before '{' token
+ #define manga(x){x*x*x}
                  ^
-..\src\testing.c: At top level:
-..\src\testing.c:32:6: warning: return type of 'main' is not 'int' [-Wmain]
- void main()
-      ^~~~
-..\src\testing.c: In function 'main':
-..\src\testing.c:38:10: warning: passing argument 1 of 'turnint' makes integer from pointer without a cast [-Wint-conversion]
-  turnint(string,strlen(string));
-          ^~~~~~
-..\src\testing.c:18:5: note: expected 'char' but argument is of type 'char *'
- int turnint (char string,int len)
-     ^~~~~~~
-Info: Nothing to build for ex1
-Info: Nothing to build for ex2
-Info: Nothing to build for ex3
-Info: Nothing to build for ex4
-Info: Nothing to build for ex5
-Info: Nothing to build for ex6
-Info: Nothing to build for ex7
-Info: Nothing to build for ex8
-Info: Nothing to build for hw3ex1
-Info: Nothing to build for hw3ex2
-Info: Nothing to build for hw3ex3
-Info: Nothing to build for hw3ex4
-Info: Nothing to build for hw3ex5
-Info: Nothing to build for hw3ex6
-Info: Nothing to build for hw3ex7
-Info: Nothing to build for hw3ex8
-Info: Nothing to build for hw4ex1
-Info: Nothing to build for hw4ex2
-Info: Nothing to build for hw4ex3
-Info: Nothing to build for hw4ex4
-05:10:56 **** Incremental Build of configuration Debug for project testing ****
+..\src\test.c:9:17: note: in expansion of macro 'manga'
+     printf("%d",manga(3));
+                 ^~~~~
+01:16:52 **** Incremental Build of configuration Debug for project test ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-..\src\testing.c: In function 'turnint':
-..\src\testing.c:24:23: error: subscripted value is neither array nor pointer nor vector
-   decimal=wight*string[len-i];
-                       ^
-..\src\testing.c: At top level:
-..\src\testing.c:32:6: warning: return type of 'main' is not 'int' [-Wmain]
- void main()
-      ^~~~
-..\src\testing.c: In function 'main':
-..\src\testing.c:38:10: warning: passing argument 1 of 'turnint' makes integer from pointer without a cast [-Wint-conversion]
-  turnint(string,strlen(string));
-          ^~~~~~
-..\src\testing.c:18:5: note: expected 'char' but argument is of type 'char *'
- int turnint (char string,int len)
-     ^~~~~~~
-05:11:33 **** Incremental Build of configuration Debug for project testing ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+gcc -o test.exe "src\\test.o" 
+01:38:29 **** Incremental Build of configuration Debug for project test ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-..\src\testing.c: In function 'turnint':
-..\src\testing.c:24:19: error: subscripted value is neither array nor pointer nor vector
-   decimal=w*string[len-i];
-                   ^
-..\src\testing.c: At top level:
-..\src\testing.c:32:6: warning: return type of 'main' is not 'int' [-Wmain]
- void main()
-      ^~~~
-..\src\testing.c: In function 'main':
-..\src\testing.c:38:10: warning: passing argument 1 of 'turnint' makes integer from pointer without a cast [-Wint-conversion]
-  turnint(string,strlen(string));
-          ^~~~~~
-..\src\testing.c:18:5: note: expected 'char' but argument is of type 'char *'
- int turnint (char string,int len)
-     ^~~~~~~
-Info: Nothing to build for ex1
-Info: Nothing to build for ex2
-Info: Nothing to build for ex3
-Info: Nothing to build for ex4
-Info: Nothing to build for ex5
-Info: Nothing to build for ex6
-Info: Nothing to build for ex7
-Info: Nothing to build for ex8
-Info: Nothing to build for hw3ex1
-Info: Nothing to build for hw3ex2
-Info: Nothing to build for hw3ex3
-Info: Nothing to build for hw3ex4
-Info: Nothing to build for hw3ex5
-Info: Nothing to build for hw3ex6
-Info: Nothing to build for hw3ex7
-Info: Nothing to build for hw3ex8
-Info: Nothing to build for hw4ex1
-Info: Nothing to build for hw4ex2
-Info: Nothing to build for hw4ex3
-Info: Nothing to build for hw4ex4
-05:13:04 **** Incremental Build of configuration Debug for project testing ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+..\src\test.c: In function 'main':
+..\src\test.c:8:6: error: #elif with no expression
+ #elif
+      ^
+01:38:46 **** Incremental Build of configuration Debug for project test ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-..\src\testing.c: In function 'turnint':
-..\src\testing.c:24:22: error: subscripted value is neither array nor pointer nor vector
-   decimal= w * string[len-i];
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+gcc -o test.exe "src\\test.o" 
+01:40:02 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+gcc -o test.exe "src\\test.o" 
+01:40:48 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+..\src\test.c: In function 'main':
+..\src\test.c:6:0: error: unterminated #elif
+ #if a
+ 
+..\src\test.c:5:1: error: expected declaration or statement at end of input
+ {
+ ^
+22:59:29 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+gcc -o test.exe "src\\test.o" 
+Info: Nothing to build for test
+23:12:18 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+..\src\test.c: In function 'main':
+..\src\test.c:3:12: error: 'x' undeclared (first use in this function)
+ #define y (x + 3)
+            ^
+..\src\test.c:4:12: note: in expansion of macro 'y'
+ #define x (y - 1)
+            ^
+..\src\test.c:7:22: note: in expansion of macro 'x'
+     printf("%d", 4 * x + 2);
                       ^
-..\src\testing.c: At top level:
-..\src\testing.c:32:6: warning: return type of 'main' is not 'int' [-Wmain]
- void main()
-      ^~~~
-..\src\testing.c: In function 'main':
-..\src\testing.c:38:10: warning: passing argument 1 of 'turnint' makes integer from pointer without a cast [-Wint-conversion]
-  turnint(string,strlen(string));
-          ^~~~~~
-..\src\testing.c:18:5: note: expected 'char' but argument is of type 'char *'
- int turnint (char string,int len)
-     ^~~~~~~
-05:13:09 **** Incremental Build of configuration Debug for project testing ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-..\src\testing.c: In function 'turnint':
-..\src\testing.c:24:22: error: subscripted value is neither array nor pointer nor vector
-   decimal= w * string[len-i];
+..\src\test.c:3:12: note: each undeclared identifier is reported only once for each function it appears in
+ #define y (x + 3)
+            ^
+..\src\test.c:4:12: note: in expansion of macro 'y'
+ #define x (y - 1)
+            ^
+..\src\test.c:7:22: note: in expansion of macro 'x'
+     printf("%d", 4 * x + 2);
                       ^
-..\src\testing.c: At top level:
-..\src\testing.c:32:6: warning: return type of 'main' is not 'int' [-Wmain]
- void main()
-      ^~~~
-..\src\testing.c: In function 'main':
-..\src\testing.c:38:10: warning: passing argument 1 of 'turnint' makes integer from pointer without a cast [-Wint-conversion]
-  turnint(string,strlen(string));
-          ^~~~~~
-..\src\testing.c:18:5: note: expected 'char' but argument is of type 'char *'
- int turnint (char string,int len)
-     ^~~~~~~
-Info: Nothing to build for ex1
-Info: Nothing to build for ex2
-Info: Nothing to build for ex3
-Info: Nothing to build for ex4
-Info: Nothing to build for ex5
-Info: Nothing to build for ex6
-Info: Nothing to build for ex7
-Info: Nothing to build for ex8
-Info: Nothing to build for hw3ex1
-Info: Nothing to build for hw3ex2
-Info: Nothing to build for hw3ex3
-Info: Nothing to build for hw3ex4
-Info: Nothing to build for hw3ex5
-Info: Nothing to build for hw3ex6
-Info: Nothing to build for hw3ex7
-Info: Nothing to build for hw3ex8
-Info: Nothing to build for hw4ex1
-Info: Nothing to build for hw4ex2
-Info: Nothing to build for hw4ex3
-Info: Nothing to build for hw4ex4
-05:18:55 **** Incremental Build of configuration Debug for project testing ****
+23:20:18 **** Incremental Build of configuration Debug for project test ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-..\src\testing.c: In function 'turnint':
-..\src\testing.c:24:23: error: subscripted value is neither array nor pointer nor vector
-   decimal = w * string[len-i];
-                       ^
-..\src\testing.c: At top level:
-..\src\testing.c:32:6: warning: return type of 'main' is not 'int' [-Wmain]
- void main()
-      ^~~~
-..\src\testing.c: In function 'main':
-..\src\testing.c:38:10: warning: passing argument 1 of 'turnint' makes integer from pointer without a cast [-Wint-conversion]
-  turnint(string,strlen(string));
-          ^~~~~~
-..\src\testing.c:18:5: note: expected 'char' but argument is of type 'char *'
- int turnint (char string,int len)
-     ^~~~~~~
-05:18:59 **** Incremental Build of configuration Debug for project testing ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-..\src\testing.c: In function 'turnint':
-..\src\testing.c:24:23: error: subscripted value is neither array nor pointer nor vector
-   decimal = w * string[len-i];
-                       ^
-..\src\testing.c: At top level:
-..\src\testing.c:32:6: warning: return type of 'main' is not 'int' [-Wmain]
- void main()
-      ^~~~
-..\src\testing.c: In function 'main':
-..\src\testing.c:38:10: warning: passing argument 1 of 'turnint' makes integer from pointer without a cast [-Wint-conversion]
-  turnint(string,strlen(string));
-          ^~~~~~
-..\src\testing.c:18:5: note: expected 'char' but argument is of type 'char *'
- int turnint (char string,int len)
-     ^~~~~~~
-05:25:52 **** Incremental Build of configuration Debug for project testing ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-..\src\testing.c: In function 'turnint':
-..\src\testing.c:24:23: error: subscripted value is neither array nor pointer nor vector
-   decimal = w * string[len-i];
-                       ^
-..\src\testing.c: At top level:
-..\src\testing.c:32:6: warning: return type of 'main' is not 'int' [-Wmain]
- void main()
-      ^~~~
-..\src\testing.c: In function 'main':
-..\src\testing.c:38:10: warning: passing argument 1 of 'turnint' makes integer from pointer without a cast [-Wint-conversion]
-  turnint(string,strlen(string));
-          ^~~~~~
-..\src\testing.c:18:5: note: expected 'char' but argument is of type 'char *'
- int turnint (char string,int len)
-     ^~~~~~~
-05:27:42 **** Incremental Build of configuration Debug for project testing ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-..\src\testing.c: In function 'turnint':
-..\src\testing.c:24:24: error: subscripted value is neither array nor pointer nor vector
-   decimal = w * (string[len-i]);
-                        ^
-..\src\testing.c: At top level:
-..\src\testing.c:32:6: warning: return type of 'main' is not 'int' [-Wmain]
- void main()
-      ^~~~
-..\src\testing.c: In function 'main':
-..\src\testing.c:38:10: warning: passing argument 1 of 'turnint' makes integer from pointer without a cast [-Wint-conversion]
-  turnint(string,strlen(string));
-          ^~~~~~
-..\src\testing.c:18:5: note: expected 'char' but argument is of type 'char *'
- int turnint (char string,int len)
-     ^~~~~~~
-Info: Nothing to build for ex1
-Info: Nothing to build for ex2
-Info: Nothing to build for ex3
-Info: Nothing to build for ex4
-Info: Nothing to build for ex5
-Info: Nothing to build for ex6
-Info: Nothing to build for ex7
-Info: Nothing to build for ex8
-Info: Nothing to build for hw3ex1
-Info: Nothing to build for hw3ex2
-Info: Nothing to build for hw3ex3
-Info: Nothing to build for hw3ex4
-Info: Nothing to build for hw3ex5
-Info: Nothing to build for hw3ex6
-Info: Nothing to build for hw3ex7
-Info: Nothing to build for hw3ex8
-Info: Nothing to build for hw4ex1
-Info: Nothing to build for hw4ex2
-Info: Nothing to build for hw4ex3
-Info: Nothing to build for hw4ex4
-05:27:48 **** Incremental Build of configuration Debug for project testing ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-..\src\testing.c: In function 'turnint':
-..\src\testing.c:24:24: error: subscripted value is neither array nor pointer nor vector
-   decimal = w * (string[len-i]);
-                        ^
-..\src\testing.c: At top level:
-..\src\testing.c:32:6: warning: return type of 'main' is not 'int' [-Wmain]
- void main()
-      ^~~~
-..\src\testing.c: In function 'main':
-..\src\testing.c:38:10: warning: passing argument 1 of 'turnint' makes integer from pointer without a cast [-Wint-conversion]
-  turnint(string,strlen(string));
-          ^~~~~~
-..\src\testing.c:18:5: note: expected 'char' but argument is of type 'char *'
- int turnint (char string,int len)
-     ^~~~~~~
-05:29:31 **** Incremental Build of configuration Debug for project testing ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-gcc -o testing.exe "src\\testing.o" 
-c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file testing.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-Info: Nothing to build for ex1
-Info: Nothing to build for ex2
-Info: Nothing to build for ex3
-Info: Nothing to build for ex4
-Info: Nothing to build for ex5
-Info: Nothing to build for ex6
-Info: Nothing to build for ex7
-Info: Nothing to build for ex8
-Info: Nothing to build for hw3ex1
-Info: Nothing to build for hw3ex2
-Info: Nothing to build for hw3ex3
-Info: Nothing to build for hw3ex4
-Info: Nothing to build for hw3ex5
-Info: Nothing to build for hw3ex6
-Info: Nothing to build for hw3ex7
-Info: Nothing to build for hw3ex8
-Info: Nothing to build for hw4ex1
-Info: Nothing to build for hw4ex2
-Info: Nothing to build for hw4ex3
-Info: Nothing to build for hw4ex4
-05:29:53 **** Incremental Build of configuration Debug for project testing ****
-Info: Internal Builder is used for build
-gcc -o testing.exe "src\\testing.o" 
-c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file testing.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-05:30:19 **** Incremental Build of configuration Debug for project testing ****
-Info: Internal Builder is used for build
-gcc -o testing.exe "src\\testing.o" 
-05:33:50 **** Incremental Build of configuration Debug for project testing ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-..\src\testing.c:18:6: warning: return type of 'main' is not 'int' [-Wmain]
- void main()
-      ^~~~
-gcc -o testing.exe "src\\testing.o" 
-05:36:24 **** Incremental Build of configuration Debug for project testing ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-..\src\testing.c:18:6: warning: return type of 'main' is not 'int' [-Wmain]
- void main()
-      ^~~~
-gcc -o testing.exe "src\\testing.o" 
-05:36:56 **** Incremental Build of configuration Debug for project testing ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-..\src\testing.c:18:6: warning: return type of 'main' is not 'int' [-Wmain]
- void main()
-      ^~~~
-gcc -o testing.exe "src\\testing.o" 
-05:37:18 **** Incremental Build of configuration Debug for project testing ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-..\src\testing.c:18:6: warning: return type of 'main' is not 'int' [-Wmain]
- void main()
-      ^~~~
-gcc -o testing.exe "src\\testing.o" 
-Info: Nothing to build for ex1
-Info: Nothing to build for ex2
-Info: Nothing to build for ex3
-Info: Nothing to build for ex4
-Info: Nothing to build for ex5
-Info: Nothing to build for ex6
-Info: Nothing to build for ex7
-Info: Nothing to build for ex8
-Info: Nothing to build for hw3ex1
-Info: Nothing to build for hw3ex2
-Info: Nothing to build for hw3ex3
-Info: Nothing to build for hw3ex4
-Info: Nothing to build for hw3ex5
-Info: Nothing to build for hw3ex6
-Info: Nothing to build for hw3ex7
-Info: Nothing to build for hw3ex8
-Info: Nothing to build for hw4ex1
-Info: Nothing to build for hw4ex2
-Info: Nothing to build for hw4ex3
-Info: Nothing to build for hw4ex4
-16:59:34 **** Incremental Build of configuration Debug for project testing ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-..\src\testing.c:17:6: warning: return type of 'main' is not 'int' [-Wmain]
- void main()
-      ^~~~
-..\src\testing.c: In function 'main':
-..\src\testing.c:22:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'unsigned int' [-Wformat=]
-  scanf("%d",x);
-          ^
-gcc -o testing.exe "src\\testing.o" 
-Info: Nothing to build for testing
-Info: Nothing to build for ex1
-Info: Nothing to build for ex2
-Info: Nothing to build for ex3
-Info: Nothing to build for ex4
-Info: Nothing to build for ex5
-Info: Nothing to build for ex6
-Info: Nothing to build for ex7
-Info: Nothing to build for ex8
-Info: Nothing to build for hw3ex1
-Info: Nothing to build for hw3ex2
-Info: Nothing to build for hw3ex3
-Info: Nothing to build for hw3ex4
-Info: Nothing to build for hw3ex5
-Info: Nothing to build for hw3ex6
-Info: Nothing to build for hw3ex7
-Info: Nothing to build for hw3ex8
-Info: Nothing to build for hw4ex1
-Info: Nothing to build for hw4ex2
-Info: Nothing to build for hw4ex3
-Info: Nothing to build for hw4ex4
-17:01:05 **** Incremental Build of configuration Debug for project testing ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-..\src\testing.c: In function 'main':
-..\src\testing.c:22:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
-  scanf("%d",x);
-          ^
-gcc -o testing.exe "src\\testing.o" 
-Info: Nothing to build for ex1
-Info: Nothing to build for ex2
-Info: Nothing to build for ex3
-Info: Nothing to build for ex4
-Info: Nothing to build for ex5
-Info: Nothing to build for ex6
-Info: Nothing to build for ex7
-Info: Nothing to build for ex8
-Info: Nothing to build for hw3ex1
-Info: Nothing to build for hw3ex2
-Info: Nothing to build for hw3ex3
-Info: Nothing to build for hw3ex4
-Info: Nothing to build for hw3ex5
-Info: Nothing to build for hw3ex6
-Info: Nothing to build for hw3ex7
-Info: Nothing to build for hw3ex8
-Info: Nothing to build for hw4ex1
-Info: Nothing to build for hw4ex2
-Info: Nothing to build for hw4ex3
-Info: Nothing to build for hw4ex4
-Info: Nothing to build for testing
-17:01:23 **** Incremental Build of configuration Debug for project testing ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-gcc -o testing.exe "src\\testing.o" 
-Info: Nothing to build for testing
-Info: Nothing to build for testing
-20:08:07 **** Incremental Build of configuration Debug for project testing ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
-..\src\testing.c: In function 'main':
-..\src\testing.c:9:15: warning: initializer-string for array of chars is too long
-  char arr[11]="the african queen";
-               ^~~~~~~~~~~~~~~~~~~
-gcc -o testing.exe "src\\testing.o" 
-Info: Nothing to build for testing
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+..\src\test.c: In function 'main':
+..\src\test.c:5:6: error: lvalue required as increment operand
+  if(i++<lim)\
+      ^
+..\src\test.c:13:2: note: in expansion of macro 'hit'
+  hit(0,3);
+  ^~~

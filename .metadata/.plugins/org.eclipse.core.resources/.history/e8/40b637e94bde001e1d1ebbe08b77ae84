@@ -1,0 +1,45 @@
+/*
+ ============================================================================
+ Name        : hw5ex2.c
+ Author      : ahmed salah
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+struct Sdistance
+{
+	unsigned int feet;
+	float inch;
+}gd1,gd2,gr;
+
+void getdistance()
+{
+	printf("enter the values of the first distance\n");
+	printf("enter feet: ");
+	fflush(stdout);
+	scanf("%d",&gd1.feet);
+	printf("enter inches: ");
+	fflush(stdout);
+	scanf("%f",&gd2.inch);
+}
+void returnresult()
+{
+	gr=gd1+gd2;
+	if(gr.inch>=12)
+	{
+		gr.feet++;
+		gr.inch-=12;
+	}
+	printf("sum of distances: %d feet %.2f inches",gr.feet,gr.inch);
+}
+
+int main()
+{
+	gitdistance();
+	returnresult();
+}

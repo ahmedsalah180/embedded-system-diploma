@@ -1,0 +1,13 @@
+23:20:18 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+..\src\test.c: In function 'main':
+..\src\test.c:5:6: error: lvalue required as increment operand
+  if(i++<lim)\
+      ^
+..\src\test.c:13:2: note: in expansion of macro 'hit'
+  hit(0,3);
+  ^~~
+
+23:20:18 Build Finished (took 407ms)
+
