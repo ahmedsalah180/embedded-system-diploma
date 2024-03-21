@@ -554,3 +554,3274 @@ gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c"
 ..\src\test.c:13:2: note: in expansion of macro 'hit'
   hit(0,3);
   ^~~
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+Info: Nothing to build for ex7
+Info: Nothing to build for ex8
+Info: Nothing to build for five
+Info: Nothing to build for four
+Info: Nothing to build for hw3ex1
+Info: Nothing to build for hw3ex2
+Info: Nothing to build for hw3ex3
+Info: Nothing to build for hw3ex4
+Info: Nothing to build for hw3ex5
+Info: Nothing to build for hw3ex6
+Info: Nothing to build for hw3ex7
+Info: Nothing to build for hw3ex8
+Info: Nothing to build for hw4ex1
+Info: Nothing to build for hw4ex2
+Info: Nothing to build for hw4ex3
+Info: Nothing to build for hw4ex4
+03:33:28 **** Rebuild of configuration Debug for project hw5ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw5ex1.o" "..\\src\\hw5ex1.c" 
+gcc -o hw5ex1.exe "src\\hw5ex1.o" 
+03:33:32 **** Rebuild of configuration Debug for project hw5ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw5ex2.o" "..\\src\\hw5ex2.c" 
+gcc -o hw5ex2.exe "src\\hw5ex2.o" 
+03:33:33 **** Rebuild of configuration Debug for project hw5ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw5ex3.o" "..\\src\\hw5ex3.c" 
+gcc -o hw5ex3.exe "src\\hw5ex3.o" 
+03:33:35 **** Rebuild of configuration Debug for project hw5ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw5ex4.o" "..\\src\\hw5ex4.c" 
+gcc -o hw5ex4.exe "src\\hw5ex4.o" 
+03:33:36 **** Rebuild of configuration Debug for project hw5ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw5ex5.o" "..\\src\\hw5ex5.c" 
+gcc -o hw5ex5.exe "src\\hw5ex5.o" 
+03:33:38 **** Rebuild of configuration Debug for project hw6ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex1.o" "..\\src\\hw6ex1.c" 
+gcc -o hw6ex1.exe "src\\hw6ex1.o" 
+Info: Nothing to build for mtq1
+Info: Nothing to build for mtq10
+Info: Nothing to build for mtq2
+Info: Nothing to build for mtq3
+Info: Nothing to build for mtq4
+Info: Nothing to build for mtq5
+Info: Nothing to build for mtq6
+Info: Nothing to build for mtq7
+Info: Nothing to build for mtq8
+Info: Nothing to build for mtq9
+Info: Nothing to build for six
+Info: Nothing to build for three
+Info: Nothing to build for two
+03:33:45 **** Incremental Build of configuration Debug for project hw6ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex1.o" "..\\src\\hw6ex1.c" 
+..\src\hw6ex1.c: In function 'main':
+..\src\hw6ex1.c:17:9: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  int y =&m;
+         ^
+..\src\hw6ex1.c:22:27: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+  printf("address of m= 0x%x\n",ab);
+                           ^
+..\src\hw6ex1.c:26:2: error: expected ';' before 'printf'
+  printf("address of m= 0x%x\n",y);
+  ^~~~~~
+..\src\hw6ex1.c:30:27: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+  printf("address of m= 0x%x\n",ab);
+                           ^
+03:34:16 **** Incremental Build of configuration Debug for project hw6ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex1.o" "..\\src\\hw6ex1.c" 
+..\src\hw6ex1.c: In function 'main':
+..\src\hw6ex1.c:17:9: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  int y =&m;
+         ^
+..\src\hw6ex1.c:22:27: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+  printf("address of m= 0x%x\n",ab);
+                           ^
+..\src\hw6ex1.c:26:2: error: expected ';' before 'printf'
+  printf("address of m= 0x%x\n",y);
+  ^~~~~~
+..\src\hw6ex1.c:30:27: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+  printf("address of m= 0x%x\n",ab);
+                           ^
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+Info: Nothing to build for ex7
+Info: Nothing to build for ex8
+Info: Nothing to build for five
+Info: Nothing to build for four
+Info: Nothing to build for hw3ex1
+Info: Nothing to build for hw3ex2
+Info: Nothing to build for hw3ex3
+Info: Nothing to build for hw3ex4
+Info: Nothing to build for hw3ex5
+Info: Nothing to build for hw3ex6
+Info: Nothing to build for hw3ex7
+Info: Nothing to build for hw3ex8
+Info: Nothing to build for hw4ex1
+Info: Nothing to build for hw4ex2
+Info: Nothing to build for hw4ex3
+Info: Nothing to build for hw4ex4
+Info: Nothing to build for hw5ex1
+Info: Nothing to build for hw5ex2
+Info: Nothing to build for hw5ex3
+Info: Nothing to build for hw5ex4
+Info: Nothing to build for hw5ex5
+03:35:03 **** Incremental Build of configuration Debug for project hw6ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex1.o" "..\\src\\hw6ex1.c" 
+..\src\hw6ex1.c: In function 'main':
+..\src\hw6ex1.c:17:9: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  int y =&m;
+         ^
+..\src\hw6ex1.c:22:27: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+  printf("address of m= 0x%x\n",ab);
+                           ^
+..\src\hw6ex1.c:26:2: error: expected ';' before 'printf'
+  printf("address of m= 0x%x\n",y);
+  ^~~~~~
+..\src\hw6ex1.c:30:27: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+  printf("address of m= 0x%x\n",ab);
+                           ^
+Info: Nothing to build for mtq1
+Info: Nothing to build for mtq10
+Info: Nothing to build for mtq2
+Info: Nothing to build for mtq3
+Info: Nothing to build for mtq4
+Info: Nothing to build for mtq5
+Info: Nothing to build for mtq6
+Info: Nothing to build for mtq7
+Info: Nothing to build for mtq8
+Info: Nothing to build for mtq9
+Info: Nothing to build for six
+Info: Nothing to build for three
+Info: Nothing to build for two
+03:35:10 **** Incremental Build of configuration Debug for project hw6ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex1.o" "..\\src\\hw6ex1.c" 
+..\src\hw6ex1.c: In function 'main':
+..\src\hw6ex1.c:17:9: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  int y =&m;
+         ^
+..\src\hw6ex1.c:22:27: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+  printf("address of m= 0x%x\n",ab);
+                           ^
+..\src\hw6ex1.c:26:2: error: expected ';' before 'printf'
+  printf("address of m= 0x%d\n",y);
+  ^~~~~~
+..\src\hw6ex1.c:30:27: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+  printf("address of m= 0x%x\n",ab);
+                           ^
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+Info: Nothing to build for ex7
+Info: Nothing to build for ex8
+Info: Nothing to build for five
+Info: Nothing to build for four
+Info: Nothing to build for hw3ex1
+Info: Nothing to build for hw3ex2
+Info: Nothing to build for hw3ex3
+Info: Nothing to build for hw3ex4
+Info: Nothing to build for hw3ex5
+Info: Nothing to build for hw3ex6
+Info: Nothing to build for hw3ex7
+Info: Nothing to build for hw3ex8
+Info: Nothing to build for hw4ex1
+Info: Nothing to build for hw4ex2
+Info: Nothing to build for hw4ex3
+Info: Nothing to build for hw4ex4
+Info: Nothing to build for hw5ex1
+Info: Nothing to build for hw5ex2
+Info: Nothing to build for hw5ex3
+Info: Nothing to build for hw5ex4
+Info: Nothing to build for hw5ex5
+03:35:44 **** Incremental Build of configuration Debug for project hw6ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex1.o" "..\\src\\hw6ex1.c" 
+..\src\hw6ex1.c: In function 'main':
+..\src\hw6ex1.c:17:9: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  int y =&m;
+         ^
+..\src\hw6ex1.c:22:27: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+  printf("address of m= 0x%x\n",ab);
+                           ^
+..\src\hw6ex1.c:26:2: error: expected ';' before 'printf'
+  printf("address of m= 0x%d\n",y);
+  ^~~~~~
+..\src\hw6ex1.c:30:27: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+  printf("address of m= 0x%x\n",ab);
+                           ^
+Info: Nothing to build for mtq1
+Info: Nothing to build for mtq10
+Info: Nothing to build for mtq2
+Info: Nothing to build for mtq3
+Info: Nothing to build for mtq4
+Info: Nothing to build for mtq5
+Info: Nothing to build for mtq6
+Info: Nothing to build for mtq7
+Info: Nothing to build for mtq8
+Info: Nothing to build for mtq9
+Info: Nothing to build for six
+Info: Nothing to build for three
+Info: Nothing to build for two
+03:36:30 **** Incremental Build of configuration Debug for project hw6ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex1.o" "..\\src\\hw6ex1.c" 
+..\src\hw6ex1.c: In function 'main':
+..\src\hw6ex1.c:17:18: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  unsigned int y =&m;
+                  ^
+..\src\hw6ex1.c:20:10: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+  int* ab=&m;
+          ^
+..\src\hw6ex1.c:22:27: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+  printf("address of m= 0x%x\n",ab);
+                           ^
+..\src\hw6ex1.c:30:27: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+  printf("address of m= 0x%x\n",ab);
+                           ^
+gcc -o hw6ex1.exe "src\\hw6ex1.o" 
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+Info: Nothing to build for ex7
+Info: Nothing to build for ex8
+Info: Nothing to build for five
+Info: Nothing to build for four
+Info: Nothing to build for hw3ex1
+Info: Nothing to build for hw3ex2
+Info: Nothing to build for hw3ex3
+Info: Nothing to build for hw3ex4
+Info: Nothing to build for hw3ex5
+Info: Nothing to build for hw3ex6
+Info: Nothing to build for hw3ex7
+Info: Nothing to build for hw3ex8
+Info: Nothing to build for hw4ex1
+Info: Nothing to build for hw4ex2
+Info: Nothing to build for hw4ex3
+Info: Nothing to build for hw4ex4
+Info: Nothing to build for hw5ex1
+Info: Nothing to build for hw5ex2
+Info: Nothing to build for hw5ex3
+Info: Nothing to build for hw5ex4
+Info: Nothing to build for hw5ex5
+Info: Nothing to build for hw6ex1
+Info: Nothing to build for mtq1
+Info: Nothing to build for mtq10
+Info: Nothing to build for mtq2
+Info: Nothing to build for mtq3
+Info: Nothing to build for mtq4
+Info: Nothing to build for mtq5
+Info: Nothing to build for mtq6
+Info: Nothing to build for mtq7
+Info: Nothing to build for mtq8
+Info: Nothing to build for mtq9
+Info: Nothing to build for six
+Info: Nothing to build for three
+Info: Nothing to build for two
+03:37:46 **** Incremental Build of configuration Debug for project hw6ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex1.o" "..\\src\\hw6ex1.c" 
+..\src\hw6ex1.c: In function 'main':
+..\src\hw6ex1.c:17:18: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  unsigned int y =&m;
+                  ^
+..\src\hw6ex1.c:22:27: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'unsigned int *' [-Wformat=]
+  printf("address of m= 0x%x\n",ab);
+                           ^
+..\src\hw6ex1.c:30:27: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'unsigned int *' [-Wformat=]
+  printf("address of m= 0x%x\n",ab);
+                           ^
+gcc -o hw6ex1.exe "src\\hw6ex1.o" 
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+Info: Nothing to build for ex7
+Info: Nothing to build for ex8
+Info: Nothing to build for five
+Info: Nothing to build for four
+Info: Nothing to build for hw3ex1
+Info: Nothing to build for hw3ex2
+Info: Nothing to build for hw3ex3
+Info: Nothing to build for hw3ex4
+Info: Nothing to build for hw3ex5
+Info: Nothing to build for hw3ex6
+Info: Nothing to build for hw3ex7
+Info: Nothing to build for hw3ex8
+Info: Nothing to build for hw4ex1
+Info: Nothing to build for hw4ex2
+Info: Nothing to build for hw4ex3
+Info: Nothing to build for hw4ex4
+Info: Nothing to build for hw5ex1
+Info: Nothing to build for hw5ex2
+Info: Nothing to build for hw5ex3
+Info: Nothing to build for hw5ex4
+Info: Nothing to build for hw5ex5
+Info: Nothing to build for hw6ex1
+03:49:05 **** Rebuild of configuration Debug for project hw6ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex2.o" "..\\src\\hw6ex2.c" 
+gcc -o hw6ex2.exe "src\\hw6ex2.o" 
+Info: Nothing to build for mtq1
+Info: Nothing to build for mtq10
+Info: Nothing to build for mtq2
+Info: Nothing to build for mtq3
+Info: Nothing to build for mtq4
+Info: Nothing to build for mtq5
+Info: Nothing to build for mtq6
+Info: Nothing to build for mtq7
+Info: Nothing to build for mtq8
+Info: Nothing to build for mtq9
+Info: Nothing to build for six
+Info: Nothing to build for three
+Info: Nothing to build for two
+03:49:18 **** Incremental Build of configuration Debug for project hw6ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex2.o" "..\\src\\hw6ex2.c" 
+..\src\hw6ex2.c: In function 'main':
+..\src\hw6ex2.c:18:12: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char *ptr=&arr;
+            ^
+gcc -o hw6ex2.exe "src\\hw6ex2.o" 
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+Info: Nothing to build for ex7
+Info: Nothing to build for ex8
+Info: Nothing to build for five
+Info: Nothing to build for four
+Info: Nothing to build for hw3ex1
+Info: Nothing to build for hw3ex2
+Info: Nothing to build for hw3ex3
+Info: Nothing to build for hw3ex4
+Info: Nothing to build for hw3ex5
+Info: Nothing to build for hw3ex6
+Info: Nothing to build for hw3ex7
+Info: Nothing to build for hw3ex8
+Info: Nothing to build for hw4ex1
+Info: Nothing to build for hw4ex2
+Info: Nothing to build for hw4ex3
+Info: Nothing to build for hw4ex4
+Info: Nothing to build for hw5ex1
+Info: Nothing to build for hw5ex2
+Info: Nothing to build for hw5ex3
+Info: Nothing to build for hw5ex4
+Info: Nothing to build for hw5ex5
+Info: Nothing to build for hw6ex1
+Info: Nothing to build for hw6ex2
+03:57:59 **** Rebuild of configuration Debug for project hw6ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex3.o" "..\\src\\hw6ex3.c" 
+gcc -o hw6ex3.exe "src\\hw6ex3.o" 
+Info: Nothing to build for mtq1
+Info: Nothing to build for mtq10
+Info: Nothing to build for mtq2
+Info: Nothing to build for mtq3
+Info: Nothing to build for mtq4
+Info: Nothing to build for mtq5
+Info: Nothing to build for mtq6
+Info: Nothing to build for mtq7
+Info: Nothing to build for mtq8
+Info: Nothing to build for mtq9
+Info: Nothing to build for six
+Info: Nothing to build for three
+Info: Nothing to build for two
+03:58:04 **** Incremental Build of configuration Debug for project hw6ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex3.o" "..\\src\\hw6ex3.c" 
+..\src\hw6ex3.c: In function 'main':
+..\src\hw6ex3.c:20:12: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char *ptr=&string;
+            ^
+..\src\hw6ex3.c:21:10: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  ptr=ptr+strlen(string);
+          ^~~~~~
+..\src\hw6ex3.c:21:10: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\hw6ex3.c:21:10: note: include '<string.h>' or provide a declaration of 'strlen'
+gcc -o hw6ex3.exe "src\\hw6ex3.o" 
+03:58:58 **** Incremental Build of configuration Debug for project hw6ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex3.o" "..\\src\\hw6ex3.c" 
+..\src\hw6ex3.c: In function 'main':
+..\src\hw6ex3.c:20:12: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char *ptr=&string;
+            ^
+..\src\hw6ex3.c:21:10: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  ptr=ptr+strlen(string);
+          ^~~~~~
+..\src\hw6ex3.c:21:10: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\hw6ex3.c:21:10: note: include '<string.h>' or provide a declaration of 'strlen'
+..\src\hw6ex3.c:22:18: error: expected expression before '<' token
+  for (int i =0;i=<strlen(string);i++,ptr--)
+                  ^
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+Info: Nothing to build for ex7
+Info: Nothing to build for ex8
+Info: Nothing to build for five
+Info: Nothing to build for four
+Info: Nothing to build for hw3ex1
+Info: Nothing to build for hw3ex2
+Info: Nothing to build for hw3ex3
+Info: Nothing to build for hw3ex4
+Info: Nothing to build for hw3ex5
+Info: Nothing to build for hw3ex6
+Info: Nothing to build for hw3ex7
+Info: Nothing to build for hw3ex8
+Info: Nothing to build for hw4ex1
+Info: Nothing to build for hw4ex2
+Info: Nothing to build for hw4ex3
+Info: Nothing to build for hw4ex4
+Info: Nothing to build for hw5ex1
+Info: Nothing to build for hw5ex2
+Info: Nothing to build for hw5ex3
+Info: Nothing to build for hw5ex4
+Info: Nothing to build for hw5ex5
+Info: Nothing to build for hw6ex1
+Info: Nothing to build for hw6ex2
+04:00:18 **** Incremental Build of configuration Debug for project hw6ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex3.o" "..\\src\\hw6ex3.c" 
+..\src\hw6ex3.c: In function 'main':
+..\src\hw6ex3.c:20:12: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char *ptr=&string;
+            ^
+..\src\hw6ex3.c:21:10: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  ptr=ptr+strlen(string)-1;
+          ^~~~~~
+..\src\hw6ex3.c:21:10: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\hw6ex3.c:21:10: note: include '<string.h>' or provide a declaration of 'strlen'
+gcc -o hw6ex3.exe "src\\hw6ex3.o" 
+Info: Nothing to build for mtq1
+Info: Nothing to build for mtq10
+Info: Nothing to build for mtq2
+Info: Nothing to build for mtq3
+Info: Nothing to build for mtq4
+Info: Nothing to build for mtq5
+Info: Nothing to build for mtq6
+Info: Nothing to build for mtq7
+Info: Nothing to build for mtq8
+Info: Nothing to build for mtq9
+Info: Nothing to build for six
+Info: Nothing to build for three
+Info: Nothing to build for two
+Info: Nothing to build for hw6ex3
+Info: Nothing to build for hw6ex3
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+Info: Nothing to build for ex7
+Info: Nothing to build for ex8
+Info: Nothing to build for five
+Info: Nothing to build for four
+Info: Nothing to build for hw3ex1
+Info: Nothing to build for hw3ex2
+Info: Nothing to build for hw3ex3
+Info: Nothing to build for hw3ex4
+Info: Nothing to build for hw3ex5
+Info: Nothing to build for hw3ex6
+Info: Nothing to build for hw3ex7
+Info: Nothing to build for hw3ex8
+Info: Nothing to build for hw4ex1
+Info: Nothing to build for hw4ex2
+Info: Nothing to build for hw4ex3
+Info: Nothing to build for hw4ex4
+Info: Nothing to build for hw5ex1
+Info: Nothing to build for hw5ex2
+Info: Nothing to build for hw5ex3
+Info: Nothing to build for hw5ex4
+Info: Nothing to build for hw5ex5
+Info: Nothing to build for hw6ex1
+Info: Nothing to build for hw6ex2
+04:01:54 **** Incremental Build of configuration Debug for project hw6ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex3.o" "..\\src\\hw6ex3.c" 
+..\src\hw6ex3.c: In function 'main':
+..\src\hw6ex3.c:20:12: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char *ptr=&string;
+            ^
+..\src\hw6ex3.c:21:10: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  ptr=ptr+strlen(string)-1;
+          ^~~~~~
+..\src\hw6ex3.c:21:10: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\hw6ex3.c:21:10: note: include '<string.h>' or provide a declaration of 'strlen'
+..\src\hw6ex3.c:23:2: error: expected ';' before 'for'
+  for (int i =0;i<strlen(string);i++,ptr--)
+  ^~~
+Info: Nothing to build for mtq1
+Info: Nothing to build for mtq10
+Info: Nothing to build for mtq2
+Info: Nothing to build for mtq3
+Info: Nothing to build for mtq4
+Info: Nothing to build for mtq5
+Info: Nothing to build for mtq6
+Info: Nothing to build for mtq7
+Info: Nothing to build for mtq8
+Info: Nothing to build for mtq9
+Info: Nothing to build for six
+Info: Nothing to build for three
+Info: Nothing to build for two
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+Info: Nothing to build for ex7
+Info: Nothing to build for ex8
+Info: Nothing to build for five
+Info: Nothing to build for four
+Info: Nothing to build for hw3ex1
+Info: Nothing to build for hw3ex2
+Info: Nothing to build for hw3ex3
+Info: Nothing to build for hw3ex4
+Info: Nothing to build for hw3ex5
+Info: Nothing to build for hw3ex6
+Info: Nothing to build for hw3ex7
+Info: Nothing to build for hw3ex8
+Info: Nothing to build for hw4ex1
+Info: Nothing to build for hw4ex2
+Info: Nothing to build for hw4ex3
+Info: Nothing to build for hw4ex4
+Info: Nothing to build for hw5ex1
+Info: Nothing to build for hw5ex2
+Info: Nothing to build for hw5ex3
+Info: Nothing to build for hw5ex4
+Info: Nothing to build for hw5ex5
+Info: Nothing to build for hw6ex1
+Info: Nothing to build for hw6ex2
+04:02:30 **** Incremental Build of configuration Debug for project hw6ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex3.o" "..\\src\\hw6ex3.c" 
+..\src\hw6ex3.c: In function 'main':
+..\src\hw6ex3.c:20:12: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char *ptr=&string;
+            ^
+..\src\hw6ex3.c:21:10: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  ptr=ptr+strlen(string)-1;
+          ^~~~~~
+..\src\hw6ex3.c:21:10: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\hw6ex3.c:21:10: note: include '<string.h>' or provide a declaration of 'strlen'
+..\src\hw6ex3.c:23:2: error: expected ';' before 'for'
+  for (int i =0;i<strlen(string);i++,ptr--)
+  ^~~
+Info: Nothing to build for mtq1
+Info: Nothing to build for mtq10
+Info: Nothing to build for mtq2
+Info: Nothing to build for mtq3
+Info: Nothing to build for mtq4
+Info: Nothing to build for mtq5
+Info: Nothing to build for mtq6
+Info: Nothing to build for mtq7
+Info: Nothing to build for mtq8
+Info: Nothing to build for mtq9
+Info: Nothing to build for six
+Info: Nothing to build for three
+Info: Nothing to build for two
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+Info: Nothing to build for ex7
+Info: Nothing to build for ex8
+Info: Nothing to build for five
+Info: Nothing to build for four
+Info: Nothing to build for hw3ex1
+Info: Nothing to build for hw3ex2
+Info: Nothing to build for hw3ex3
+Info: Nothing to build for hw3ex4
+Info: Nothing to build for hw3ex5
+Info: Nothing to build for hw3ex6
+Info: Nothing to build for hw3ex7
+Info: Nothing to build for hw3ex8
+Info: Nothing to build for hw4ex1
+Info: Nothing to build for hw4ex2
+Info: Nothing to build for hw4ex3
+Info: Nothing to build for hw4ex4
+Info: Nothing to build for hw5ex1
+Info: Nothing to build for hw5ex2
+Info: Nothing to build for hw5ex3
+Info: Nothing to build for hw5ex4
+Info: Nothing to build for hw5ex5
+Info: Nothing to build for hw6ex1
+Info: Nothing to build for hw6ex2
+04:02:37 **** Incremental Build of configuration Debug for project hw6ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex3.o" "..\\src\\hw6ex3.c" 
+..\src\hw6ex3.c: In function 'main':
+..\src\hw6ex3.c:21:12: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char *ptr=&string;
+            ^
+gcc -o hw6ex3.exe "src\\hw6ex3.o" 
+Info: Nothing to build for mtq1
+Info: Nothing to build for mtq10
+Info: Nothing to build for mtq2
+Info: Nothing to build for mtq3
+Info: Nothing to build for mtq4
+Info: Nothing to build for mtq5
+Info: Nothing to build for mtq6
+Info: Nothing to build for mtq7
+Info: Nothing to build for mtq8
+Info: Nothing to build for mtq9
+Info: Nothing to build for six
+Info: Nothing to build for three
+Info: Nothing to build for two
+Info: Nothing to build for hw6ex3
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+Info: Nothing to build for ex7
+Info: Nothing to build for ex8
+Info: Nothing to build for five
+Info: Nothing to build for four
+Info: Nothing to build for hw3ex1
+Info: Nothing to build for hw3ex2
+Info: Nothing to build for hw3ex3
+Info: Nothing to build for hw3ex4
+Info: Nothing to build for hw3ex5
+Info: Nothing to build for hw3ex6
+Info: Nothing to build for hw3ex7
+Info: Nothing to build for hw3ex8
+Info: Nothing to build for hw4ex1
+Info: Nothing to build for hw4ex2
+Info: Nothing to build for hw4ex3
+Info: Nothing to build for hw4ex4
+Info: Nothing to build for hw5ex1
+Info: Nothing to build for hw5ex2
+Info: Nothing to build for hw5ex3
+Info: Nothing to build for hw5ex4
+Info: Nothing to build for hw5ex5
+Info: Nothing to build for hw6ex1
+Info: Nothing to build for hw6ex2
+04:03:12 **** Incremental Build of configuration Debug for project hw6ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex3.o" "..\\src\\hw6ex3.c" 
+..\src\hw6ex3.c: In function 'main':
+..\src\hw6ex3.c:21:12: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char *ptr=&string;
+            ^
+gcc -o hw6ex3.exe "src\\hw6ex3.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file hw6ex3.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for mtq1
+Info: Nothing to build for mtq10
+Info: Nothing to build for mtq2
+Info: Nothing to build for mtq3
+Info: Nothing to build for mtq4
+Info: Nothing to build for mtq5
+Info: Nothing to build for mtq6
+Info: Nothing to build for mtq7
+Info: Nothing to build for mtq8
+Info: Nothing to build for mtq9
+Info: Nothing to build for six
+Info: Nothing to build for three
+Info: Nothing to build for two
+04:03:15 **** Incremental Build of configuration Debug for project hw6ex3 ****
+Info: Internal Builder is used for build
+gcc -o hw6ex3.exe "src\\hw6ex3.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file hw6ex3.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+Info: Nothing to build for ex7
+Info: Nothing to build for ex8
+Info: Nothing to build for five
+Info: Nothing to build for four
+Info: Nothing to build for hw3ex1
+Info: Nothing to build for hw3ex2
+Info: Nothing to build for hw3ex3
+Info: Nothing to build for hw3ex4
+Info: Nothing to build for hw3ex5
+Info: Nothing to build for hw3ex6
+Info: Nothing to build for hw3ex7
+Info: Nothing to build for hw3ex8
+Info: Nothing to build for hw4ex1
+Info: Nothing to build for hw4ex2
+Info: Nothing to build for hw4ex3
+Info: Nothing to build for hw4ex4
+Info: Nothing to build for hw5ex1
+Info: Nothing to build for hw5ex2
+Info: Nothing to build for hw5ex3
+Info: Nothing to build for hw5ex4
+Info: Nothing to build for hw5ex5
+Info: Nothing to build for hw6ex1
+Info: Nothing to build for hw6ex2
+04:04:00 **** Incremental Build of configuration Debug for project hw6ex3 ****
+Info: Internal Builder is used for build
+gcc -o hw6ex3.exe "src\\hw6ex3.o" 
+Info: Nothing to build for mtq1
+Info: Nothing to build for mtq10
+Info: Nothing to build for mtq2
+Info: Nothing to build for mtq3
+Info: Nothing to build for mtq4
+Info: Nothing to build for mtq5
+Info: Nothing to build for mtq6
+Info: Nothing to build for mtq7
+Info: Nothing to build for mtq8
+Info: Nothing to build for mtq9
+Info: Nothing to build for six
+Info: Nothing to build for three
+Info: Nothing to build for two
+Info: Nothing to build for hw6ex3
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+Info: Nothing to build for ex7
+Info: Nothing to build for ex8
+Info: Nothing to build for five
+Info: Nothing to build for four
+Info: Nothing to build for hw3ex1
+Info: Nothing to build for hw3ex2
+Info: Nothing to build for hw3ex3
+Info: Nothing to build for hw3ex4
+Info: Nothing to build for hw3ex5
+Info: Nothing to build for hw3ex6
+Info: Nothing to build for hw3ex7
+Info: Nothing to build for hw3ex8
+Info: Nothing to build for hw4ex1
+Info: Nothing to build for hw4ex2
+Info: Nothing to build for hw4ex3
+Info: Nothing to build for hw4ex4
+Info: Nothing to build for hw5ex1
+Info: Nothing to build for hw5ex2
+Info: Nothing to build for hw5ex3
+Info: Nothing to build for hw5ex4
+Info: Nothing to build for hw5ex5
+Info: Nothing to build for hw6ex1
+Info: Nothing to build for hw6ex2
+Info: Nothing to build for hw6ex3
+05:21:00 **** Rebuild of configuration Debug for project hw6ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex4.o" "..\\src\\hw6ex4.c" 
+gcc -o hw6ex4.exe "src\\hw6ex4.o" 
+Info: Nothing to build for mtq1
+Info: Nothing to build for mtq10
+Info: Nothing to build for mtq2
+Info: Nothing to build for mtq3
+Info: Nothing to build for mtq4
+Info: Nothing to build for mtq5
+Info: Nothing to build for mtq6
+Info: Nothing to build for mtq7
+Info: Nothing to build for mtq8
+Info: Nothing to build for mtq9
+Info: Nothing to build for six
+Info: Nothing to build for three
+Info: Nothing to build for two
+05:21:06 **** Incremental Build of configuration Debug for project hw6ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex4.o" "..\\src\\hw6ex4.c" 
+..\src\hw6ex4.c: In function 'main':
+..\src\hw6ex4.c:21:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%d",n);
+          ^
+..\src\hw6ex4.c:27:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   scanf("%d",arr[i]);
+           ^
+..\src\hw6ex4.c:33:24: warning: format '%d' expects argument of type 'int', but argument 3 has type 'int *' [-Wformat=]
+   printf("element %d: %d\n",i,ptr--);
+                        ^
+..\src\hw6ex4.c:21:2: warning: 'n' is used uninitialized in this function [-Wuninitialized]
+  scanf("%d",n);
+  ^~~~~~~~~~~~~
+gcc -o hw6ex4.exe "src\\hw6ex4.o" 
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+Info: Nothing to build for ex7
+Info: Nothing to build for ex8
+Info: Nothing to build for five
+Info: Nothing to build for four
+Info: Nothing to build for hw3ex1
+Info: Nothing to build for hw3ex2
+Info: Nothing to build for hw3ex3
+Info: Nothing to build for hw3ex4
+Info: Nothing to build for hw3ex5
+Info: Nothing to build for hw3ex6
+Info: Nothing to build for hw3ex7
+Info: Nothing to build for hw3ex8
+Info: Nothing to build for hw4ex1
+Info: Nothing to build for hw4ex2
+Info: Nothing to build for hw4ex3
+Info: Nothing to build for hw4ex4
+Info: Nothing to build for hw5ex1
+Info: Nothing to build for hw5ex2
+Info: Nothing to build for hw5ex3
+Info: Nothing to build for hw5ex4
+Info: Nothing to build for hw5ex5
+Info: Nothing to build for hw6ex1
+Info: Nothing to build for hw6ex2
+Info: Nothing to build for hw6ex3
+05:22:08 **** Incremental Build of configuration Debug for project hw6ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex4.o" "..\\src\\hw6ex4.c" 
+..\src\hw6ex4.c: In function 'main':
+..\src\hw6ex4.c:27:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   scanf("%d",arr[i]);
+           ^
+..\src\hw6ex4.c:33:24: warning: format '%d' expects argument of type 'int', but argument 3 has type 'int *' [-Wformat=]
+   printf("element %d: %d\n",i,ptr--);
+                        ^
+gcc -o hw6ex4.exe "src\\hw6ex4.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file hw6ex4.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for mtq1
+Info: Nothing to build for mtq10
+Info: Nothing to build for mtq2
+Info: Nothing to build for mtq3
+Info: Nothing to build for mtq4
+Info: Nothing to build for mtq5
+Info: Nothing to build for mtq6
+Info: Nothing to build for mtq7
+Info: Nothing to build for mtq8
+Info: Nothing to build for mtq9
+Info: Nothing to build for six
+Info: Nothing to build for three
+Info: Nothing to build for two
+05:23:15 **** Incremental Build of configuration Debug for project hw6ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex4.o" "..\\src\\hw6ex4.c" 
+..\src\hw6ex4.c: In function 'main':
+..\src\hw6ex4.c:27:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   scanf("%d",arr[i]);
+           ^
+..\src\hw6ex4.c:32:24: warning: format '%d' expects argument of type 'int', but argument 3 has type 'int *' [-Wformat=]
+   printf("element %d: %d\n",i,ptr--);
+                        ^
+gcc -o hw6ex4.exe "src\\hw6ex4.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file hw6ex4.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+05:24:02 **** Incremental Build of configuration Debug for project hw6ex4 ****
+Info: Internal Builder is used for build
+gcc -o hw6ex4.exe "src\\hw6ex4.o" 
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+Info: Nothing to build for ex7
+Info: Nothing to build for ex8
+Info: Nothing to build for five
+Info: Nothing to build for four
+Info: Nothing to build for hw3ex1
+Info: Nothing to build for hw3ex2
+Info: Nothing to build for hw3ex3
+Info: Nothing to build for hw3ex4
+Info: Nothing to build for hw3ex5
+Info: Nothing to build for hw3ex6
+Info: Nothing to build for hw3ex7
+Info: Nothing to build for hw3ex8
+Info: Nothing to build for hw4ex1
+Info: Nothing to build for hw4ex2
+Info: Nothing to build for hw4ex3
+Info: Nothing to build for hw4ex4
+Info: Nothing to build for hw5ex1
+Info: Nothing to build for hw5ex2
+Info: Nothing to build for hw5ex3
+Info: Nothing to build for hw5ex4
+Info: Nothing to build for hw5ex5
+Info: Nothing to build for hw6ex1
+Info: Nothing to build for hw6ex2
+Info: Nothing to build for hw6ex3
+05:25:38 **** Incremental Build of configuration Debug for project hw6ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex4.o" "..\\src\\hw6ex4.c" 
+..\src\hw6ex4.c: In function 'main':
+..\src\hw6ex4.c:27:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   scanf("%d",arr[i]);
+           ^
+..\src\hw6ex4.c:32:24: warning: format '%d' expects argument of type 'int', but argument 3 has type 'int *' [-Wformat=]
+   printf("element %d: %d\n",i,ptr--);
+                        ^
+gcc -o hw6ex4.exe "src\\hw6ex4.o" 
+Info: Nothing to build for mtq1
+Info: Nothing to build for mtq10
+Info: Nothing to build for mtq2
+Info: Nothing to build for mtq3
+Info: Nothing to build for mtq4
+Info: Nothing to build for mtq5
+Info: Nothing to build for mtq6
+Info: Nothing to build for mtq7
+Info: Nothing to build for mtq8
+Info: Nothing to build for mtq9
+Info: Nothing to build for six
+Info: Nothing to build for three
+Info: Nothing to build for two
+Info: Nothing to build for hw6ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+Info: Nothing to build for ex7
+Info: Nothing to build for ex8
+Info: Nothing to build for five
+Info: Nothing to build for four
+Info: Nothing to build for hw3ex1
+Info: Nothing to build for hw3ex2
+Info: Nothing to build for hw3ex3
+Info: Nothing to build for hw3ex4
+Info: Nothing to build for hw3ex5
+Info: Nothing to build for hw3ex6
+Info: Nothing to build for hw3ex7
+Info: Nothing to build for hw3ex8
+Info: Nothing to build for hw4ex1
+Info: Nothing to build for hw4ex2
+Info: Nothing to build for hw4ex3
+Info: Nothing to build for hw4ex4
+Info: Nothing to build for hw5ex1
+Info: Nothing to build for hw5ex2
+Info: Nothing to build for hw5ex3
+Info: Nothing to build for hw5ex4
+Info: Nothing to build for hw5ex5
+Info: Nothing to build for hw6ex1
+Info: Nothing to build for hw6ex2
+Info: Nothing to build for hw6ex3
+05:26:35 **** Incremental Build of configuration Debug for project hw6ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex4.o" "..\\src\\hw6ex4.c" 
+gcc -o hw6ex4.exe "src\\hw6ex4.o" 
+Info: Nothing to build for mtq1
+Info: Nothing to build for mtq10
+Info: Nothing to build for mtq2
+Info: Nothing to build for mtq3
+Info: Nothing to build for mtq4
+Info: Nothing to build for mtq5
+Info: Nothing to build for mtq6
+Info: Nothing to build for mtq7
+Info: Nothing to build for mtq8
+Info: Nothing to build for mtq9
+Info: Nothing to build for six
+Info: Nothing to build for three
+Info: Nothing to build for two
+Info: Nothing to build for hw6ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+Info: Nothing to build for ex7
+Info: Nothing to build for ex8
+Info: Nothing to build for five
+Info: Nothing to build for four
+Info: Nothing to build for hw3ex1
+Info: Nothing to build for hw3ex2
+Info: Nothing to build for hw3ex3
+Info: Nothing to build for hw3ex4
+Info: Nothing to build for hw3ex5
+Info: Nothing to build for hw3ex6
+Info: Nothing to build for hw3ex7
+Info: Nothing to build for hw3ex8
+Info: Nothing to build for hw4ex1
+Info: Nothing to build for hw4ex2
+Info: Nothing to build for hw4ex3
+Info: Nothing to build for hw4ex4
+Info: Nothing to build for hw5ex1
+Info: Nothing to build for hw5ex2
+Info: Nothing to build for hw5ex3
+Info: Nothing to build for hw5ex4
+Info: Nothing to build for hw5ex5
+Info: Nothing to build for hw6ex1
+Info: Nothing to build for hw6ex2
+Info: Nothing to build for hw6ex3
+Info: Nothing to build for hw6ex4
+Info: Nothing to build for mtq1
+Info: Nothing to build for mtq10
+Info: Nothing to build for mtq2
+Info: Nothing to build for mtq3
+Info: Nothing to build for mtq4
+Info: Nothing to build for mtq5
+Info: Nothing to build for mtq6
+Info: Nothing to build for mtq7
+Info: Nothing to build for mtq8
+Info: Nothing to build for mtq9
+Info: Nothing to build for six
+Info: Nothing to build for three
+Info: Nothing to build for two
+05:28:58 **** Incremental Build of configuration Debug for project hw6ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex4.o" "..\\src\\hw6ex4.c" 
+gcc -o hw6ex4.exe "src\\hw6ex4.o" 
+05:29:53 **** Incremental Build of configuration Debug for project hw6ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex4.o" "..\\src\\hw6ex4.c" 
+gcc -o hw6ex4.exe "src\\hw6ex4.o" 
+05:33:44 **** Incremental Build of configuration Debug for project hw6ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex4.o" "..\\src\\hw6ex4.c" 
+gcc -o hw6ex4.exe "src\\hw6ex4.o" 
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+Info: Nothing to build for ex7
+Info: Nothing to build for ex8
+Info: Nothing to build for five
+Info: Nothing to build for four
+Info: Nothing to build for hw3ex1
+Info: Nothing to build for hw3ex2
+Info: Nothing to build for hw3ex3
+Info: Nothing to build for hw3ex4
+Info: Nothing to build for hw3ex5
+Info: Nothing to build for hw3ex6
+Info: Nothing to build for hw3ex7
+Info: Nothing to build for hw3ex8
+Info: Nothing to build for hw4ex1
+Info: Nothing to build for hw4ex2
+Info: Nothing to build for hw4ex3
+Info: Nothing to build for hw4ex4
+Info: Nothing to build for hw5ex1
+Info: Nothing to build for hw5ex2
+Info: Nothing to build for hw5ex3
+Info: Nothing to build for hw5ex4
+Info: Nothing to build for hw5ex5
+Info: Nothing to build for hw6ex1
+Info: Nothing to build for hw6ex2
+Info: Nothing to build for hw6ex3
+21:03:47 **** Incremental Build of configuration Debug for project hw6ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex4.o" "..\\src\\hw6ex4.c" 
+gcc -o hw6ex4.exe "src\\hw6ex4.o" 
+21:03:54 **** Rebuild of configuration Debug for project hw6ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex5.o" "..\\src\\hw6ex5.c" 
+..\src\hw6ex5.c: In function 'main':
+..\src\hw6ex5.c:28:6: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+  arrp=&arr;
+      ^
+..\src\hw6ex5.c:29:26: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+  printf("employee name: %s",*arrp->name);
+                          ^
+gcc -o hw6ex5.exe "src\\hw6ex5.o" 
+Info: Nothing to build for mtq1
+Info: Nothing to build for mtq10
+Info: Nothing to build for mtq2
+Info: Nothing to build for mtq3
+Info: Nothing to build for mtq4
+Info: Nothing to build for mtq5
+Info: Nothing to build for mtq6
+Info: Nothing to build for mtq7
+Info: Nothing to build for mtq8
+Info: Nothing to build for mtq9
+Info: Nothing to build for six
+Info: Nothing to build for three
+Info: Nothing to build for two
+Info: Nothing to build for hw6ex5
+21:04:33 **** Incremental Build of configuration Debug for project hw6ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex5.o" "..\\src\\hw6ex5.c" 
+..\src\hw6ex5.c: In function 'main':
+..\src\hw6ex5.c:28:6: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+  arrp=&arr;
+      ^
+..\src\hw6ex5.c:29:29: error: invalid type argument of unary '*' (have 'int')
+  printf("employee name: %s",**arrp->name);
+                             ^~~~~~~~~~~~
+21:04:54 **** Incremental Build of configuration Debug for project hw6ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex5.o" "..\\src\\hw6ex5.c" 
+..\src\hw6ex5.c: In function 'main':
+..\src\hw6ex5.c:28:6: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+  arrp=&arr;
+      ^
+..\src\hw6ex5.c:29:34: error: '*arrp' is a pointer; did you mean to use '->'?
+  printf("employee name: %s",*arrp->name);
+                                  ^~
+                                  ->
+..\src\hw6ex5.c:30:31: error: '*arrp' is a pointer; did you mean to use '->'?
+  printf("employee ID: %d",arrp->id);
+                               ^~
+                               ->
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+Info: Nothing to build for ex7
+Info: Nothing to build for ex8
+Info: Nothing to build for five
+Info: Nothing to build for four
+Info: Nothing to build for hw3ex1
+Info: Nothing to build for hw3ex2
+Info: Nothing to build for hw3ex3
+Info: Nothing to build for hw3ex4
+Info: Nothing to build for hw3ex5
+Info: Nothing to build for hw3ex6
+Info: Nothing to build for hw3ex7
+Info: Nothing to build for hw3ex8
+Info: Nothing to build for hw4ex1
+Info: Nothing to build for hw4ex2
+Info: Nothing to build for hw4ex3
+Info: Nothing to build for hw4ex4
+Info: Nothing to build for hw5ex1
+Info: Nothing to build for hw5ex2
+Info: Nothing to build for hw5ex3
+Info: Nothing to build for hw5ex4
+Info: Nothing to build for hw5ex5
+Info: Nothing to build for hw6ex1
+Info: Nothing to build for hw6ex2
+Info: Nothing to build for hw6ex3
+Info: Nothing to build for hw6ex4
+21:06:05 **** Incremental Build of configuration Debug for project hw6ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex5.o" "..\\src\\hw6ex5.c" 
+..\src\hw6ex5.c: In function 'main':
+..\src\hw6ex5.c:28:6: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+  arrp=&arr;
+      ^
+..\src\hw6ex5.c:29:35: error: '*arrp' is a pointer; did you mean to use '->'?
+  printf("employee name: %s",**arrp->name);
+                                   ^~
+                                   ->
+..\src\hw6ex5.c:30:33: error: '*arrp' is a pointer; did you mean to use '->'?
+  printf("employee ID: %d",**arrp->id);
+                                 ^~
+                                 ->
+Info: Nothing to build for mtq1
+Info: Nothing to build for mtq10
+Info: Nothing to build for mtq2
+Info: Nothing to build for mtq3
+Info: Nothing to build for mtq4
+Info: Nothing to build for mtq5
+Info: Nothing to build for mtq6
+Info: Nothing to build for mtq7
+Info: Nothing to build for mtq8
+Info: Nothing to build for mtq9
+Info: Nothing to build for six
+Info: Nothing to build for three
+Info: Nothing to build for two
+21:06:13 **** Incremental Build of configuration Debug for project hw6ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex5.o" "..\\src\\hw6ex5.c" 
+..\src\hw6ex5.c: In function 'main':
+..\src\hw6ex5.c:28:6: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+  arrp=&arr;
+      ^
+..\src\hw6ex5.c:29:35: error: '*arrp' is a pointer; did you mean to use '->'?
+  printf("employee name: %s",**arrp->name);
+                                   ^~
+                                   ->
+..\src\hw6ex5.c:30:33: error: '*arrp' is a pointer; did you mean to use '->'?
+  printf("employee ID: %d",**arrp->id);
+                                 ^~
+                                 ->
+21:08:05 **** Incremental Build of configuration Debug for project hw6ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex5.o" "..\\src\\hw6ex5.c" 
+..\src\hw6ex5.c: In function 'main':
+..\src\hw6ex5.c:28:6: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+  arrp=&arr;
+      ^
+..\src\hw6ex5.c:29:34: error: '*arrp' is a pointer; did you mean to use '->'?
+  printf("employee name: %s",*arrp->name);
+                                  ^~
+                                  ->
+..\src\hw6ex5.c:30:32: error: '*arrp' is a pointer; did you mean to use '->'?
+  printf("employee ID: %d",*arrp->id);
+                                ^~
+                                ->
+21:08:47 **** Incremental Build of configuration Debug for project hw6ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex5.o" "..\\src\\hw6ex5.c" 
+..\src\hw6ex5.c: In function 'main':
+..\src\hw6ex5.c:28:6: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+  arrp=&arr;
+      ^
+..\src\hw6ex5.c:29:55: error: '*arrp' is a pointer; did you mean to use '->'?
+  printf("employee name: %s",(struct emploeedata*)*arrp->name);
+                                                       ^~
+                                                       ->
+..\src\hw6ex5.c:30:53: error: '*arrp' is a pointer; did you mean to use '->'?
+  printf("employee ID: %d",(struct emploeedata*)*arrp->id);
+                                                     ^~
+                                                     ->
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+Info: Nothing to build for ex7
+Info: Nothing to build for ex8
+Info: Nothing to build for five
+Info: Nothing to build for four
+Info: Nothing to build for hw3ex1
+Info: Nothing to build for hw3ex2
+Info: Nothing to build for hw3ex3
+Info: Nothing to build for hw3ex4
+Info: Nothing to build for hw3ex5
+Info: Nothing to build for hw3ex6
+Info: Nothing to build for hw3ex7
+Info: Nothing to build for hw3ex8
+Info: Nothing to build for hw4ex1
+Info: Nothing to build for hw4ex2
+Info: Nothing to build for hw4ex3
+Info: Nothing to build for hw4ex4
+Info: Nothing to build for hw5ex1
+Info: Nothing to build for hw5ex2
+Info: Nothing to build for hw5ex3
+Info: Nothing to build for hw5ex4
+Info: Nothing to build for hw5ex5
+Info: Nothing to build for hw6ex1
+Info: Nothing to build for hw6ex2
+Info: Nothing to build for hw6ex3
+Info: Nothing to build for hw6ex4
+21:10:54 **** Incremental Build of configuration Debug for project hw6ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex5.o" "..\\src\\hw6ex5.c" 
+..\src\hw6ex5.c: In function 'main':
+..\src\hw6ex5.c:27:31: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  struct emploeedata *arr[] = {&ptr1, &ptr2, &ptr3};
+                               ^
+..\src\hw6ex5.c:27:31: note: (near initialization for 'arr[0]')
+..\src\hw6ex5.c:27:38: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  struct emploeedata *arr[] = {&ptr1, &ptr2, &ptr3};
+                                      ^
+..\src\hw6ex5.c:27:38: note: (near initialization for 'arr[1]')
+..\src\hw6ex5.c:27:45: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  struct emploeedata *arr[] = {&ptr1, &ptr2, &ptr3};
+                                             ^
+..\src\hw6ex5.c:27:45: note: (near initialization for 'arr[2]')
+..\src\hw6ex5.c:29:34: error: '*arrp' is a pointer; did you mean to use '->'?
+  printf("employee name: %s",*arrp->name);
+                                  ^~
+                                  ->
+..\src\hw6ex5.c:30:32: error: '*arrp' is a pointer; did you mean to use '->'?
+  printf("employee ID: %d",*arrp->id);
+                                ^~
+                                ->
+Info: Nothing to build for mtq1
+Info: Nothing to build for mtq10
+Info: Nothing to build for mtq2
+Info: Nothing to build for mtq3
+Info: Nothing to build for mtq4
+Info: Nothing to build for mtq5
+Info: Nothing to build for mtq6
+Info: Nothing to build for mtq7
+Info: Nothing to build for mtq8
+Info: Nothing to build for mtq9
+Info: Nothing to build for six
+Info: Nothing to build for three
+Info: Nothing to build for two
+21:11:05 **** Incremental Build of configuration Debug for project hw6ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex5.o" "..\\src\\hw6ex5.c" 
+..\src\hw6ex5.c: In function 'main':
+..\src\hw6ex5.c:27:31: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  struct emploeedata *arr[] = {&ptr1, &ptr2, &ptr3};
+                               ^
+..\src\hw6ex5.c:27:31: note: (near initialization for 'arr[0]')
+..\src\hw6ex5.c:27:38: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  struct emploeedata *arr[] = {&ptr1, &ptr2, &ptr3};
+                                      ^
+..\src\hw6ex5.c:27:38: note: (near initialization for 'arr[1]')
+..\src\hw6ex5.c:27:45: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  struct emploeedata *arr[] = {&ptr1, &ptr2, &ptr3};
+                                             ^
+..\src\hw6ex5.c:27:45: note: (near initialization for 'arr[2]')
+..\src\hw6ex5.c:29:34: error: '*arrp' is a pointer; did you mean to use '->'?
+  printf("employee name: %s",*arrp->name);
+                                  ^~
+                                  ->
+..\src\hw6ex5.c:30:32: error: '*arrp' is a pointer; did you mean to use '->'?
+  printf("employee ID: %d",*arrp->id);
+                                ^~
+                                ->
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+Info: Nothing to build for ex7
+Info: Nothing to build for ex8
+Info: Nothing to build for five
+Info: Nothing to build for four
+Info: Nothing to build for hw3ex1
+Info: Nothing to build for hw3ex2
+Info: Nothing to build for hw3ex3
+Info: Nothing to build for hw3ex4
+Info: Nothing to build for hw3ex5
+Info: Nothing to build for hw3ex6
+Info: Nothing to build for hw3ex7
+Info: Nothing to build for hw3ex8
+Info: Nothing to build for hw4ex1
+Info: Nothing to build for hw4ex2
+Info: Nothing to build for hw4ex3
+Info: Nothing to build for hw4ex4
+Info: Nothing to build for hw5ex1
+Info: Nothing to build for hw5ex2
+Info: Nothing to build for hw5ex3
+Info: Nothing to build for hw5ex4
+Info: Nothing to build for hw5ex5
+Info: Nothing to build for hw6ex1
+Info: Nothing to build for hw6ex2
+Info: Nothing to build for hw6ex3
+Info: Nothing to build for hw6ex4
+21:11:17 **** Incremental Build of configuration Debug for project hw6ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex5.o" "..\\src\\hw6ex5.c" 
+..\src\hw6ex5.c: In function 'main':
+..\src\hw6ex5.c:27:31: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  struct emploeedata *arr[] = {&ptr1, &ptr2, &ptr3};
+                               ^
+..\src\hw6ex5.c:27:31: note: (near initialization for 'arr[0]')
+..\src\hw6ex5.c:27:38: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  struct emploeedata *arr[] = {&ptr1, &ptr2, &ptr3};
+                                      ^
+..\src\hw6ex5.c:27:38: note: (near initialization for 'arr[1]')
+..\src\hw6ex5.c:27:45: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  struct emploeedata *arr[] = {&ptr1, &ptr2, &ptr3};
+                                             ^
+..\src\hw6ex5.c:27:45: note: (near initialization for 'arr[2]')
+..\src\hw6ex5.c:29:34: error: '*arrp' is a pointer; did you mean to use '->'?
+  printf("employee name: %s",*arrp->name);
+                                  ^~
+                                  ->
+..\src\hw6ex5.c:30:32: error: '*arrp' is a pointer; did you mean to use '->'?
+  printf("employee ID: %d",*arrp->id);
+                                ^~
+                                ->
+Info: Nothing to build for mtq1
+Info: Nothing to build for mtq10
+Info: Nothing to build for mtq2
+Info: Nothing to build for mtq3
+Info: Nothing to build for mtq4
+Info: Nothing to build for mtq5
+Info: Nothing to build for mtq6
+Info: Nothing to build for mtq7
+Info: Nothing to build for mtq8
+Info: Nothing to build for mtq9
+Info: Nothing to build for six
+Info: Nothing to build for three
+Info: Nothing to build for two
+21:11:21 **** Incremental Build of configuration Debug for project hw6ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex5.o" "..\\src\\hw6ex5.c" 
+..\src\hw6ex5.c: In function 'main':
+..\src\hw6ex5.c:27:31: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  struct emploeedata *arr[] = {&ptr1, &ptr2, &ptr3};
+                               ^
+..\src\hw6ex5.c:27:31: note: (near initialization for 'arr[0]')
+..\src\hw6ex5.c:27:38: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  struct emploeedata *arr[] = {&ptr1, &ptr2, &ptr3};
+                                      ^
+..\src\hw6ex5.c:27:38: note: (near initialization for 'arr[1]')
+..\src\hw6ex5.c:27:45: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  struct emploeedata *arr[] = {&ptr1, &ptr2, &ptr3};
+                                             ^
+..\src\hw6ex5.c:27:45: note: (near initialization for 'arr[2]')
+..\src\hw6ex5.c:29:35: error: '*arrp' is a pointer; did you mean to use '->'?
+  printf("employee name: %s",**arrp->name);
+                                   ^~
+                                   ->
+..\src\hw6ex5.c:30:33: error: '*arrp' is a pointer; did you mean to use '->'?
+  printf("employee ID: %d",**arrp->id);
+                                 ^~
+                                 ->
+21:12:20 **** Incremental Build of configuration Debug for project hw6ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex5.o" "..\\src\\hw6ex5.c" 
+..\src\hw6ex5.c: In function 'main':
+..\src\hw6ex5.c:27:31: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  struct emploeedata *arr[] = {&ptr1, &ptr2, &ptr3};
+                               ^
+..\src\hw6ex5.c:27:31: note: (near initialization for 'arr[0]')
+..\src\hw6ex5.c:27:38: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  struct emploeedata *arr[] = {&ptr1, &ptr2, &ptr3};
+                                      ^
+..\src\hw6ex5.c:27:38: note: (near initialization for 'arr[1]')
+..\src\hw6ex5.c:27:45: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  struct emploeedata *arr[] = {&ptr1, &ptr2, &ptr3};
+                                             ^
+..\src\hw6ex5.c:27:45: note: (near initialization for 'arr[2]')
+..\src\hw6ex5.c:29:29: error: invalid type argument of unary '*' (have 'int')
+  printf("employee name: %s",**arrp[0]->name);
+                             ^~~~~~~~~~~~~~~
+..\src\hw6ex5.c:30:28: error: invalid type argument of unary '*' (have 'unsigned int')
+  printf("employee ID: %d",**arrp[0]->id);
+                            ^~~~~~~~~~~~
+21:12:36 **** Incremental Build of configuration Debug for project hw6ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex5.o" "..\\src\\hw6ex5.c" 
+..\src\hw6ex5.c: In function 'main':
+..\src\hw6ex5.c:27:31: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  struct emploeedata *arr[] = {&ptr1, &ptr2, &ptr3};
+                               ^
+..\src\hw6ex5.c:27:31: note: (near initialization for 'arr[0]')
+..\src\hw6ex5.c:27:38: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  struct emploeedata *arr[] = {&ptr1, &ptr2, &ptr3};
+                                      ^
+..\src\hw6ex5.c:27:38: note: (near initialization for 'arr[1]')
+..\src\hw6ex5.c:27:45: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  struct emploeedata *arr[] = {&ptr1, &ptr2, &ptr3};
+                                             ^
+..\src\hw6ex5.c:27:45: note: (near initialization for 'arr[2]')
+..\src\hw6ex5.c:29:26: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+  printf("employee name: %s",*arrp[0]->name);
+                          ^
+..\src\hw6ex5.c:30:27: error: invalid type argument of unary '*' (have 'unsigned int')
+  printf("employee ID: %d",*arrp[0]->id);
+                           ^~~~~~~~~~~~
+21:12:50 **** Incremental Build of configuration Debug for project hw6ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex5.o" "..\\src\\hw6ex5.c" 
+..\src\hw6ex5.c: In function 'main':
+..\src\hw6ex5.c:29:26: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+  printf("employee name: %s",*arrp[0]->name);
+                          ^
+..\src\hw6ex5.c:30:27: error: invalid type argument of unary '*' (have 'unsigned int')
+  printf("employee ID: %d",*arrp[0]->id);
+                           ^~~~~~~~~~~~
+21:14:18 **** Incremental Build of configuration Debug for project hw6ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex5.o" "..\\src\\hw6ex5.c" 
+..\src\hw6ex5.c: In function 'main':
+..\src\hw6ex5.c:28:6: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+  arrp=arr[0];
+      ^
+..\src\hw6ex5.c:29:34: error: '*arrp' is a pointer; did you mean to use '->'?
+  printf("employee name: %s",*arrp->name);
+                                  ^~
+                                  ->
+..\src\hw6ex5.c:30:32: error: '*arrp' is a pointer; did you mean to use '->'?
+  printf("employee ID: %d",*arrp->id);
+                                ^~
+                                ->
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+Info: Nothing to build for ex7
+Info: Nothing to build for ex8
+Info: Nothing to build for five
+Info: Nothing to build for four
+Info: Nothing to build for hw3ex1
+Info: Nothing to build for hw3ex2
+Info: Nothing to build for hw3ex3
+Info: Nothing to build for hw3ex4
+Info: Nothing to build for hw3ex5
+Info: Nothing to build for hw3ex6
+Info: Nothing to build for hw3ex7
+Info: Nothing to build for hw3ex8
+Info: Nothing to build for hw4ex1
+Info: Nothing to build for hw4ex2
+Info: Nothing to build for hw4ex3
+Info: Nothing to build for hw4ex4
+Info: Nothing to build for hw5ex1
+Info: Nothing to build for hw5ex2
+Info: Nothing to build for hw5ex3
+Info: Nothing to build for hw5ex4
+Info: Nothing to build for hw5ex5
+Info: Nothing to build for hw6ex1
+Info: Nothing to build for hw6ex2
+Info: Nothing to build for hw6ex3
+Info: Nothing to build for hw6ex4
+21:15:07 **** Incremental Build of configuration Debug for project hw6ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex5.o" "..\\src\\hw6ex5.c" 
+..\src\hw6ex5.c: In function 'main':
+..\src\hw6ex5.c:28:6: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+  arrp=arr[0];
+      ^
+gcc -o hw6ex5.exe "src\\hw6ex5.o" 
+Info: Nothing to build for mtq1
+Info: Nothing to build for mtq10
+Info: Nothing to build for mtq2
+Info: Nothing to build for mtq3
+Info: Nothing to build for mtq4
+Info: Nothing to build for mtq5
+Info: Nothing to build for mtq6
+Info: Nothing to build for mtq7
+Info: Nothing to build for mtq8
+Info: Nothing to build for mtq9
+Info: Nothing to build for six
+Info: Nothing to build for three
+Info: Nothing to build for two
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+Info: Nothing to build for ex7
+Info: Nothing to build for ex8
+Info: Nothing to build for five
+Info: Nothing to build for four
+Info: Nothing to build for hw3ex1
+Info: Nothing to build for hw3ex2
+Info: Nothing to build for hw3ex3
+Info: Nothing to build for hw3ex4
+Info: Nothing to build for hw3ex5
+Info: Nothing to build for hw3ex6
+Info: Nothing to build for hw3ex7
+Info: Nothing to build for hw3ex8
+Info: Nothing to build for hw4ex1
+Info: Nothing to build for hw4ex2
+Info: Nothing to build for hw4ex3
+Info: Nothing to build for hw4ex4
+Info: Nothing to build for hw5ex1
+Info: Nothing to build for hw5ex2
+Info: Nothing to build for hw5ex3
+Info: Nothing to build for hw5ex4
+Info: Nothing to build for hw5ex5
+Info: Nothing to build for hw6ex1
+Info: Nothing to build for hw6ex2
+Info: Nothing to build for hw6ex3
+Info: Nothing to build for hw6ex4
+21:15:20 **** Incremental Build of configuration Debug for project hw6ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex5.o" "..\\src\\hw6ex5.c" 
+gcc -o hw6ex5.exe "src\\hw6ex5.o" 
+Info: Nothing to build for mtq1
+Info: Nothing to build for mtq10
+Info: Nothing to build for mtq2
+Info: Nothing to build for mtq3
+Info: Nothing to build for mtq4
+Info: Nothing to build for mtq5
+Info: Nothing to build for mtq6
+Info: Nothing to build for mtq7
+Info: Nothing to build for mtq8
+Info: Nothing to build for mtq9
+Info: Nothing to build for six
+Info: Nothing to build for three
+Info: Nothing to build for two
+Info: Nothing to build for hw6ex5
+21:15:43 **** Incremental Build of configuration Debug for project hw6ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex5.o" "..\\src\\hw6ex5.c" 
+gcc -o hw6ex5.exe "src\\hw6ex5.o" 
+21:16:10 **** Incremental Build of configuration Debug for project hw6ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex5.o" "..\\src\\hw6ex5.c" 
+gcc -o hw6ex5.exe "src\\hw6ex5.o" 
+21:17:11 **** Incremental Build of configuration Debug for project hw6ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex5.o" "..\\src\\hw6ex5.c" 
+..\src\hw6ex5.c: In function 'main':
+..\src\hw6ex5.c:27:30: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  struct emploeedata arr[] = {ptr1, ptr2, ptr3};
+                              ^~~~
+..\src\hw6ex5.c:27:30: note: (near initialization for 'arr[0].name[0]')
+..\src\hw6ex5.c:27:36: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  struct emploeedata arr[] = {ptr1, ptr2, ptr3};
+                                    ^~~~
+..\src\hw6ex5.c:27:36: note: (near initialization for 'arr[0].name[1]')
+..\src\hw6ex5.c:27:42: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  struct emploeedata arr[] = {ptr1, ptr2, ptr3};
+                                          ^~~~
+..\src\hw6ex5.c:27:42: note: (near initialization for 'arr[0].name[2]')
+..\src\hw6ex5.c:27:29: warning: missing braces around initializer [-Wmissing-braces]
+  struct emploeedata arr[] = {ptr1, ptr2, ptr3};
+                             ^
+..\src\hw6ex5.c:27:29: note: (near initialization for 'arr')
+..\src\hw6ex5.c:28:6: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+  arrp=&arr;
+      ^
+gcc -o hw6ex5.exe "src\\hw6ex5.o" 
+21:17:22 **** Incremental Build of configuration Debug for project hw6ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex5.o" "..\\src\\hw6ex5.c" 
+..\src\hw6ex5.c: In function 'main':
+..\src\hw6ex5.c:27:30: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  struct emploeedata arr[] = {ptr1, ptr2, ptr3};
+                              ^~~~
+..\src\hw6ex5.c:27:30: note: (near initialization for 'arr[0].name[0]')
+..\src\hw6ex5.c:27:36: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  struct emploeedata arr[] = {ptr1, ptr2, ptr3};
+                                    ^~~~
+..\src\hw6ex5.c:27:36: note: (near initialization for 'arr[0].name[1]')
+..\src\hw6ex5.c:27:42: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  struct emploeedata arr[] = {ptr1, ptr2, ptr3};
+                                          ^~~~
+..\src\hw6ex5.c:27:42: note: (near initialization for 'arr[0].name[2]')
+..\src\hw6ex5.c:27:29: warning: missing braces around initializer [-Wmissing-braces]
+  struct emploeedata arr[] = {ptr1, ptr2, ptr3};
+                             ^
+..\src\hw6ex5.c:27:29: note: (near initialization for 'arr')
+..\src\hw6ex5.c:28:6: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+  arrp=arr;
+      ^
+gcc -o hw6ex5.exe "src\\hw6ex5.o" 
+21:17:39 **** Incremental Build of configuration Debug for project hw6ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex5.o" "..\\src\\hw6ex5.c" 
+gcc -o hw6ex5.exe "src\\hw6ex5.o" 
+21:18:08 **** Incremental Build of configuration Debug for project hw6ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex5.o" "..\\src\\hw6ex5.c" 
+..\src\hw6ex5.c: In function 'main':
+..\src\hw6ex5.c:29:36: error: '*arrp' is a pointer; did you mean to use '->'?
+  printf("employee name: %s\n",*arrp->name);
+                                    ^~
+                                    ->
+..\src\hw6ex5.c:30:34: error: '*arrp' is a pointer; did you mean to use '->'?
+  printf("employee ID: %d\n",*arrp->id);
+                                  ^~
+                                  ->
+21:18:57 **** Incremental Build of configuration Debug for project hw6ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex5.o" "..\\src\\hw6ex5.c" 
+..\src\hw6ex5.c: In function 'main':
+..\src\hw6ex5.c:29:39: error: invalid type argument of '->' (have 'struct emploeedata')
+  printf("employee name: %s\n",(**arrp)->name);
+                                       ^~
+..\src\hw6ex5.c:30:37: error: invalid type argument of '->' (have 'struct emploeedata')
+  printf("employee ID: %d\n",(**arrp)->id);
+                                     ^~
+21:19:28 **** Incremental Build of configuration Debug for project hw6ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex5.o" "..\\src\\hw6ex5.c" 
+gcc -o hw6ex5.exe "src\\hw6ex5.o" 
+21:37:41 **** Incremental Build of configuration Debug for project hw6ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex5.o" "..\\src\\hw6ex5.c" 
+..\src\hw6ex5.c: In function 'main':
+..\src\hw6ex5.c:29:39: error: invalid type argument of '->' (have 'struct emploeedata')
+  printf("employee name: %s\n",(**arrp)->name);
+                                       ^~
+..\src\hw6ex5.c:30:37: error: invalid type argument of '->' (have 'struct emploeedata')
+  printf("employee ID: %d\n",(**arrp)->id);
+                                     ^~
+21:38:27 **** Incremental Build of configuration Debug for project hw6ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex5.o" "..\\src\\hw6ex5.c" 
+gcc -o hw6ex5.exe "src\\hw6ex5.o" 
+21:57:28 **** Incremental Build of configuration Debug for project hw6ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex5.o" "..\\src\\hw6ex5.c" 
+..\src\hw6ex5.c: In function 'main':
+..\src\hw6ex5.c:27:37: error: '*(struct emploeedata **)&arr' is a pointer; did you mean to use '->'?
+  printf("employee name: %s\n",(*arr).name);
+                                     ^
+                                     ->
+..\src\hw6ex5.c:28:35: error: '*(struct emploeedata **)&arr' is a pointer; did you mean to use '->'?
+  printf("employee ID: %d\n",(*arr).id);
+                                   ^
+                                   ->
+21:57:40 **** Incremental Build of configuration Debug for project hw6ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex5.o" "..\\src\\hw6ex5.c" 
+gcc -o hw6ex5.exe "src\\hw6ex5.o" 
+21:57:58 **** Incremental Build of configuration Debug for project hw6ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex5.o" "..\\src\\hw6ex5.c" 
+..\src\hw6ex5.c: In function 'main':
+..\src\hw6ex5.c:27:32: error: wrong type argument to increment
+  printf("employee name: %s\n",(++**arr).name);
+                                ^~
+21:58:12 **** Incremental Build of configuration Debug for project hw6ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex5.o" "..\\src\\hw6ex5.c" 
+..\src\hw6ex5.c: In function 'main':
+..\src\hw6ex5.c:27:37: error: lvalue required as increment operand
+  printf("employee name: %s\n",(**arr++).name);
+                                     ^~
+21:58:57 **** Incremental Build of configuration Debug for project hw6ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex5.o" "..\\src\\hw6ex5.c" 
+gcc -o hw6ex5.exe "src\\hw6ex5.o" 
+21:59:11 **** Incremental Build of configuration Debug for project hw6ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex5.o" "..\\src\\hw6ex5.c" 
+..\src\hw6ex5.c: In function 'main':
+..\src\hw6ex5.c:27:36: error: lvalue required as increment operand
+  printf("employee name: %s\n",(*arr++)->name);
+                                    ^~
+21:59:19 **** Incremental Build of configuration Debug for project hw6ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex5.o" "..\\src\\hw6ex5.c" 
+gcc -o hw6ex5.exe "src\\hw6ex5.o" 
+21:59:32 **** Incremental Build of configuration Debug for project hw6ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex5.o" "..\\src\\hw6ex5.c" 
+..\src\hw6ex5.c: In function 'main':
+..\src\hw6ex5.c:27:31: error: lvalue required as increment operand
+  printf("employee name: %s\n",++(*arr)->name);
+                               ^~
+21:59:48 **** Incremental Build of configuration Debug for project hw6ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex5.o" "..\\src\\hw6ex5.c" 
+..\src\hw6ex5.c: In function 'main':
+..\src\hw6ex5.c:27:31: error: lvalue required as increment operand
+  printf("employee name: %s\n",++(*arr)->name);
+                               ^~
+21:59:59 **** Incremental Build of configuration Debug for project hw6ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex5.o" "..\\src\\hw6ex5.c" 
+gcc -o hw6ex5.exe "src\\hw6ex5.o" 
+22:01:39 **** Incremental Build of configuration Debug for project hw6ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex5.o" "..\\src\\hw6ex5.c" 
+..\src\hw6ex5.c: In function 'main':
+..\src\hw6ex5.c:27:36: error: '*(struct emploeedata **)&arr' is a pointer; did you mean to use '->'?
+  printf("employee name: %s\n",(arr)->name);
+                                    ^~
+                                    ->
+..\src\hw6ex5.c:28:34: error: '*(struct emploeedata **)&arr' is a pointer; did you mean to use '->'?
+  printf("employee ID: %d\n",(arr)->id);
+                                  ^~
+                                  ->
+22:01:54 **** Incremental Build of configuration Debug for project hw6ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex5.o" "..\\src\\hw6ex5.c" 
+..\src\hw6ex5.c: In function 'main':
+..\src\hw6ex5.c:27:36: error: request for member 'name' in something not a structure or union
+  printf("employee name: %s\n",(arr).name);
+                                    ^
+..\src\hw6ex5.c:28:34: error: request for member 'id' in something not a structure or union
+  printf("employee ID: %d\n",(arr).id);
+                                  ^
+..\src\hw6ex5.c:26:22: warning: variable 'arr' set but not used [-Wunused-but-set-variable]
+  struct emploeedata *arr[] = {ptr1, ptr2, ptr3};
+                      ^~~
+22:02:08 **** Incremental Build of configuration Debug for project hw6ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex5.o" "..\\src\\hw6ex5.c" 
+..\src\hw6ex5.c: In function 'main':
+..\src\hw6ex5.c:27:34: error: request for member 'name' in something not a structure or union
+  printf("employee name: %s\n",arr.name);
+                                  ^
+..\src\hw6ex5.c:28:32: error: request for member 'id' in something not a structure or union
+  printf("employee ID: %d\n",arr.id);
+                                ^
+..\src\hw6ex5.c:26:22: warning: variable 'arr' set but not used [-Wunused-but-set-variable]
+  struct emploeedata *arr[] = {ptr1, ptr2, ptr3};
+                      ^~~
+22:02:42 **** Incremental Build of configuration Debug for project hw6ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex5.o" "..\\src\\hw6ex5.c" 
+..\src\hw6ex5.c: In function 'main':
+..\src\hw6ex5.c:27:37: error: '*(struct emploeedata **)&arr' is a pointer; did you mean to use '->'?
+  printf("employee name: %s\n",(*arr).name);
+                                     ^
+                                     ->
+..\src\hw6ex5.c:28:35: error: '*(struct emploeedata **)&arr' is a pointer; did you mean to use '->'?
+  printf("employee ID: %d\n",(*arr).id);
+                                   ^
+                                   ->
+22:02:59 **** Incremental Build of configuration Debug for project hw6ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex5.o" "..\\src\\hw6ex5.c" 
+gcc -o hw6ex5.exe "src\\hw6ex5.o" 
+22:04:38 **** Incremental Build of configuration Debug for project hw6ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex5.o" "..\\src\\hw6ex5.c" 
+..\src\hw6ex5.c: In function 'main':
+..\src\hw6ex5.c:27:29: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  struct emploeedata *arrptr=arr;
+                             ^~~
+..\src\hw6ex5.c:28:42: error: invalid type argument of '->' (have 'struct emploeedata')
+  printf("employee name: %s\n",++(*arrptr)->name);
+                                          ^~
+..\src\hw6ex5.c:29:40: error: invalid type argument of '->' (have 'struct emploeedata')
+  printf("employee ID: %d\n",++(*arrptr)->id);
+                                        ^~
+22:04:50 **** Incremental Build of configuration Debug for project hw6ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex5.o" "..\\src\\hw6ex5.c" 
+..\src\hw6ex5.c: In function 'main':
+..\src\hw6ex5.c:27:29: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  struct emploeedata *arrptr=&arr;
+                             ^
+..\src\hw6ex5.c:28:42: error: invalid type argument of '->' (have 'struct emploeedata')
+  printf("employee name: %s\n",++(*arrptr)->name);
+                                          ^~
+..\src\hw6ex5.c:29:40: error: invalid type argument of '->' (have 'struct emploeedata')
+  printf("employee ID: %d\n",++(*arrptr)->id);
+                                        ^~
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+Info: Nothing to build for ex7
+Info: Nothing to build for ex8
+Info: Nothing to build for five
+Info: Nothing to build for four
+Info: Nothing to build for hw3ex1
+Info: Nothing to build for hw3ex2
+Info: Nothing to build for hw3ex3
+Info: Nothing to build for hw3ex4
+Info: Nothing to build for hw3ex5
+Info: Nothing to build for hw3ex6
+Info: Nothing to build for hw3ex7
+Info: Nothing to build for hw3ex8
+Info: Nothing to build for hw4ex1
+Info: Nothing to build for hw4ex2
+Info: Nothing to build for hw4ex3
+Info: Nothing to build for hw4ex4
+Info: Nothing to build for hw5ex1
+Info: Nothing to build for hw5ex2
+Info: Nothing to build for hw5ex3
+Info: Nothing to build for hw5ex4
+Info: Nothing to build for hw5ex5
+Info: Nothing to build for hw6ex1
+Info: Nothing to build for hw6ex2
+Info: Nothing to build for hw6ex3
+Info: Nothing to build for hw6ex4
+22:04:59 **** Incremental Build of configuration Debug for project hw6ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex5.o" "..\\src\\hw6ex5.c" 
+..\src\hw6ex5.c: In function 'main':
+..\src\hw6ex5.c:27:29: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  struct emploeedata *arrptr=&arr;
+                             ^
+..\src\hw6ex5.c:28:42: error: invalid type argument of '->' (have 'struct emploeedata')
+  printf("employee name: %s\n",++(*arrptr)->name);
+                                          ^~
+..\src\hw6ex5.c:29:40: error: invalid type argument of '->' (have 'struct emploeedata')
+  printf("employee ID: %d\n",++(*arrptr)->id);
+                                        ^~
+Info: Nothing to build for mtq1
+Info: Nothing to build for mtq10
+Info: Nothing to build for mtq2
+Info: Nothing to build for mtq3
+Info: Nothing to build for mtq4
+Info: Nothing to build for mtq5
+Info: Nothing to build for mtq6
+Info: Nothing to build for mtq7
+Info: Nothing to build for mtq8
+Info: Nothing to build for mtq9
+Info: Nothing to build for six
+Info: Nothing to build for three
+Info: Nothing to build for two
+22:05:08 **** Incremental Build of configuration Debug for project hw6ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex5.o" "..\\src\\hw6ex5.c" 
+..\src\hw6ex5.c: In function 'main':
+..\src\hw6ex5.c:27:29: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  struct emploeedata *arrptr=&arr;
+                             ^
+..\src\hw6ex5.c:28:42: error: invalid type argument of '->' (have 'struct emploeedata')
+  printf("employee name: %s\n",++(*arrptr)->name);
+                                          ^~
+..\src\hw6ex5.c:29:40: error: invalid type argument of '->' (have 'struct emploeedata')
+  printf("employee ID: %d\n",++(*arrptr)->id);
+                                        ^~
+22:05:28 **** Incremental Build of configuration Debug for project hw6ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex5.o" "..\\src\\hw6ex5.c" 
+..\src\hw6ex5.c: In function 'main':
+..\src\hw6ex5.c:26:30: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  struct emploeedata arr[] = {ptr1, ptr2, ptr3};
+                              ^~~~
+..\src\hw6ex5.c:26:30: note: (near initialization for 'arr[0].name[0]')
+..\src\hw6ex5.c:26:36: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  struct emploeedata arr[] = {ptr1, ptr2, ptr3};
+                                    ^~~~
+..\src\hw6ex5.c:26:36: note: (near initialization for 'arr[0].name[1]')
+..\src\hw6ex5.c:26:42: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  struct emploeedata arr[] = {ptr1, ptr2, ptr3};
+                                          ^~~~
+..\src\hw6ex5.c:26:42: note: (near initialization for 'arr[0].name[2]')
+..\src\hw6ex5.c:26:29: warning: missing braces around initializer [-Wmissing-braces]
+  struct emploeedata arr[] = {ptr1, ptr2, ptr3};
+                             ^
+..\src\hw6ex5.c:26:29: note: (near initialization for 'arr')
+..\src\hw6ex5.c:27:29: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  struct emploeedata *arrptr=&arr;
+                             ^
+..\src\hw6ex5.c:28:40: error: invalid type argument of '->' (have 'struct emploeedata')
+  printf("employee name: %s\n",(*arrptr)->name);
+                                        ^~
+..\src\hw6ex5.c:29:38: error: invalid type argument of '->' (have 'struct emploeedata')
+  printf("employee ID: %d\n",(*arrptr)->id);
+                                      ^~
+22:05:47 **** Incremental Build of configuration Debug for project hw6ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex5.o" "..\\src\\hw6ex5.c" 
+..\src\hw6ex5.c: In function 'main':
+..\src\hw6ex5.c:26:30: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  struct emploeedata arr[] = {ptr1, ptr2, ptr3};
+                              ^~~~
+..\src\hw6ex5.c:26:30: note: (near initialization for 'arr[0].name[0]')
+..\src\hw6ex5.c:26:36: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  struct emploeedata arr[] = {ptr1, ptr2, ptr3};
+                                    ^~~~
+..\src\hw6ex5.c:26:36: note: (near initialization for 'arr[0].name[1]')
+..\src\hw6ex5.c:26:42: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  struct emploeedata arr[] = {ptr1, ptr2, ptr3};
+                                          ^~~~
+..\src\hw6ex5.c:26:42: note: (near initialization for 'arr[0].name[2]')
+..\src\hw6ex5.c:26:29: warning: missing braces around initializer [-Wmissing-braces]
+  struct emploeedata arr[] = {ptr1, ptr2, ptr3};
+                             ^
+..\src\hw6ex5.c:26:29: note: (near initialization for 'arr')
+..\src\hw6ex5.c:27:29: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  struct emploeedata *arrptr=&arr;
+                             ^
+..\src\hw6ex5.c:28:42: error: invalid type argument of '->' (have 'struct emploeedata')
+  printf("employee name: %s\n",++(*arrptr)->name);
+                                          ^~
+..\src\hw6ex5.c:29:40: error: invalid type argument of '->' (have 'struct emploeedata')
+  printf("employee ID: %d\n",++(*arrptr)->id);
+                                        ^~
+22:05:55 **** Incremental Build of configuration Debug for project hw6ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex5.o" "..\\src\\hw6ex5.c" 
+..\src\hw6ex5.c: In function 'main':
+..\src\hw6ex5.c:26:30: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  struct emploeedata arr[] = {ptr1, ptr2, ptr3};
+                              ^~~~
+..\src\hw6ex5.c:26:30: note: (near initialization for 'arr[0].name[0]')
+..\src\hw6ex5.c:26:36: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  struct emploeedata arr[] = {ptr1, ptr2, ptr3};
+                                    ^~~~
+..\src\hw6ex5.c:26:36: note: (near initialization for 'arr[0].name[1]')
+..\src\hw6ex5.c:26:42: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  struct emploeedata arr[] = {ptr1, ptr2, ptr3};
+                                          ^~~~
+..\src\hw6ex5.c:26:42: note: (near initialization for 'arr[0].name[2]')
+..\src\hw6ex5.c:26:29: warning: missing braces around initializer [-Wmissing-braces]
+  struct emploeedata arr[] = {ptr1, ptr2, ptr3};
+                             ^
+..\src\hw6ex5.c:26:29: note: (near initialization for 'arr')
+..\src\hw6ex5.c:28:42: error: invalid type argument of '->' (have 'struct emploeedata')
+  printf("employee name: %s\n",++(*arrptr)->name);
+                                          ^~
+..\src\hw6ex5.c:29:40: error: invalid type argument of '->' (have 'struct emploeedata')
+  printf("employee ID: %d\n",++(*arrptr)->id);
+                                        ^~
+22:06:27 **** Incremental Build of configuration Debug for project hw6ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex5.o" "..\\src\\hw6ex5.c" 
+..\src\hw6ex5.c: In function 'main':
+..\src\hw6ex5.c:27:29: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  struct emploeedata *arrptr=&arr;
+                             ^
+..\src\hw6ex5.c:28:40: error: invalid type argument of '->' (have 'struct emploeedata')
+  printf("employee name: %s\n",(*arrptr)->name);
+                                        ^~
+..\src\hw6ex5.c:29:38: error: invalid type argument of '->' (have 'struct emploeedata')
+  printf("employee ID: %d\n",(*arrptr)->id);
+                                      ^~
+22:06:45 **** Incremental Build of configuration Debug for project hw6ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw6ex5.o" "..\\src\\hw6ex5.c" 
+gcc -o hw6ex5.exe "src\\hw6ex5.o" 
+00:47:00 **** Rebuild of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:17:13: error: request for member '_' in something not a structure or union
+  printf("%d"._);
+             ^
+..\src\testing.c:16:6: warning: unused variable '_' [-Wunused-variable]
+  int _ =3;
+      ^
+00:47:24 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+gcc -o testing.exe "src\\testing.o" 
+00:50:49 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:17:5: error: assignment to expression with array type
+  arr="hello";
+     ^
+00:51:19 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:17:6: error: lvalue required as left operand of assignment
+  &arr="hello";
+      ^
+00:51:28 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:17:7: error: expected expression before ']' token
+  &arr[]="hello";
+       ^
+00:51:36 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:17:8: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+  arr[0]="hello";
+        ^
+gcc -o testing.exe "src\\testing.o" 
+00:51:57 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+gcc -o testing.exe "src\\testing.o" 
+00:52:26 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:17:8: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+  arr[0]="hello";
+        ^
+gcc -o testing.exe "src\\testing.o" 
+00:52:40 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:17:6: error: expected expression before ']' token
+  arr[]="hello";
+      ^
+00:52:48 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:17:5: error: assignment to expression with array type
+  arr="hello";
+     ^
+00:55:24 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:17:9: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+  arr[10]="hello";
+         ^
+gcc -o testing.exe "src\\testing.o" 
+01:06:56 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:21:12: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char *ptr=&bit1;
+            ^
+gcc -o testing.exe "src\\testing.o" 
+01:08:21 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:21:12: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char *ptr=&bit1;
+            ^
+..\src\testing.c:23:20: error: invalid type argument of '->' (have 'int')
+  printf("%d",(*ptr)->a);
+                    ^~
+01:08:51 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:21:12: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char *ptr=&bit1;
+            ^
+gcc -o testing.exe "src\\testing.o" 
+01:11:27 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:21:12: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char *ptr=&bit1;
+            ^
+gcc -o testing.exe "src\\testing.o" 
+01:11:51 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:21:12: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char *ptr=&bit1;
+            ^
+..\src\testing.c:21:8: warning: unused variable 'ptr' [-Wunused-variable]
+  char *ptr=&bit1;
+        ^~~
+gcc -o testing.exe "src\\testing.o" 
+01:12:16 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:21:12: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char *ptr=&bit1;
+            ^
+gcc -o testing.exe "src\\testing.o" 
+01:12:34 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:21:12: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char *ptr=&bit1;
+            ^
+gcc -o testing.exe "src\\testing.o" 
+01:18:06 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:22:6: error: incompatible types when assigning to type 'struct feild' from type 'int'
+  *ptr=23;
+      ^
+01:18:33 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:22:7: error: expected expression before '{' token
+  *ptr={23};
+       ^
+01:18:54 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:22:7: error: expected expression before '{' token
+  *ptr={23,'l'};
+       ^
+01:19:25 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:22:2: error: invalid type argument of unary '*' (have 'int')
+  *ptr->a=23;
+  ^~~~~~~
+01:19:45 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+gcc -o testing.exe "src\\testing.o" 
+01:20:03 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+gcc -o testing.exe "src\\testing.o" 
+01:21:48 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+gcc -o testing.exe "src\\testing.o" 
+01:30:21 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:27:2: error: expected ';' before 't'
+  t=x;
+  ^
+01:30:29 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+gcc -o testing.exe "src\\testing.o" 
+01:31:04 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+gcc -o testing.exe "src\\testing.o" 
+01:31:23 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+gcc -o testing.exe "src\\testing.o" 
+01:31:36 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+gcc -o testing.exe "src\\testing.o" 
+01:32:56 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:25:7: warning: passing argument 1 of 'swap' from incompatible pointer type [-Wincompatible-pointer-types]
+  swap(&x,&y);
+       ^
+..\src\testing.c:14:6: note: expected 'char *' but argument is of type 'char **'
+ void swap(char*x,char*y)
+      ^~~~
+..\src\testing.c:25:10: warning: passing argument 2 of 'swap' from incompatible pointer type [-Wincompatible-pointer-types]
+  swap(&x,&y);
+          ^
+..\src\testing.c:14:6: note: expected 'char *' but argument is of type 'char **'
+ void swap(char*x,char*y)
+      ^~~~
+gcc -o testing.exe "src\\testing.o" 
+01:33:17 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'swap':
+..\src\testing.c:16:9: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char*t=x;
+         ^
+..\src\testing.c:18:3: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+  y=t;
+   ^
+gcc -o testing.exe "src\\testing.o" 
+01:33:49 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+gcc -o testing.exe "src\\testing.o" 
+01:39:06 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'swap':
+..\src\testing.c:18:4: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+  *y=*t;
+    ^
+gcc -o testing.exe "src\\testing.o" 
+01:39:59 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+gcc -o testing.exe "src\\testing.o" 
+06:43:43 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:22:34: warning: dereferencing 'void *' pointer
+     printf("Value of num: %d\n", *ptr);
+                                  ^~~~
+..\src\testing.c:22:5: error: invalid use of void expression
+     printf("Value of num: %d\n", *ptr);
+     ^~~~~~
+06:46:06 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+gcc -o testing.exe "src\\testing.o" 
+07:11:46 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:24:9: warning: too many arguments for format [-Wformat-extra-args]
+  printf("%d",x,y);
+         ^~~~
+gcc -o testing.exe "src\\testing.o" 
+07:12:02 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+gcc -o testing.exe "src\\testing.o" 
+07:18:50 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:16:6: error: array type has incomplete element type 'int[]'
+  int arr[][]={1,2,3,4};
+      ^~~
+..\src\testing.c:16:6: note: declaration of 'arr' as multidimensional array must have bounds for all dimensions except the first
+..\src\testing.c:16:6: warning: unused variable 'arr' [-Wunused-variable]
+07:19:06 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:16:16: warning: missing braces around initializer [-Wmissing-braces]
+  int arr[3][3]={1,2,3,4};
+                ^
+..\src\testing.c:16:16: note: (near initialization for 'arr')
+..\src\testing.c:17:14: error: invalid type argument of unary '*' (have 'int')
+  printf("%d",*(*(*(arr))));
+              ^~~~~~~~~~~~
+07:30:27 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:18:3: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+  p=i;
+   ^
+gcc -o testing.exe "src\\testing.o" 
+07:30:50 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:18:4: warning: 'p' is used uninitialized in this function [-Wuninitialized]
+  *p=i;
+  ~~^~
+gcc -o testing.exe "src\\testing.o" 
+07:31:11 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+gcc -o testing.exe "src\\testing.o" 
+07:31:30 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:19:11: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf("%d",*&p);
+           ^
+gcc -o testing.exe "src\\testing.o" 
+07:32:06 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:19:11: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf("%d %d %d",*&p,&p,&i);
+           ^
+..\src\testing.c:19:14: warning: format '%d' expects argument of type 'int', but argument 3 has type 'int **' [-Wformat=]
+  printf("%d %d %d",*&p,&p,&i);
+              ^
+..\src\testing.c:19:17: warning: format '%d' expects argument of type 'int', but argument 4 has type 'int *' [-Wformat=]
+  printf("%d %d %d",*&p,&p,&i);
+                 ^
+gcc -o testing.exe "src\\testing.o" 
+07:33:11 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:19:11: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf("%d %d %d",*&p,&*p,&i);
+           ^
+..\src\testing.c:19:14: warning: format '%d' expects argument of type 'int', but argument 3 has type 'int *' [-Wformat=]
+  printf("%d %d %d",*&p,&*p,&i);
+              ^
+..\src\testing.c:19:17: warning: format '%d' expects argument of type 'int', but argument 4 has type 'int *' [-Wformat=]
+  printf("%d %d %d",*&p,&*p,&i);
+                 ^
+gcc -o testing.exe "src\\testing.o" 
+07:40:40 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:18:3: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+  x=(char *)&a;
+   ^
+..\src\testing.c:19:14: warning: format '%d' expects argument of type 'int', but argument 3 has type 'int *' [-Wformat=]
+  printf("%d %d",*x,&a);
+              ^
+gcc -o testing.exe "src\\testing.o" 
+07:53:51 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+gcc -o testing.exe "src\\testing.o" 
+08:02:20 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:22:11: warning: format '%d' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
+  printf("%d",x);
+           ^
+gcc -o testing.exe "src\\testing.o" 
+08:02:49 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:22:11: warning: format '%d' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
+  printf("%d %d",x,&a);
+           ^
+..\src\testing.c:22:14: warning: format '%d' expects argument of type 'int', but argument 3 has type 'int *' [-Wformat=]
+  printf("%d %d",x,&a);
+              ^
+gcc -o testing.exe "src\\testing.o" 
+08:05:00 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:22:14: warning: format '%d' expects argument of type 'int', but argument 3 has type 'int *' [-Wformat=]
+  printf("%d %d",*x,&a);
+              ^
+gcc -o testing.exe "src\\testing.o" 
+08:08:43 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:21:6: error: lvalue required as left operand of assignment
+  *x+1=2;
+      ^
+08:08:59 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+gcc -o testing.exe "src\\testing.o" 
+08:09:23 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+gcc -o testing.exe "src\\testing.o" 
+08:55:23 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:17:7: warning: variable 'p' set but not used [-Wunused-but-set-variable]
+  int *p;
+       ^
+gcc -o testing.exe "src\\testing.o" 
+08:56:14 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+gcc -o testing.exe "src\\testing.o" 
+08:56:59 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+gcc -o testing.exe "src\\testing.o" 
+22:42:08 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:16:16: warning: missing braces around initializer [-Wmissing-braces]
+  int a[2][3] = {1, 2, 3, 4, 5};
+                ^
+..\src\testing.c:16:16: note: (near initialization for 'a')
+gcc -o testing.exe "src\\testing.o" 
+23:00:13 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:16:16: warning: missing braces around initializer [-Wmissing-braces]
+  int a[2][3] = {1, 2, 3, 4, 5};
+                ^
+..\src\testing.c:16:16: note: (near initialization for 'a')
+..\src\testing.c:18:11: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int (*)[2][3]' [-Wformat=]
+  printf("%d %d %d %d",p,*p,**p,***p);
+           ^
+..\src\testing.c:18:14: warning: format '%d' expects argument of type 'int', but argument 3 has type 'int (*)[3]' [-Wformat=]
+  printf("%d %d %d %d",p,*p,**p,***p);
+              ^
+..\src\testing.c:18:17: warning: format '%d' expects argument of type 'int', but argument 4 has type 'int *' [-Wformat=]
+  printf("%d %d %d %d",p,*p,**p,***p);
+                 ^
+gcc -o testing.exe "src\\testing.o" 
+23:00:32 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:16:16: warning: missing braces around initializer [-Wmissing-braces]
+  int a[2][3] = {1, 2, 3, 4, 5};
+                ^
+..\src\testing.c:16:16: note: (near initialization for 'a')
+..\src\testing.c:18:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int (*)[2][3]' [-Wformat=]
+  printf("%x %x %x %x",p,*p,**p,***p);
+           ^
+..\src\testing.c:18:14: warning: format '%x' expects argument of type 'unsigned int', but argument 3 has type 'int (*)[3]' [-Wformat=]
+  printf("%x %x %x %x",p,*p,**p,***p);
+              ^
+..\src\testing.c:18:17: warning: format '%x' expects argument of type 'unsigned int', but argument 4 has type 'int *' [-Wformat=]
+  printf("%x %x %x %x",p,*p,**p,***p);
+                 ^
+gcc -o testing.exe "src\\testing.o" 
+23:01:17 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:16:16: warning: missing braces around initializer [-Wmissing-braces]
+  int a[2][3] = {1, 2, 3, 4, 5};
+                ^
+..\src\testing.c:16:16: note: (near initialization for 'a')
+..\src\testing.c:18:40: error: invalid type argument of unary '*' (have 'int')
+  printf("%x %x %x %x %x",p,*p,**p,***p,****p);
+                                        ^~~~~
+23:01:30 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:16:16: warning: missing braces around initializer [-Wmissing-braces]
+  int a[2][3] = {1, 2, 3, 4, 5};
+                ^
+..\src\testing.c:16:16: note: (near initialization for 'a')
+..\src\testing.c:18:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int (*)[2][3]' [-Wformat=]
+  printf("%x %x %x %x %x",p,*p,**p,***p);
+           ^
+..\src\testing.c:18:14: warning: format '%x' expects argument of type 'unsigned int', but argument 3 has type 'int (*)[3]' [-Wformat=]
+  printf("%x %x %x %x %x",p,*p,**p,***p);
+              ^
+..\src\testing.c:18:17: warning: format '%x' expects argument of type 'unsigned int', but argument 4 has type 'int *' [-Wformat=]
+  printf("%x %x %x %x %x",p,*p,**p,***p);
+                 ^
+..\src\testing.c:18:23: warning: format '%x' expects a matching 'unsigned int' argument [-Wformat=]
+  printf("%x %x %x %x %x",p,*p,**p,***p);
+                       ^
+gcc -o testing.exe "src\\testing.o" 
+23:01:58 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:16:16: warning: missing braces around initializer [-Wmissing-braces]
+  int a[2][3] = {1, 2, 3, 4, 5};
+                ^
+..\src\testing.c:16:16: note: (near initialization for 'a')
+..\src\testing.c:18:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int (*)[2][3]' [-Wformat=]
+  printf("%x %x %x %x %x",p,*p,**p,***p,&a);
+           ^
+..\src\testing.c:18:14: warning: format '%x' expects argument of type 'unsigned int', but argument 3 has type 'int (*)[3]' [-Wformat=]
+  printf("%x %x %x %x %x",p,*p,**p,***p,&a);
+              ^
+..\src\testing.c:18:17: warning: format '%x' expects argument of type 'unsigned int', but argument 4 has type 'int *' [-Wformat=]
+  printf("%x %x %x %x %x",p,*p,**p,***p,&a);
+                 ^
+..\src\testing.c:18:23: warning: format '%x' expects argument of type 'unsigned int', but argument 6 has type 'int (*)[2][3]' [-Wformat=]
+  printf("%x %x %x %x %x",p,*p,**p,***p,&a);
+                       ^
+gcc -o testing.exe "src\\testing.o" 
+23:04:16 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:16:16: warning: missing braces around initializer [-Wmissing-braces]
+  int a[2][3] = {1, 2, 3, 4, 5};
+                ^
+..\src\testing.c:16:16: note: (near initialization for 'a')
+..\src\testing.c:18:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int (*)[2][3]' [-Wformat=]
+  printf("%x %x %x %x %x",p,*p,**p,***p,***(p+1));
+           ^
+..\src\testing.c:18:14: warning: format '%x' expects argument of type 'unsigned int', but argument 3 has type 'int (*)[3]' [-Wformat=]
+  printf("%x %x %x %x %x",p,*p,**p,***p,***(p+1));
+              ^
+..\src\testing.c:18:17: warning: format '%x' expects argument of type 'unsigned int', but argument 4 has type 'int *' [-Wformat=]
+  printf("%x %x %x %x %x",p,*p,**p,***p,***(p+1));
+                 ^
+gcc -o testing.exe "src\\testing.o" 
+23:04:38 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:16:16: warning: missing braces around initializer [-Wmissing-braces]
+  int a[2][3] = {1, 2, 3, 4, 5};
+                ^
+..\src\testing.c:16:16: note: (near initialization for 'a')
+..\src\testing.c:18:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int (*)[2][3]' [-Wformat=]
+  printf("%x %x %x %x %x",p,*p,**p,***p,***(p+15));
+           ^
+..\src\testing.c:18:14: warning: format '%x' expects argument of type 'unsigned int', but argument 3 has type 'int (*)[3]' [-Wformat=]
+  printf("%x %x %x %x %x",p,*p,**p,***p,***(p+15));
+              ^
+..\src\testing.c:18:17: warning: format '%x' expects argument of type 'unsigned int', but argument 4 has type 'int *' [-Wformat=]
+  printf("%x %x %x %x %x",p,*p,**p,***p,***(p+15));
+                 ^
+gcc -o testing.exe "src\\testing.o" 
+23:05:00 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:16:16: warning: missing braces around initializer [-Wmissing-braces]
+  int a[2][3] = {1, 2, 3, 4, 5};
+                ^
+..\src\testing.c:16:16: note: (near initialization for 'a')
+..\src\testing.c:18:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int (*)[2][3]' [-Wformat=]
+  printf("%x %x %x %x %x",p,*p,**p,***p,***(p+5));
+           ^
+..\src\testing.c:18:14: warning: format '%x' expects argument of type 'unsigned int', but argument 3 has type 'int (*)[3]' [-Wformat=]
+  printf("%x %x %x %x %x",p,*p,**p,***p,***(p+5));
+              ^
+..\src\testing.c:18:17: warning: format '%x' expects argument of type 'unsigned int', but argument 4 has type 'int *' [-Wformat=]
+  printf("%x %x %x %x %x",p,*p,**p,***p,***(p+5));
+                 ^
+gcc -o testing.exe "src\\testing.o" 
+23:05:18 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:16:16: warning: missing braces around initializer [-Wmissing-braces]
+  int a[2][3] = {1, 2, 3, 4, 5};
+                ^
+..\src\testing.c:16:16: note: (near initialization for 'a')
+..\src\testing.c:18:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int (*)[2][3]' [-Wformat=]
+  printf("%x %x %x %x %x",p,*p,**p,***p,***(p+2));
+           ^
+..\src\testing.c:18:14: warning: format '%x' expects argument of type 'unsigned int', but argument 3 has type 'int (*)[3]' [-Wformat=]
+  printf("%x %x %x %x %x",p,*p,**p,***p,***(p+2));
+              ^
+..\src\testing.c:18:17: warning: format '%x' expects argument of type 'unsigned int', but argument 4 has type 'int *' [-Wformat=]
+  printf("%x %x %x %x %x",p,*p,**p,***p,***(p+2));
+                 ^
+gcc -o testing.exe "src\\testing.o" 
+23:06:34 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:16:16: warning: missing braces around initializer [-Wmissing-braces]
+  int a[2][3] = {1, 2, 3, 4, 5};
+                ^
+..\src\testing.c:16:16: note: (near initialization for 'a')
+..\src\testing.c:18:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int (*)[2][3]' [-Wformat=]
+  printf("%x %x %x %x %x",p,*p,**p,***p,***(p+1));
+           ^
+..\src\testing.c:18:14: warning: format '%x' expects argument of type 'unsigned int', but argument 3 has type 'int (*)[3]' [-Wformat=]
+  printf("%x %x %x %x %x",p,*p,**p,***p,***(p+1));
+              ^
+..\src\testing.c:18:17: warning: format '%x' expects argument of type 'unsigned int', but argument 4 has type 'int *' [-Wformat=]
+  printf("%x %x %x %x %x",p,*p,**p,***p,***(p+1));
+                 ^
+gcc -o testing.exe "src\\testing.o" 
+23:14:18 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:18:14: warning: dereferencing 'void *' pointer
+  printf("%d",*p);
+              ^~
+..\src\testing.c:18:2: error: invalid use of void expression
+  printf("%d",*p);
+  ^~~~~~
+23:14:57 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:18:14: warning: dereferencing 'void *' pointer
+  printf("%d",*p);
+              ^~
+..\src\testing.c:18:2: error: invalid use of void expression
+  printf("%d",*p);
+  ^~~~~~
+23:16:39 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:18:20: warning: dereferencing 'void *' pointer
+  printf("%d",(int*)*p);
+                    ^~
+..\src\testing.c:18:2: error: invalid use of void expression
+  printf("%d",(int*)*p);
+  ^~~~~~
+23:16:55 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:18:20: warning: dereferencing 'void *' pointer
+  printf("%d",(int*)*p);
+                    ^~
+..\src\testing.c:18:2: error: invalid use of void expression
+  printf("%d",(int*)*p);
+  ^~~~~~
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+Info: Nothing to build for ex7
+Info: Nothing to build for ex8
+Info: Nothing to build for five
+Info: Nothing to build for four
+Info: Nothing to build for hw3ex1
+Info: Nothing to build for hw3ex2
+Info: Nothing to build for hw3ex3
+Info: Nothing to build for hw3ex4
+Info: Nothing to build for hw3ex5
+Info: Nothing to build for hw3ex6
+Info: Nothing to build for hw3ex7
+Info: Nothing to build for hw3ex8
+Info: Nothing to build for hw4ex1
+Info: Nothing to build for hw4ex2
+Info: Nothing to build for hw4ex3
+Info: Nothing to build for hw4ex4
+Info: Nothing to build for hw5ex1
+Info: Nothing to build for hw5ex2
+Info: Nothing to build for hw5ex3
+Info: Nothing to build for hw5ex4
+Info: Nothing to build for hw5ex5
+Info: Nothing to build for hw6ex1
+Info: Nothing to build for hw6ex2
+Info: Nothing to build for hw6ex3
+Info: Nothing to build for hw6ex4
+Info: Nothing to build for hw6ex5
+Info: Nothing to build for mtq1
+Info: Nothing to build for mtq10
+Info: Nothing to build for mtq2
+Info: Nothing to build for mtq3
+Info: Nothing to build for mtq4
+Info: Nothing to build for mtq5
+Info: Nothing to build for mtq6
+Info: Nothing to build for mtq7
+Info: Nothing to build for mtq8
+Info: Nothing to build for mtq9
+Info: Nothing to build for six
+23:17:09 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:18:11: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf("%d",(int*)p);
+           ^
+gcc -o testing.exe "src\\testing.o" 
+Info: Nothing to build for three
+Info: Nothing to build for two
+Info: Nothing to build for testing
+23:17:27 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:18:20: warning: dereferencing 'void *' pointer
+  printf("%d",(int*)*p);
+                    ^~
+..\src\testing.c:18:2: error: invalid use of void expression
+  printf("%d",(int*)*p);
+  ^~~~~~
+23:28:49 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+gcc -o testing.exe "src\\testing.o" 
+23:38:06 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:18:14: warning: dereferencing 'void *' pointer
+  printf("%d",*p);
+              ^~
+..\src\testing.c:18:2: error: invalid use of void expression
+  printf("%d",*p);
+  ^~~~~~
+00:04:45 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:17:12: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'unsigned int' [-Wformat=]
+  printf("%lu",sizeof(p));
+            ^
+gcc -o testing.exe "src\\testing.o" 
+00:12:01 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:18:12: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'unsigned int' [-Wformat=]
+  printf("%lu",sizeof(p));
+            ^
+gcc -o testing.exe "src\\testing.o" 
+00:22:06 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:18:12: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'unsigned int' [-Wformat=]
+  printf("%lu",sizeof(p));
+            ^
+gcc -o testing.exe "src\\testing.o" 
+00:32:50 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+gcc -o testing.exe "src\\testing.o" 
+00:59:31 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+gcc -o testing.exe "src\\testing.o" 
+00:59:51 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:16:11: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+  printf("%s",7["indianajohens"]);
+           ^
+gcc -o testing.exe "src\\testing.o" 
+01:01:44 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+gcc -o testing.exe "src\\testing.o" 
+01:48:06 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+gcc -o testing.exe "src\\testing.o" 
+02:59:46 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c:16:13: error: expected ')' before string constant
+ strcpy(ptr, "c");
+             ^~~
+..\src\testing.c:17:8: error: expected declaration specifiers or '...' before string constant
+ printf("%s\n", ptr);
+        ^~~~~~
+..\src\testing.c:17:16: error: expected declaration specifiers or '...' before 'ptr'
+ printf("%s\n", ptr);
+                ^~~
+..\src\testing.c:19:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+03:00:29 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c:17:12: error: expected ')' before string constant
+ strcpy(ptr,"c");
+            ^~~
+..\src\testing.c:18:8: error: expected declaration specifiers or '...' before string constant
+ printf("%s\n", ptr);
+        ^~~~~~
+..\src\testing.c:18:16: error: expected declaration specifiers or '...' before 'ptr'
+ printf("%s\n", ptr);
+                ^~~
+..\src\testing.c:20:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+03:00:51 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c:15:13: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+ char *ptr = 404040;
+             ^~~~~~
+..\src\testing.c:17:12: error: expected ')' before string constant
+ strcpy(ptr,"c");
+            ^~~
+..\src\testing.c:18:8: error: expected declaration specifiers or '...' before string constant
+ printf("%s\n", ptr);
+        ^~~~~~
+..\src\testing.c:18:16: error: expected declaration specifiers or '...' before 'ptr'
+ printf("%s\n", ptr);
+                ^~~
+..\src\testing.c:20:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+03:01:08 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c:17:12: error: expected ')' before string constant
+ strcpy(ptr,"c");
+            ^~~
+..\src\testing.c:18:8: error: expected declaration specifiers or '...' before string constant
+ printf("%s\n", ptr);
+        ^~~~~~
+..\src\testing.c:18:16: error: expected declaration specifiers or '...' before 'ptr'
+ printf("%s\n", ptr);
+                ^~~
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+Info: Nothing to build for ex7
+Info: Nothing to build for ex8
+Info: Nothing to build for five
+Info: Nothing to build for four
+Info: Nothing to build for hw3ex1
+Info: Nothing to build for hw3ex2
+Info: Nothing to build for hw3ex3
+Info: Nothing to build for hw3ex4
+Info: Nothing to build for hw3ex5
+Info: Nothing to build for hw3ex6
+Info: Nothing to build for hw3ex7
+Info: Nothing to build for hw3ex8
+Info: Nothing to build for hw4ex1
+Info: Nothing to build for hw4ex2
+Info: Nothing to build for hw4ex3
+Info: Nothing to build for hw4ex4
+Info: Nothing to build for hw5ex1
+Info: Nothing to build for hw5ex2
+Info: Nothing to build for hw5ex3
+Info: Nothing to build for hw5ex4
+Info: Nothing to build for hw5ex5
+Info: Nothing to build for hw6ex1
+Info: Nothing to build for hw6ex2
+Info: Nothing to build for hw6ex3
+Info: Nothing to build for hw6ex4
+Info: Nothing to build for hw6ex5
+Info: Nothing to build for mtq1
+Info: Nothing to build for mtq10
+Info: Nothing to build for mtq2
+Info: Nothing to build for mtq3
+Info: Nothing to build for mtq4
+Info: Nothing to build for mtq5
+Info: Nothing to build for mtq6
+Info: Nothing to build for mtq7
+Info: Nothing to build for mtq8
+Info: Nothing to build for mtq9
+Info: Nothing to build for six
+03:01:41 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c:17:12: error: expected ')' before string constant
+ strcpy(ptr,"c");
+            ^~~
+..\src\testing.c:18:8: error: expected declaration specifiers or '...' before string constant
+ printf("%s\n", ptr);
+        ^~~~~~
+..\src\testing.c:18:16: error: expected declaration specifiers or '...' before 'ptr'
+ printf("%s\n", ptr);
+                ^~~
+Info: Nothing to build for three
+Info: Nothing to build for two
+03:01:45 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c:17:12: error: expected ')' before string constant
+ strcpy(ptr,"c");
+            ^~~
+..\src\testing.c:18:8: error: expected declaration specifiers or '...' before string constant
+ printf("%s\n", ptr);
+        ^~~~~~
+..\src\testing.c:18:16: error: expected declaration specifiers or '...' before 'ptr'
+ printf("%s\n", ptr);
+                ^~~
+03:02:10 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c:17:8: error: expected declaration specifiers or '...' before '*' token
+ strcpy(*ptr,"c");
+        ^
+..\src\testing.c:17:13: error: expected declaration specifiers or '...' before string constant
+ strcpy(*ptr,"c");
+             ^~~
+..\src\testing.c:18:8: error: expected declaration specifiers or '...' before string constant
+ printf("%s\n", ptr);
+        ^~~~~~
+..\src\testing.c:18:16: error: expected declaration specifiers or '...' before 'ptr'
+ printf("%s\n", ptr);
+                ^~~
+03:03:11 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+gcc -o testing.exe "src\\testing.o" 
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+Info: Nothing to build for ex7
+Info: Nothing to build for ex8
+Info: Nothing to build for five
+Info: Nothing to build for four
+Info: Nothing to build for hw3ex1
+Info: Nothing to build for hw3ex2
+Info: Nothing to build for hw3ex3
+Info: Nothing to build for hw3ex4
+Info: Nothing to build for hw3ex5
+Info: Nothing to build for hw3ex6
+Info: Nothing to build for hw3ex7
+Info: Nothing to build for hw3ex8
+Info: Nothing to build for hw4ex1
+Info: Nothing to build for hw4ex2
+Info: Nothing to build for hw4ex3
+Info: Nothing to build for hw4ex4
+Info: Nothing to build for hw5ex1
+Info: Nothing to build for hw5ex2
+Info: Nothing to build for hw5ex3
+Info: Nothing to build for hw5ex4
+Info: Nothing to build for hw5ex5
+Info: Nothing to build for hw6ex1
+Info: Nothing to build for hw6ex2
+Info: Nothing to build for hw6ex3
+Info: Nothing to build for hw6ex4
+Info: Nothing to build for hw6ex5
+Info: Nothing to build for mtq1
+Info: Nothing to build for mtq10
+Info: Nothing to build for mtq2
+Info: Nothing to build for mtq3
+Info: Nothing to build for mtq4
+Info: Nothing to build for mtq5
+Info: Nothing to build for mtq6
+Info: Nothing to build for mtq7
+Info: Nothing to build for mtq8
+Info: Nothing to build for mtq9
+Info: Nothing to build for six
+Info: Nothing to build for testing
+Info: Nothing to build for three
+Info: Nothing to build for two
+Info: Nothing to build for testing
+03:03:47 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:17:9: warning: passing argument 1 of 'strcpy' makes pointer from integer without a cast [-Wint-conversion]
+  strcpy(*ptr,"c");
+         ^
+In file included from ..\src\testing.c:13:0:
+c:\mingw\include\string.h:79:40: note: expected 'char *' but argument is of type 'char'
+ _CRTIMP __cdecl __MINGW_NOTHROW  char *strcpy (char *, const char *);
+                                        ^~~~~~
+gcc -o testing.exe "src\\testing.o" 
+03:04:11 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:17:9: warning: passing argument 1 of 'strcpy' makes pointer from integer without a cast [-Wint-conversion]
+  strcpy(*ptr,"c");
+         ^
+In file included from ..\src\testing.c:13:0:
+c:\mingw\include\string.h:79:40: note: expected 'char *' but argument is of type 'char'
+ _CRTIMP __cdecl __MINGW_NOTHROW  char *strcpy (char *, const char *);
+                                        ^~~~~~
+..\src\testing.c:18:11: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+  printf("%s\n", *ptr);
+           ^
+gcc -o testing.exe "src\\testing.o" 
+03:04:40 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:17:9: warning: passing argument 1 of 'strcpy' makes pointer from integer without a cast [-Wint-conversion]
+  strcpy(*ptr,"c");
+         ^
+In file included from ..\src\testing.c:13:0:
+c:\mingw\include\string.h:79:40: note: expected 'char *' but argument is of type 'char'
+ _CRTIMP __cdecl __MINGW_NOTHROW  char *strcpy (char *, const char *);
+                                        ^~~~~~
+..\src\testing.c:18:11: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+  printf("%s\n", *ptr);
+           ^
+..\src\testing.c:17:9: warning: 'ptr' is used uninitialized in this function [-Wuninitialized]
+  strcpy(*ptr,"c");
+         ^~~~
+gcc -o testing.exe "src\\testing.o" 
+Info: Nothing to build for testing
+03:08:46 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:18:11: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+  printf("%s\n", *ptr);
+           ^
+..\src\testing.c:17:2: warning: 'ptr' is used uninitialized in this function [-Wuninitialized]
+  strcpy(ptr,"c");
+  ^~~~~~~~~~~~~~~
+gcc -o testing.exe "src\\testing.o" 
+03:29:31 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:16:11: warning: type defaults to 'int' in declaration of 'a' [-Wimplicit-int]
+  register a = 25;
+           ^
+gcc -o testing.exe "src\\testing.o" 
+03:30:12 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:16:11: warning: type defaults to 'int' in declaration of 'a' [-Wimplicit-int]
+  register a = 25;
+           ^
+..\src\testing.c:17:2: error: address of register variable 'a' requested
+  int *p=&a;
+  ^~~
+03:30:26 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:16:11: warning: type defaults to 'int' in declaration of 'a' [-Wimplicit-int]
+  register a = 25;
+           ^
+..\src\testing.c:17:9: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+  int *p=a;
+         ^
+gcc -o testing.exe "src\\testing.o" 
+03:32:27 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:16:11: warning: type defaults to 'int' in declaration of 'a' [-Wimplicit-int]
+  register a = 25;
+           ^
+..\src\testing.c:17:10: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+  int far *p=a;
+          ^
+..\src\testing.c:17:11: error: 'p' undeclared (first use in this function)
+  int far *p=a;
+           ^
+..\src\testing.c:17:11: note: each undeclared identifier is reported only once for each function it appears in
+03:47:28 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:17:20: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  printf("%s %f", (3, 2)[*arr]);
+                    ^
+..\src\testing.c:17:24: error: subscripted value is neither array nor pointer nor vector
+  printf("%s %f", (3, 2)[*arr]);
+                        ^
+03:48:01 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:16:16: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+  int *arr[10]={1,2,3,4,5};
+                ^
+..\src\testing.c:16:16: note: (near initialization for 'arr[0]')
+..\src\testing.c:16:18: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+  int *arr[10]={1,2,3,4,5};
+                  ^
+..\src\testing.c:16:18: note: (near initialization for 'arr[1]')
+..\src\testing.c:16:20: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+  int *arr[10]={1,2,3,4,5};
+                    ^
+..\src\testing.c:16:20: note: (near initialization for 'arr[2]')
+..\src\testing.c:16:22: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+  int *arr[10]={1,2,3,4,5};
+                      ^
+..\src\testing.c:16:22: note: (near initialization for 'arr[3]')
+..\src\testing.c:16:24: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+  int *arr[10]={1,2,3,4,5};
+                        ^
+..\src\testing.c:16:24: note: (near initialization for 'arr[4]')
+..\src\testing.c:17:20: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  printf("%s %f", (3, 2)[*arr]);
+                    ^
+..\src\testing.c:17:11: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+  printf("%s %f", (3, 2)[*arr]);
+           ^
+..\src\testing.c:17:14: warning: format '%f' expects a matching 'double' argument [-Wformat=]
+  printf("%s %f", (3, 2)[*arr]);
+              ^
+gcc -o testing.exe "src\\testing.o" 
+03:49:39 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:17:20: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  printf("%d %f", (3, 2)[*arr]);
+                    ^
+..\src\testing.c:17:24: error: subscripted value is neither array nor pointer nor vector
+  printf("%d %f", (3, 2)[*arr]);
+                        ^
+20:19:32 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:17:8: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  int p=&a,q=&b;
+        ^
+..\src\testing.c:17:13: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  int p=&a,q=&b;
+             ^
+gcc -o testing.exe "src\\testing.o" 
+20:20:46 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:17:8: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  int p=&b,q=&a;
+        ^
+..\src\testing.c:17:13: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  int p=&b,q=&a;
+             ^
+gcc -o testing.exe "src\\testing.o" 
+20:21:37 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:17:8: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  int p=&b,q=&a;
+        ^
+..\src\testing.c:17:13: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  int p=&b,q=&a;
+             ^
+..\src\testing.c:19:14: warning: format '%d' expects argument of type 'int', but argument 3 has type 'int *' [-Wformat=]
+  printf("%d %d %d",c,&b,&a);
+              ^
+..\src\testing.c:19:17: warning: format '%d' expects argument of type 'int', but argument 4 has type 'int *' [-Wformat=]
+  printf("%d %d %d",c,&b,&a);
+                 ^
+gcc -o testing.exe "src\\testing.o" 
+21:25:55 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'printArray':
+..\src\testing.c:4:22: warning: 'sizeof' on array function parameter 'arr' will return size of 'int *' [-Wsizeof-array-argument]
+     int size = sizeof(arr) / sizeof(arr[0]); // Calculate the size of the array
+                      ^
+..\src\testing.c:3:21: note: declared here
+ void printArray(int arr[]) {
+                     ^~~
+gcc -o testing.exe "src\\testing.o" 
+21:27:04 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'printArray':
+..\src\testing.c:4:22: warning: 'sizeof' on array function parameter 'arr' will return size of 'int *' [-Wsizeof-array-argument]
+     int size = sizeof(arr) / sizeof(arr[0]); // Calculate the size of the array
+                      ^
+..\src\testing.c:3:21: note: declared here
+ void printArray(int arr[]) {
+                     ^~~
+gcc -o testing.exe "src\\testing.o" 
+21:54:49 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'createVariable':
+..\src\testing.c:5:12: warning: function returns address of local variable [-Wreturn-local-addr]
+     return &x; // Return the address of the variable
+            ^~
+gcc -o testing.exe "src\\testing.o" 
+22:02:43 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:5:19: warning: missing braces around initializer [-Wmissing-braces]
+     int arr[3][4]={1,2,3,4,11,12,13,14,21,22,23};
+                   ^
+..\src\testing.c:5:19: note: (near initialization for 'arr')
+..\src\testing.c:6:14: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+     printf("%u %u %u",arr[0]+1,*(arr[0]+1),*(*(arr+0)+1));
+              ^
+gcc -o testing.exe "src\\testing.o" 
+22:22:44 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:6:9: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+     *str="%d\n";
+         ^
+..\src\testing.c:6:9: warning: 'str' is used uninitialized in this function [-Wuninitialized]
+     *str="%d\n";
+     ~~~~^~~~~~~
+gcc -o testing.exe "src\\testing.o" 
+02:58:01 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:7:17: error: 'p' undeclared (first use in this function)
+     printf("%d",p);
+                 ^
+..\src\testing.c:7:17: note: each undeclared identifier is reported only once for each function it appears in
+..\src\testing.c:6:11: warning: unused variable 'ptr' [-Wunused-variable]
+     char *ptr=NULL;
+           ^~~
+02:58:22 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:7:18: error: 'p' undeclared (first use in this function)
+     printf("%d",&p);
+                  ^
+..\src\testing.c:7:18: note: each undeclared identifier is reported only once for each function it appears in
+..\src\testing.c:6:11: warning: unused variable 'ptr' [-Wunused-variable]
+     char *ptr=NULL;
+           ^~~
+02:59:47 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+gcc -o testing.exe "src\\testing.o" 
+03:00:34 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:8:14: warning: format '%d' expects argument of type 'int', but argument 2 has type 'char **' [-Wformat=]
+     printf("%d",&ptr);
+              ^
+gcc -o testing.exe "src\\testing.o" 
+03:01:04 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:9:14: warning: format '%d' expects argument of type 'int', but argument 2 has type 'char **' [-Wformat=]
+     printf("%d",&ptr);
+              ^
+gcc -o testing.exe "src\\testing.o" 
+03:01:30 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+gcc -o testing.exe "src\\testing.o" 
+03:01:44 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:9:14: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+     printf("%s",*ptr);
+              ^
+gcc -o testing.exe "src\\testing.o" 
+03:02:14 **** Incremental Build of configuration Debug for project testing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\testing.o" "..\\src\\testing.c" 
+..\src\testing.c: In function 'main':
+..\src\testing.c:9:14: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+     printf("%s",*ptr);
+              ^
+gcc -o testing.exe "src\\testing.o" 

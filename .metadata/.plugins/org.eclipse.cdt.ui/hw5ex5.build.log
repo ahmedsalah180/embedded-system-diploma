@@ -1,7 +1,1 @@
-20:14:10 **** Incremental Build of configuration Debug for project hw5ex5 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hw5ex5.o" "..\\src\\hw5ex5.c" 
-gcc -o hw5ex5.exe "src\\hw5ex5.o" 
-
-20:14:11 Build Finished (took 1s.90ms)
-
+Info: Nothing to build for hw5ex5
